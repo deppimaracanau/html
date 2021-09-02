@@ -1,0 +1,324 @@
+Dez 13, 2017 1:35:56 AM org.apache.coyote.ajp.AjpMessage processHeader
+GRAVE: Invalid message received with signature 5635
+Dez 13, 2017 9:26:12 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dez 13, 2017 9:29:02 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dez 13, 2017 12:50:42 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dez 13, 2017 12:50:42 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dez 13, 2017 2:41:29 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dez 13, 2017 10:00:55 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:00:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:00:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:00:57 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:00:59 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:01:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:01:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:01:01 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:01:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:01:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:01:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:01:04 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:01:06 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:01:06 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:01:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:01:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:01:09 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:01:09 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:01:10 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:01:10 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:01:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:01:13 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:01:13 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:01:13 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:26:52 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user ""
+Dez 13, 2017 10:26:54 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:26:54 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:26:55 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:26:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:26:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:26:57 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:26:59 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:26:59 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:27:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:27:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:27:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:27:01 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:27:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:27:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:27:04 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:27:04 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:27:04 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:27:05 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:27:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:27:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:27:08 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:27:09 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:27:09 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:27:10 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:27:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:27:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:27:13 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:27:13 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:27:14 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:27:14 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:27:16 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:27:17 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:27:17 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:27:17 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:27:18 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:27:18 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:38:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:38:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:38:13 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:38:13 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:38:14 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:38:14 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:38:15 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:38:15 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Dez 13, 2017 10:38:17 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:38:18 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:38:18 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:38:18 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:38:19 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:38:19 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:38:20 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:38:20 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Dez 13, 2017 10:38:22 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:38:23 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:38:23 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:38:24 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:38:24 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:38:25 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:38:25 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:38:25 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Dez 13, 2017 10:38:27 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:38:28 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:38:28 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:38:29 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:38:29 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:38:29 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:38:30 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:38:30 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Dez 13, 2017 10:38:32 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:38:33 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:38:33 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:38:33 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:38:34 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:38:34 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:38:35 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:38:35 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "guest"
+Dez 13, 2017 10:38:37 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:38:38 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:38:38 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:38:39 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:38:39 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:38:40 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:38:40 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 10:38:40 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Dez 13, 2017 11:28:13 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dez 13, 2017 11:28:13 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dez 13, 2017 11:28:13 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

@@ -1,0 +1,76 @@
+Nov 01, 2017 7:41:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 7:41:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/estagios'
+Nov 01, 2017 7:41:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/estagios'
+Nov 01, 2017 7:41:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 7:49:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 7:49:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/estagios'
+Nov 01, 2017 7:49:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/estagios'
+Nov 01, 2017 7:49:07 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 7:57:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 7:57:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/estagios'
+Nov 01, 2017 7:57:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/estagios'
+Nov 01, 2017 7:57:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 7:57:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: stop: Stopping web application '/estagios'
+Nov 01, 2017 7:57:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 7:57:51 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/estagios'
+Nov 01, 2017 7:58:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:08:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 01, 2017 8:08:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Nov 01, 2017 8:08:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:08:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/estagios'
+Nov 01, 2017 8:08:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/estagios'
+Nov 01, 2017 8:08:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:21:07 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:21:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/estagios'
+Nov 01, 2017 8:21:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/estagios'
+Nov 01, 2017 8:21:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:30:20 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:30:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/estagios'
+Nov 01, 2017 8:30:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/estagios'
+Nov 01, 2017 8:30:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:30:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/manager'
+Nov 01, 2017 8:30:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 1 minutes '/manager'
+Nov 01, 2017 8:30:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:30:37 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:53:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 01, 2017 8:53:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/estagios'
+Nov 01, 2017 8:53:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/estagios'
+Nov 01, 2017 8:53:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'

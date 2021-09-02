@@ -1,0 +1,20 @@
+Nov 18, 2017 4:36:37 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Nov 18, 2017 4:36:37 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Nov 18, 2017 4:36:38 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Nov 18, 2017 4:36:38 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Nov 18, 2017 4:36:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Nov 18, 2017 4:36:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Nov 18, 2017 5:05:36 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Nov 18, 2017 5:05:37 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Nov 18, 2017 8:48:18 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Nov 18, 2017 8:48:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SD</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate, Post-Check=0, Pre-Check=0">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="no-cache">
+	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"><!-- link para bootstrap CSS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+</head>
+<body >
+
+
+		<header>
+			<div class="container">
+				<h3>Sistemas Distribuídos</h3>
+				<p>WEB SERVICES</p>
+
+				Equipe:
+
+					<ul>
+						<li>Elizabeth</li>
+						<li>Guilherme</li>
+						<li>Pedro Vitor</li>
+					</ul>
+			</div>
+
+		</header>
+
+<br>
+		<div class="container">
+			<p><b>Para acessar o webservice, um CEP no formato de {8} dígitos deve ser fornecido, por exemplo: "61939140".</b> </p>
+			<select id="formato">
+				  <option value="xml">XML</option>
+				  <option value="json">JSON</option>
+			</select> 
+
+		
+		Digite o cep:<input id="cep" type="text" name="cep" class="form-check-input">
+		<button onclick="verificaCep()">Buscar Cep</button>
+		</div>
+		<br><br>
+		<div class="container">
+
+			 <div id="mostrarEndereco">
+
+	    	</div>
+	    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+	function verificaCep(){
+		
+
+			var cep = document.getElementById("cep").value;
+			var formato = document.getElementById("formato").value;
+
+			if(cep!=""){
+				
+
+				if(formato=="json"){
+					$.getJSON("https://viacep.com.br/ws/"+cep+"/"+formato+"/", function(data){
+						$("#mostrarEndereco").append("<p><b>Endereço</b> </p>");
+						$.each(data, function(i, campo){
+	                		$("#mostrarEndereco").append(campo +" <br>");
+	            		});
+	 			 	});
+	 			 }
+
+	 			 else{
+
+	 			 	var request = new XMLHttpRequest();
+					request.open("GET", "https://viacep.com.br/ws/"+cep+"/"+formato+"/", false);
+					request.send();
+					var xml = request.responseXML;
+					var cep = xml.getElementsByTagName("xmlcep");
+
+					$("#mostrarEndereco").append("<p><b>Logradouro</b> </p>");
+
+					for(var i = 0; i < cep.length; i++) {
+					    var cep = cep[i];
+					    var names = cep.getElementsByTagName("logradouro");
+					    for(var j = 0; j < 5; j++) {
+					       var campo = names[j].childNodes[0].nodeValue;
+					        $("#mostrarEndereco").append(campo +" <br>");
+					    }
+					}
+	 			 }
+
+			}
+			else {
+				alert("Digite o cep!");
+			}
+			      
+	}	
+
+
+</script>

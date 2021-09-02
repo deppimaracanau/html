@@ -1,0 +1,240 @@
+/* ----------- Layout ----------- */
+html,body {
+	height: 100%;
+}
+
+/* ----------- Barra de Navegação ----------- */
+.barra {
+	padding: 20px 0px 20px 0px;
+	display: block;
+}
+.logo {
+	background: url('../imagens/logo.png') no-repeat;
+	height: 60px;
+	width: 200px;
+	display: block;
+	background-size: contain;
+	color: transparent;
+}
+.navbar-default{
+	background: #0B610B;
+	color: white;
+}
+.navbar-brand {
+	padding: 0px 15px;
+	margin-top: 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #2EFE2E;
+}
+.dropStyle {
+	background: #0B610B;
+	color: white;
+}
+.dropStyle > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+}
+
+/* ----------- Pagina Inicial ----------- */
+.capa {
+	padding-top: 6%;
+	height: 100%;
+}
+.caixaLogin {
+	background: white;
+	padding: 50px;
+	border-radius: 80px;
+	margin-bottom: 80px;
+}
+.titulo {
+	color: white;
+	/*text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;*/
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 40px;
+	padding: 12px 20px 12px 20px;
+
+	background: #0B610B;
+	border-radius: 150px;
+}
+.botao {
+	font-size: 20px;
+	text-align: center;
+}
+.botaoCadastro {
+	width: 100px;
+	padding:7px 15px 7px 15px;
+}
+
+/* ----------- Barra de Prograssão ----------- */
+.progressao {
+	border: 2px solid #0A2A0A;
+	margin: 30px 20px 0px 20px;
+	background: white;
+}
+
+.prog {
+	height: 12px;
+	
+}
+.proga {
+	margin: -2px 25px 0px 25px;
+	border: 2px solid #0A2A0A;
+	border-radius: 0px 0px 5px 5px;
+}
+.atual {
+	font-weight: 700;
+	font-size: 10px;
+	background: green;
+	text-align: right;
+	color:white;
+}
+
+/* ----------- Seção: Formulário ----------- */
+.back-form {
+	/*background: #049372;*/
+	background: #ECF0F1;
+	box-shadow: black 1px 1px 15px, black -1px -1px 15px;
+	padding: 0px 40px 0px 40px;
+	border-radius: 0px 0px 5px 5px;
+	margin-top: 90px;
+}
+
+.titulo-form {
+	color: white;
+	font-weight: 900;
+	font-size: 40px;
+	background: #0A2A0A;
+	position: relative;
+	left: -30px;
+	border-radius: 0px 10px 10px 0px;
+	padding-left: 20px;
+}
+
+.formulario {
+	color: black;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 0px 20px 100px 20px
+}
+#r1,#r2,#tec1,#tec2,#c {
+	color: black;
+	background: #F2F2F2;
+	border: 1px solid #6E6E6E;
+	margin:  0px 20px 10px 20px;
+	padding: 10px 10px 10px 10px;
+	box-shadow: black 6px 6px 12px;
+	margin-top: 3px;
+	margin-bottom: 20px;
+}
+.botao2 {
+	font-weight: 700;
+	text-align: center;
+	padding: 5px 15px 3px 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #0A2A0A;
+}
+
+.perguntas {
+	color: white;
+	background: #0A2A0A;
+	padding: 7px 2px 2px 7px;
+	margin: 10px 0px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+.form-control {
+	border-radius: 0px 0px 5px 5px;
+}
+.agradecimento {
+	margin: 170px 0px 170px 0px;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+/* ----------- Rodapé ----------- */
+footer {
+	background: #0A2A0A;
+	color: white;
+	padding: 5px 0px 5px 5px;
+	position: relative;
+	text-align: center;
+}
+.rodape {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	padding-bottom: 35px;
+}
+
+/* ----------- Media Queries ----------- */
+@media screen and (max-width: 500px) {
+	.rodape {
+		padding-top: 0px;
+		padding-bottom: 50px;
+	}
+	.email {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#pesquisa .form-control{
+		width: 260px;
+	}
+	.titulo-form {
+		margin-right: 0px;
+		font-size: 27px;
+	}
+	.agradecimento {
+		margin: 10px 0px 70px 0px;
+	}
+	.email {
+		font-size: 14px;
+	}
+	
+}
+
+@media screen and (min-width: 700px) {
+  	#pesquisa .form-control{
+		width: 550px;
+	}
+	.titulo-form {
+		margin-right: 200px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+  	#pesquisa .form-control{
+		width: 550px;
+	}
+	.titulo-form {
+		margin-right: 400px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+  	#pesquisa .form-control{
+		width: 550px;
+	}
+	.titulo-form {
+		margin-right: 550px;
+	}
+}
+
+
+
+

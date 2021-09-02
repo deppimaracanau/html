@@ -1,0 +1,11 @@
+<?php
+$this->headScript()->appendFile($this->baseUrl('js/jquery-1.11.3.min.js'));
+?>
+
+<div><img src="<?php echo $this->baseUrl('imagens/timeline.png') ?>" /></div>
+
+<script type="text/javascript">
+    setTimeout(function () {
+        window.location.reload(1);
+    }, 1000*60*5);
+</script>

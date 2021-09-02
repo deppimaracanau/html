@@ -1,0 +1,2 @@
+Nov 10, 2017 10:59:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"

@@ -1,0 +1,54 @@
+Mar 21, 2018 12:30:59 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user ""
+Mar 21, 2018 12:31:00 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Mar 21, 2018 12:31:01 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Mar 21, 2018 12:31:01 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Mar 21, 2018 12:31:01 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Mar 21, 2018 12:31:01 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Mar 21, 2018 12:31:02 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Mar 21, 2018 12:31:03 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Mar 21, 2018 12:31:03 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Mar 21, 2018 12:31:03 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Mar 21, 2018 12:31:04 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Mar 21, 2018 12:31:05 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Mar 21, 2018 12:31:05 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Mar 21, 2018 12:31:05 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Mar 21, 2018 12:31:06 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Mar 21, 2018 12:31:06 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Mar 21, 2018 12:31:07 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Mar 21, 2018 12:31:07 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Mar 21, 2018 2:30:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Mar 21, 2018 2:30:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Mar 21, 2018 2:30:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Mar 21, 2018 2:30:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Mar 21, 2018 2:30:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Mar 21, 2018 2:30:40 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Mar 21, 2018 2:30:40 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Mar 21, 2018 2:30:40 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Mar 21, 2018 10:21:57 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"

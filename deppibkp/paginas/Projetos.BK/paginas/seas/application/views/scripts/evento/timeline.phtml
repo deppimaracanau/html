@@ -1,0 +1,50 @@
+<?php
+$this->headLink()->appendStylesheet($this->baseUrl('lib/js/timeline/timeline.css'));
+$this->headLink()->appendStylesheet($this->baseUrl('css/evento/timeline.css'));
+
+$this->headScript()->appendFile($this->baseUrl('js/jquery-1.11.3.min.js'));
+//$this->headScript()->appendFile($this->baseUrl('lib/js/timeline/lib/jsapi.js'));
+
+$this->headScript()->appendFile($this->baseUrl('lib/js/timeline/timeline-min.js'));
+$this->headScript()->appendFile($this->baseUrl('lib/js/timeline/timeline-locales.js'));
+$this->headScript()->appendFile($this->baseUrl('js/moment-with-langs.min.js'));
+$this->headScript()->appendFile($this->baseUrl('js/evento/timeline.js'));
+?>
+
+<div id="timeline_legenda_container" style="clear:both;">
+    <div style="float: right;">
+        Powered by <a href="https://github.com/comsolid/sige" target="_blank">SiGE</a>
+    </div>
+    <div id="timeline_legenda" style="margin:0 auto; text-align: center">
+        Legenda: 
+        <canvas id="bola_vermelha" width="10" height="10" style="padding-left: 20px;"></canvas> Minicurso
+        <canvas id="bola_verde" width="10" height="10" style="padding-left: 20px;"></canvas> Palestra
+        <canvas id="bola_laranja" width="10" height="10" style="padding-left: 20px;"></canvas> Oficina
+    </div>
+</div>
+
+<div id="mytimeline"></div>
+
+<script type="text/javascript">
+    /**
+     * Desenhando as bolas da legenda
+     */
+    var bolas = [
+        {"nome": "bola_vermelha", "cor": "red"},
+        {"nome": "bola_verde", "cor": "green"},
+        {"nome": "bola_laranja", "cor": "orange"}
+    ];
+    for (var i = 0, len = bolas.length; i < len; i++) {
+        var canvas = document.getElementById(bolas[i].nome);
+        var context = canvas.getContext('2d');
+        var centerX = canvas.width / 2;
+        var centerY = canvas.height / 2;
+        var radius = 5;
+
+        context.beginPath();
+        context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+        context.fillStyle = bolas[i].cor;
+        context.fill();
+        context.lineWidth = 0;
+    }
+</script>

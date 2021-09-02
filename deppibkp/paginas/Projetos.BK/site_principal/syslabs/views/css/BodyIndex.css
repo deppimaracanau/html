@@ -1,0 +1,48 @@
+body {
+	background: url('../imagens/fundo.png'),
+				url('../imagens/backgroundIndex.png') fixed center no-repeat,
+				linear-gradient(50deg,#04B404,#446CB3);
+	background-position: 0% 30%;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+    	background-size: 500%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    body {
+    	background-size: 470%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    body {
+    	background-size: 350%;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    body {
+    	background-size: 300%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+    	background-size: 300%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+    	background-size: 250%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+    	background-size: 150%;
+    }
+}

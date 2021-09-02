@@ -1,0 +1,97 @@
+
+<a href="<?php
+echo $this->url(array('controller' => 'evento',
+    'action' => 'submeter',
+    't' => 'evento'), 'default');
+?>" class="no-bottom">
+    <i class="icon-file"></i> Submeter trabalho</a>
+<br/><br/>
+
+<?php if (count($this->meusEventos) > 0): ?>
+    <h3>Submissões enviadas</h3>
+    <table class="display" cellpadding="0" cellspacing="0" border="0" >
+        <caption>Submissões de eventos</caption>
+        <thead>
+            <tr>
+                <th>Tipo Evento</th>
+                <th>Evento</th>
+                <th>Validada</th>
+                <th>Data Submissão</th>
+                <th style="width: 100px;">Ação</th>
+            </tr>
+        </thead> 
+        <tbody> 
+            <?php foreach ($this->meusEventos as $linha): ?>
+                <tr>
+                    <td><?php echo $linha["nome_tipo_evento"] ?></td>
+                    <td><?php echo $linha["nome_evento"] ?></td>
+                    <td>
+                        <?php if ($linha["validada"]): ?>
+                            <i class="icon-thumbs-up-alt"></i> Sim
+                        <?php else: ?>
+                            <i class="icon-thumbs-down-alt"></i> Não
+                        <?php endif; ?>
+                    </td>
+                    <td><?php echo $linha["data_submissao"]; ?></td>
+                    <td>
+                        <?php if (intval($linha["id_tipo_evento"]) == 4) { // TODO usar define ?>
+                            <a class="no-bottom tooltip" href="<?php
+                            echo $this->url(array(
+                                "controller" => "evento",
+                                "action" => "download-artigo",
+                                "artigo" => $linha["id_artigo"],
+                                    ), 'default', true);
+                            ?>" title="Baixar PDF">
+                                <i class="icon-download-alt"></i>
+                            </a>&nbsp;
+                            <a class="no-bottom tooltip" href="<?php
+                            echo $this->url(array(
+                                "controller" => "evento",
+                                "action" => "deletar-artigo",
+                                "evento" => $linha["id_evento"],
+                                "artigo" => $linha["id_artigo"],
+                                    ), 'default', true);
+                            ?>" title="Deletar">
+                                <i class="icon-trash"></i>
+                            </a>
+                        <?php } else { ?>
+                            <a href="<?php
+                            echo $this->url(array('controller' => 'evento',
+                                'action' => 'editar',
+                                'id' => $linha['id_evento']), 'default', true);
+                            ?>" class="no-bottom tooltip" title="Editar">
+                                <i class="icon-edit"></i></a>&nbsp;
+                            <a href="<?php
+                            echo $this->url(array('controller' => 'evento',
+                                'action' => 'outros-palestrantes',
+                                'id' => $linha['id_evento']), 'default', true);
+                            ?>" class="no-bottom tooltip"
+                               title="Adicionar outros palestrantes">
+                                <i class="icon-group"></i></a>&nbsp;
+                            <a href="<?php
+                            echo $this->url(array('controller' => 'evento',
+                                'action' => 'tags',
+                                'id' => $linha['id_evento']), 'default', true);
+                            ?>" class="no-bottom tooltip"
+                               title="Criar/Editar tags">
+                                <i class="icon-tags"></i></a>
+                            <a class="no-bottom tooltip" href="<?php
+                            echo $this->url(array(
+                                "controller" => "evento",
+                                "action" => "deletar-evento",
+                                "evento" => $linha["id_evento"],
+                                    ), 'default', true);
+                            ?>" title="Deletar"><i class="icon-trash"></i>
+                            </a>
+                        <?php } ?>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+    <br/>
+
+<?php else: ?>
+    <h3>Submissões enviadas</h3>
+    <p>Nenhuma submissão encontrada. Que tal submeter um trabalho e participar?</p>
+<?php endif; ?>

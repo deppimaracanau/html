@@ -1,0 +1,44 @@
+
+<fieldset>
+   <legend>Lista de Interesses</legend>
+   <a title="Adicionar interesse em Evento" style="float:right; clear:right;"
+			href="<?php echo $this->url(array('controller' => 'evento',
+             'action' => 'interesse')) ?>" class="no-bottom">
+		<i class="icon-plus"></i> Ver e adicionar eventos do seu interesse
+	</a>
+	<table class="display" cellpadding="0" cellspacing="0" border="0">
+		<thead>
+			<tr>
+				<th>Descrição</th>
+				<th>Dia</th>
+				<th>Horário</th>
+				<th>Sala</th>
+				<td style="width: 90px;">Ações</td>
+			</tr>
+		</thead>
+		<tbody>
+		<?php foreach ( $this->listaParticipanteEventoTabela as $item ): ?>
+			<tr>
+				<td>
+               <?php if (!$item['validada']): ?>
+                  <i class="icon-warning-sign"
+                     title="Este evento foi invalidado e pode não ser ministrado."></i>
+               <?php endif; ?>
+               <?php echo $item["nome_tipo_evento"];?> -
+               <?php echo $item["nome_evento"];?>
+            </td>
+				<td><?php echo $item["data"];?></td>
+				<td><?php echo $item["hora_inicio"];?> - <?php echo $item["hora_fim"];?></td>
+				<td><?php echo $item["nome_sala"];?></td>
+				<td>
+					<a href="<?php echo $this->url(array(
+                   'controller' => 'evento',
+                   'action' => 'desfazer-interesse',
+                   'id' => $item["evento"])) ?>" class="no-bottom">
+                  <i class="icon-reply"></i> Desfazer</a>
+				</td>
+		  </tr>
+		<?php endforeach; ?>
+		</tbody>
+	</table>
+</fieldset>

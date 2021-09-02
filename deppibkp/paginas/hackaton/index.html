@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <title>Hackathon</title>
+      <meta charset="utf-8">
+      <meta name = "format-detection" content = "telephone=no" />
+      <link rel="icon" href="images/fotos/favicon.ico">
+      <link rel="shortcut icon" href="images/fotos/favicon.ico" />
+      <link rel="stylesheet" href="css/touchTouch.css">
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="js/jquery.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/script.js"></script> 
+      <script src="js/superfish.js"></script>
+      <script src="js/jquery.equalheights.js"></script>
+      <script src="js/jquery.mobilemenu.js"></script>
+      <script src="js/jquery.ui.totop.js"></script>
+      <script src="js/owl.carousel.js"></script>
+      <script src="js/touchTouch.jquery.js"></script>
+      <script src="js/modal.js"></script>
+
+      <script>
+      $(window).load(function(){
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+        $("#owl").owlCarousel({
+          items : 4, //10 items above 1000px browser width
+          itemsDesktop : [995,1], //5 items between 1000px and 901px
+          itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+          itemsTablet: [700, 1], //2 items between 600 and 0
+          itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+          navigation : true,
+          pagination :  false
+        });
+          $('.gallery .gall_item').touchTouch();
+      }); 
+
+
+
+  </script>
+  <!--[if lt IE 8]>
+  <div style=' clear: both; text-align:center; position: relative;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://storage.ie6countdown.com/assets/100/images/fotos/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <link rel="stylesheet" media="screen" href="css/ie.css">
+  <![endif]-->
+  </head>
+
+  <body>
+  <div>
+  <!--==============================
+                header
+  =================================-->
+  <!--Para modificar a imagem que esta no background do header
+   deve procurar na linha 278 do códgo css,tive que adicionar um ccs inline senão o logo não ficaria da forma que eu desejo sem que todas as imagens modificassem tbm-->
+  <div class="menu_bg"></div>
+  <header>
+    
+    <div class="navigation single-page-nav">
+      <div class="container_12">
+        <div class="grid_12">
+          <h1 class="logo">
+            <a href="https://ifce.edu.br/maracanau"><img src="images/logo.png" alt="" style="max-width: 50px">
+            </a>
+          </h1>
+          <nav>
+            <ul>
+            <li><a href="#services" class="cor">Sobre o evento</a></li>
+            <li><a href="#portfolio" class="cor">Eventos anteriores</a></li>
+            <li><a href="#about">Cronograma</a></li>
+            <li><a href="#contacts">Contatos</a></li>
+          </ul>
+          </nav>
+        </div> 
+      </div>
+    </div>    
+    <div class="container_12">
+      <div class="grid_12 ">     
+        <h2>Hackathon <br>
+          <span></span>
+        </h2>      
+        <a href="https://www.even3.com.br/moveit/" class="btn">Inscreva-se</a>
+        <div class="socials">
+          <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+          <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+          <a href="#" class="fa fa-instagram" aria-hidden="true"></a>
+        </div>
+    </div> 
+      <div class="clear"></div>  
+    </div> 
+  </header>
+  <!--=====================
+            Conteudo
+  ======================-->
+  <section id="services" class="page">
+    <div class="container_12">
+      <div class="grid_12">
+        <h3>Hackathon</h3>
+      </div>
+      <div class="grid_9">
+        <div id="blocos" class="serv_links">
+          <a href="#"  class="serv"><span id="square">Ousadia</span></a>
+          <a href="#"  class="serv"><span id="square">Tecnologia</span></a>
+          <a href="#"  class="serv"><span id="square">Startups</span></a>
+          <a href="#"  class="serv"><span id="square">Soluções</span></a>
+          <a href="#"  class="serv"><span id="square">A inovação é aberta</span></a>
+          <a href="#"  class="serv"><span id="square">Abra portas para o futuro</span></a>
+          <a href="#"  class="serv"><span id="square">Trabalhe em equipe</span></a>
+          <a href="#"  class="serv"><span id="square">Viva toda a experiência</span></a>
+        </div>
+      </div>
+      <div class="grid_3 fwn">
+          <div class="texoapresentacao">
+        <div class="text1">Você já participou de um hackathon?</div>
+        <div class="text1">Não sabe nem o que é?</div>
+          Um hackathon reúne pessoas para criarem juntos soluções tecnológicas. 
+          Pode ser de forma colaborativa ou uma competição. 
+          A partir de um tema ou desafio é preciso formar um time, 
+          pode ser de colegas ou de pessoas que você vai conhecer no próprio hackathon. 
+          Times bons tem pessoas de perfil diverso.
+          Todos que estejam dispostos a trabalhar em equipe são bem-vindos. 
+          Pois mesmo nos formatos de competição, tem foco na Educação Experencial.</div>
+       <!-- <a href="#" class="btn">Saiba mais</a>-->
+      </div>
+        <div class="clear"></div>
+    </div>
+  </section>
+  <section id="portfolio" class="page page_bg__1">
+    <div class="container_12">
+      <div class="grid_12">
+        <h3 class="head__1">Fotos</h3>
+        <div id="owl" class="gallery">
+          <div class="item"><a href="images/fotos/big1.jpg" class="gall_item"><img src="images/fotos/page1_img1.jpg" alt=""></a></div>
+          <div class="item"><a href="images/fotos/big2.jpg" class="gall_item"><img src="images/fotos/page1_img2.jpg" alt=""></a></div>
+          <div class="item"><a href="images/fotos/big3.jpg" class="gall_item"><img src="images/fotos/page1_img3.jpg" alt=""></a></div>
+          <div class="item"><a href="images/fotos/big4.jpg" class="gall_item"><img src="images/fotos/page1_img4.jpg" alt=""></a></div>
+          <div class="item"><a href="images/fotos/big5.jpg" class="gall_item"><img src="images/fotos/page1_img5.jpg" alt=""></a></div>
+          <div class="item"><a href="images/fotos/big6.jpg" class="gall_item"><img src="images/fotos/page1_img6.jpg" alt=""></a></div>
+          <div class="item"><a href="images/fotos/big7.jpg" class="gall_item"><img src="images/fotos/page1_img7.jpg" alt=""></a></div>
+          <div class="item"><a href="images/fotos/big8.jpg" class="gall_item"><img src="images/fotos/page1_img8.jpg" alt=""></a></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </section>
+  <section id="about" class="page">
+    <div class="about_inset__1">
+      <div class="container_12">
+        <div class="grid_12">
+          <h3 class="head__1">Cronograma das atividades</h3>
+          <div class="story">
+            <div class="grid_6 alpha">
+              <div class="block-1">
+                <time class="cornered">20 de maio</time>
+                <div class="extra_wrapper">
+                    <div class="text1 tx__1"><a href="#">Segunda-feira</a></div>
+                    Capacitação do SEBRAE para o Hacktoon
+                </div>
+              </div>
+              <div class="block-1">
+                <time class="cornered">22 de maio</time>
+                <div class="extra_wrapper">
+                    <div class="text1 tx__1"><a href="#">Quarta-feira</a></div>
+                    Hacktoon                    
+                </div>
+              </div>
+            </div>
+            <div class="grid_6 omega">
+              <div class="block-1 inset__1">
+                <time class="cornered">21 de maio</time>
+                <div class="extra_wrapper">
+                    <div class="text1 tx__1"><a href="#">Terça-feira</a></div>
+                    Imersão APM Terminals,                
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div id="quinta" class="extra_wrapper">
+                  
+                  <div class="text1 tx__1"><a href="#">Quinta-feira</a></div>
+                  Palestras: Enactus,Catavento -<p>
+                  seletiva Hackathon -<p> 
+                  Palestras: Marketing Digital,APM Terninals<p>
+                  Final do Hackathon - Mesa Redonda:<p> Fortalecendo Ações para um Campus Inteligente -<p> 
+                  Homenangens,encerramento e festa Junina Enactus.               
+            </div>          
+            <div class="cornered pos__1"></div></div>
+            <span id="ultimobloco" class="text1 tx__1">23 de maio</span>
+            <span id="proximo">Até o próximo...</span>
+          </div>
+        <div class="clear"></div>
+      </div>      <div class="clear"></div>
+
+      </div>
+    </div>
+    <div class="about_bg__1">
+      <div class="container_12">
+        <div class="grid_12">
+          <h3 class="head__1">Nossos parceiros</h3>
+          <div class="grid_9 alpha">
+            <div class="team">
+             <!-- <a href="#" class="team_item"><img src="images/corner_img1.png" alt=""></a>
+              <a href="#" class="team_item"><img src="images/corner_img2.png" alt=""></a>
+              <a href="#" class="team_item"><img src="images/corner_img3.png" alt=""></a>
+              <a href="#" class="team_item"><img src="images/corner_img4.png" alt=""></a>-->
+              <a href="https://pt-br.facebook.com/cataventocj/" class="team_item"><img src="images/corner_img5.png" alt=""></a>
+              <a href="https://pecem.apmterminals.com.br/programacaoNavio/" class="team_item"><img src="images/corner_img6.png" alt=""></a>
+              <a href="http://www.sebrae.com.br/sites/PortalSebrae/" class="team_item"><img src="images/corner_img7.png" alt=""></a>
+              <a href="https://www.facebook.com/EnactusIfceMaracanau" class="team_item"><img src="images/corner_img8.png" alt=""></a>
+            </div>
+          </div>
+          <div class="grid_3 omega">
+            <div class="text2">Agradecemos a presença em nome de toda a comunidade acadêmica!</div>
+            <div class="fwn">Esperamos que seja uma experiencia extraordinária para nossos parceiros e a comunidade.</div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </section>
+  <section id="contacts" class="page">
+     <!--=====================
+            google api
+  ======================-->
+    <iframe src="https://www.google.com/maps/embed/v1/view?zoom=17&center=-3.8647%2C-38.6048&key=AIzaSyCqJUDek-37wptqTVt_ZOuLPhzaszsvhmI" style="border:0"></iframe>  
+           
+    <div class="contacts_bg">
+      <div class="container_12">
+        <div class="grid_12">
+          <h3 class="head__1">Contatos</h3>
+        </div>
+        <div class="grid_5">
+          <div class="text2">Nosso endereço</div>
+          <p class="fz__1"> Instituto Federal de Educação, Ciência e Tecnologia do Ceará</p>
+          
+          Campus Maracanaú. <br>
+          Av. Parque Central, <br>
+          Distrito Industrial.Maracanaú -CE,
+          CEP - 61919-140 <br>
+          Telefone: (85) 3878-6300 <br>
+          E-mail: <a href="#">deppi.maracnau@ifce.edu.br</a>
+        </div>
+        
+      <div class="clear"></div>
+    </div>
+  </section>
+  <!--==============================
+                footer
+  =================================-->
+  <footer id="footer">
+    <div class="container_12">
+      <div class="grid_12"> 
+        <div class="copyright"><span class="color1">MoveIT</span> &copy; <span id="copyright-year">2019</span> 
+        <div class="sub-copy">designed by <a href="http://deppi.maracanau.edu.br/" rel="nofollow">DEPPI</a></div>
+        </div>
+      </div>
+    </div>  
+    <div class="clear"></div>
+  </footer>
+  <a href="#" id="toTop" class="fa fa-chevron-up"></a>
+ 
+  </body>
+</html>
+
+  

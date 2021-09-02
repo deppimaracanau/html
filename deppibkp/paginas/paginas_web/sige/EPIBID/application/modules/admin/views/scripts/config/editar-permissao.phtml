@@ -1,0 +1,14 @@
+<?php
+$this->headLink()->appendStylesheet($this->baseUrl('css/screen.css'));
+$this->headLink()->appendStylesheet($this->baseUrl('css/form.css'));
+$this->headLink()->appendStylesheet($this->baseUrl('css/iphone-style-checkbox.css'));
+
+$this->headScript()->appendFile($this->baseUrl('js/iphone-style-checkboxes.js'));
+$this->headScript()->appendFile($this->baseUrl('js/admin/config/editar-permissao.js'));
+?>
+
+<h3>Editar permissão de <strong><?php echo $this->usuario ?></strong></h3>
+<hr/>
+
+<?php
+echo $this->form;

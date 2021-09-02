@@ -1,0 +1,1455 @@
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:18:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 09, 2017 12:18:55 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 09, 2017 12:18:55 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:18:56 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:18:56 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1792 ms
+Out 09, 2017 12:18:56 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 09, 2017 12:18:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 09, 2017 12:18:56 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT.war
+Out 09, 2017 12:18:56 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 09, 2017 12:19:01 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 09, 2017 12:19:09 AM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 09, 2017 12:19:09 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 09, 2017 12:19:09 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 09, 2017 12:19:09 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 09, 2017 12:19:09 AM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 09, 2017 12:19:09 AM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 09, 2017 12:19:12 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 09, 2017 12:19:12 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 09, 2017 12:19:13 AM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 09, 2017 12:19:13 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 09, 2017 12:19:13 AM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 09, 2017 12:19:22 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT.war has finished in 26,697 ms
+Out 09, 2017 12:19:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 09, 2017 12:19:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 103 ms
+Out 09, 2017 12:19:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 09, 2017 12:19:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 610 ms
+Out 09, 2017 12:19:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 09, 2017 12:19:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 128 ms
+Out 09, 2017 12:19:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 09, 2017 12:19:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 105 ms
+Out 09, 2017 12:19:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 09, 2017 12:19:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 101 ms
+Out 09, 2017 12:19:23 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:19:23 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:19:23 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 27978 ms
+Out 09, 2017 12:19:24 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 12:20:38 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 09, 2017 12:23:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/BANCOdeDADOS
+Out 09, 2017 12:23:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/BANCOdeDADOS has finished in 74 ms
+Out 09, 2017 12:24:04 AM org.apache.catalina.startup.HostConfig undeploy
+INFORMAÇÕES: Undeploying context [/BANCOdeDADOS]
+Out 09, 2017 12:43:29 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 09, 2017 12:43:29 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:43:29 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:43:29 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 09, 2017 12:43:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 09, 2017 12:43:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 09, 2017 12:43:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 09, 2017 12:43:29 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:43:29 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:43:29 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:43:29 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 09, 2017 12:43:42 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 09, 2017 12:43:42 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:43:42 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:43:42 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1248 ms
+Out 09, 2017 12:43:43 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 09, 2017 12:43:43 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 09, 2017 12:43:43 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT.war
+Out 09, 2017 12:43:43 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 09, 2017 12:43:48 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 09, 2017 12:43:55 AM org.apache.catalina.session.StandardManager startInternal
+GRAVE: Exception loading sessions from persistent storage
+java.lang.ClassCastException: [Ljava.lang.StackTraceElement; cannot be cast to java.lang.String
+	at java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1610)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:718)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2241)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2165)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2023)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 12:43:56 AM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 09, 2017 12:43:56 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 09, 2017 12:43:56 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 09, 2017 12:43:56 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 09, 2017 12:43:56 AM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 09, 2017 12:43:56 AM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 09, 2017 12:43:58 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 09, 2017 12:43:58 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 09, 2017 12:43:58 AM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 09, 2017 12:43:58 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 09, 2017 12:43:58 AM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 09, 2017 12:44:02 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT.war has finished in 19,827 ms
+Out 09, 2017 12:44:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 98 ms
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 512 ms
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 139 ms
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 84 ms
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 99 ms
+Out 09, 2017 12:44:03 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:44:03 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:44:03 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 21006 ms
+Out 09, 2017 12:48:24 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 09, 2017 12:48:24 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:48:24 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:48:24 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 09, 2017 12:48:24 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 3 instance(s) to be deallocated for Servlet [Controller]
+Out 09, 2017 12:48:25 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 3 instance(s) to be deallocated for Servlet [Controller]
+Out 09, 2017 12:48:26 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 3 instance(s) to be deallocated for Servlet [Controller]
+Out 09, 2017 12:48:26 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 7 instance(s) to be deallocated for Servlet [jsp]
+Out 09, 2017 12:48:27 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 7 instance(s) to be deallocated for Servlet [jsp]
+Out 09, 2017 12:48:28 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 7 instance(s) to be deallocated for Servlet [jsp]
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@48521e1a]) and a value of type [org.jboss.dashboard.SecurityServices] (value [org.jboss.dashboard.SecurityServices@736620e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@35f88d5]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.FriendlyUrlProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.FriendlyUrlProcessor@751059ad]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@46fa8e6]) and a value of type [org.jboss.dashboard.ui.panel.dashboard.DashboardHTMLDriver] (value [org.jboss.dashboard.ui.panel.dashboard.DashboardHTMLDriver@3eb99650]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@a3b7e5c]) and a value of type [org.jboss.dashboard.workspace.PanelsManagerImpl] (value [org.jboss.dashboard.workspace.PanelsManagerImpl@47e4cf43]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7ee35c94]) and a value of type [org.jboss.dashboard.ui.UISettings] (value [org.jboss.dashboard.ui.UISettings@d339a1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2b6c7973]) and a value of type [org.jboss.dashboard.ui.panel.AjaxRefreshManager] (value [org.jboss.dashboard.ui.panel.AjaxRefreshManager@5e99834a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@307a9fcb]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor@4290e14a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@35b6e36a]) and a value of type [org.jboss.dashboard.ui.taglib.resource.DefaultStaticImageResolver] (value [org.jboss.dashboard.ui.taglib.resource.DefaultStaticImageResolver@7a0c5fb2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@425eddb7]) and a value of type [org.jboss.dashboard.ui.ResponseProcessor] (value [org.jboss.dashboard.ui.ResponseProcessor@622e3b6b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@493f2028]) and a value of type [org.jboss.dashboard.users.UserStatus] (value [org.jboss.dashboard.users.UserStatus@3b00b3fa]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4f5847a9]) and a value of type [org.jboss.weld.servlet.WeldListener.Counter] (value [org.jboss.weld.servlet.WeldListener$Counter@2cc8d0f1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@340d952f]) and a value of type [org.jboss.dashboard.ui.components.URLMarkupGenerator] (value [org.jboss.dashboard.ui.components.URLMarkupGenerator@67bd5b5b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@40b8e892]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@7e9cb103]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2bacea70]) and a value of type [org.jboss.dashboard.ui.components.HandlerMarkupGenerator] (value [org.jboss.dashboard.ui.components.HandlerMarkupGenerator@65537576]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4a44c9f2]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor@6a2654f5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7a93d744]) and a value of type [org.jboss.dashboard.ui.UIServices] (value [org.jboss.dashboard.ui.UIServices@19f03b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@26eab18a]) and a value of type [org.jboss.dashboard.ui.panel.PopupPanelsHandler] (value [org.jboss.dashboard.ui.panel.PopupPanelsHandler@5962c83f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7a2deefb]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator@7a00aec5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5da4df67]) and a value of type [org.jboss.dashboard.ui.components.ModalDialogComponent] (value [org.jboss.dashboard.ui.components.ModalDialogComponent@114decc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@73471338]) and a value of type [org.jboss.dashboard.workspace.EnvelopesManagerImpl] (value [org.jboss.dashboard.workspace.EnvelopesManagerImpl@3f3efca8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@403d9a08]) and a value of type [org.jboss.dashboard.profiler.memory.MemoryProfiler] (value [org.jboss.dashboard.profiler.memory.MemoryProfiler@c4ba42b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a07095b]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.NavigationCookieProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.NavigationCookieProcessor@23f75320]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@42726c52]) and a value of type [org.jboss.dashboard.ui.components.js.JSIncluder] (value [org.jboss.dashboard.ui.components.js.JSIncluder@66259d92]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2f8c10a2]) and a value of type [org.jboss.dashboard.ui.components.SessionContext] (value [org.jboss.dashboard.ui.components.SessionContext@1875e604]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@14981411]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver] (value [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver@5e6911d8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@c4d72a7]) and a value of type [org.jboss.dashboard.ui.components.SectionsHandler] (value [org.jboss.dashboard.ui.components.SectionsHandler@30a23840]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6a1b0ab1]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ModalDialogRenderer] (value [org.jboss.dashboard.ui.controller.requestChain.ModalDialogRenderer@155b20e3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@11cc2209]) and a value of type [org.jboss.dashboard.CoreServices] (value [org.jboss.dashboard.CoreServices@70ce85ff]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6bf6235]) and a value of type [org.jboss.dashboard.ui.components.WorkspaceHandler] (value [org.jboss.dashboard.ui.components.WorkspaceHandler@7ec88908]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1f9cad3f]) and a value of type [org.jboss.dashboard.ui.resources.ResourceManagerImpl] (value [org.jboss.dashboard.ui.resources.ResourceManagerImpl@6732134f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@891dc77]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.FreeMemoryProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.FreeMemoryProcessor@20210d06]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@59de1564]) and a value of type [org.jboss.dashboard.workspace.WorkspacesManager] (value [org.jboss.dashboard.workspace.WorkspacesManager@34e8654]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1854f67e]) and a value of type [org.jboss.dashboard.ui.components.PanelsHandler] (value [org.jboss.dashboard.ui.components.PanelsHandler@7202d6ac]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@185bf0ae]) and a value of type [org.jboss.dashboard.Application] (value [org.jboss.dashboard.Application@3c163c00]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@57bd42d1]) and a value of type [org.jboss.dashboard.ui.components.DashboardHandler] (value [org.jboss.dashboard.ui.components.DashboardHandler@5b6f4dc9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4a6dd457]) and a value of type [org.jboss.dashboard.ui.controller.RequestProcessor] (value [org.jboss.dashboard.ui.controller.RequestProcessor@708fc1ed]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6e04e856]) and a value of type [org.jboss.dashboard.security.DefaultAccessController] (value [org.jboss.dashboard.security.DefaultAccessController@4319e88]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@559ef4de]) and a value of type [org.jboss.dashboard.workspace.LayoutsManagerImpl] (value [org.jboss.dashboard.workspace.LayoutsManagerImpl@36de46bc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3af5fcc8]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.RequestDispatcher] (value [org.jboss.dashboard.ui.controller.requestChain.RequestDispatcher@6ba6ccb5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@13c9b64a]) and a value of type [org.jboss.dashboard.ui.panel.dashboard.DashboardFilterDriver] (value [org.jboss.dashboard.ui.panel.dashboard.DashboardFilterDriver@1fdebe6c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@58a7b4cc]) and a value of type [org.jboss.dashboard.workspace.SkinsManagerImpl] (value [org.jboss.dashboard.workspace.SkinsManagerImpl@6a4eea8c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6308c3da]) and a value of type [org.jboss.dashboard.DataProviderServices] (value [org.jboss.dashboard.DataProviderServices@54725001]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1ce29cf7]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor@61af2af1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@332c6651]) and a value of type [org.jboss.dashboard.profiler.ThreadProfile] (value [org.jboss.dashboard.profiler.ThreadProfile@5a6bded6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5ff2e1fa]) and a value of type [org.jboss.dashboard.ui.formatters.FactoryUniqueIdEncoder] (value [org.jboss.dashboard.ui.formatters.FactoryUniqueIdEncoder@42d2154c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6e7452d9]) and a value of type [org.jboss.dashboard.security.SecurityCache] (value [org.jboss.dashboard.security.SecurityCache@68d8d705]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@16eb5d36]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.RequestRenderer] (value [org.jboss.dashboard.ui.controller.requestChain.RequestRenderer@36348ffb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@34d8c38a]) and a value of type [org.jboss.dashboard.profiler.Profiler] (value [org.jboss.dashboard.profiler.Profiler@30db421]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@78ace417]) and a value of type [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (value [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl@1eb2dfe6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@718984c8]) and a value of type [org.jboss.dashboard.ui.config.TreeShortcutHandler] (value [org.jboss.dashboard.ui.config.TreeShortcutHandler@33afd2eb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7b6ca0b3]) and a value of type [java.util.LinkedList] (value [[org.jboss.weld.context.cache.RequestScopedBeanCache$1@18aa8713, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6389fd0b, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7844103a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3c858d85, org.jboss.weld.context.cache.RequestScopedBeanCache$1@640e35cd, org.jboss.weld.context.cache.RequestScopedBeanCache$1@60ee590c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4018548b, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7d56928c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3eaf659d, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6d384691, org.jboss.weld.context.cache.RequestScopedBeanCache$1@9a1119c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2d8b1db4, org.jboss.weld.context.cache.RequestScopedBeanCache$1@84b2bc8, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7f275bb8, org.jboss.weld.context.cache.RequestScopedBeanCache$1@70f6ce3f, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5b5ec409, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2a9859bc, org.jboss.weld.context.cache.RequestScopedBeanCache$1@782b5b7c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@66836786, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3d01c2fe, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3ea8d0fc, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3d307087, org.jboss.weld.context.cache.RequestScopedBeanCache$1@372bce73, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1cfefc51, org.jboss.weld.context.cache.RequestScopedBeanCache$1@286738b6, org.jboss.weld.context.cache.RequestScopedBeanCache$1@10bc4973, org.jboss.weld.context.cache.RequestScopedBeanCache$1@397a259a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@23abef1, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5ecdc15b, org.jboss.weld.context.cache.RequestScopedBeanCache$1@16516dfd, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3c0c087d, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3a016557, org.jboss.weld.context.cache.RequestScopedBeanCache$1@31a45081, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1aa15e9d, org.jboss.weld.context.cache.RequestScopedBeanCache$1@584aa313, org.jboss.weld.context.cache.RequestScopedBeanCache$1@c1861ae, org.jboss.weld.context.cache.RequestScopedBeanCache$1@14b4ecb6, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7220ab58, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3ed158f1, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2226566f, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2f4a2ed, org.jboss.weld.context.cache.RequestScopedBeanCache$1@af4771f, org.jboss.weld.context.cache.RequestScopedBeanCache$1@37b899d7, org.jboss.weld.context.cache.RequestScopedBeanCache$1@387c0ed5, org.jboss.weld.context.cache.RequestScopedBeanCache$1@58b1deeb, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5a243cb, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6010c750, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6d8d8675, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6676a383, org.jboss.weld.context.cache.RequestScopedBeanCache$1@76e92202, org.jboss.weld.context.cache.RequestScopedBeanCache$1@43b7ee4b, org.jboss.weld.context.cache.RequestScopedBeanCache$1@607da0a8, org.jboss.weld.context.cache.RequestScopedBeanCache$1@57bea715, org.jboss.weld.context.cache.RequestScopedBeanCache$1@25cb80b4, org.jboss.weld.context.cache.RequestScopedBeanCache$1@536ebcce, org.jboss.weld.context.cache.RequestScopedBeanCache$1@b2da32d, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6133e516, org.jboss.weld.context.cache.RequestScopedBeanCache$1@16053935, org.jboss.weld.context.cache.RequestScopedBeanCache$1@30eed1de, org.jboss.weld.context.cache.RequestScopedBeanCache$1@f145eeb, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2639e09, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5a1c6218]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7d6c43df]) and a value of type [org.jboss.dashboard.command.TemplateProcessorImpl] (value [org.jboss.dashboard.command.TemplateProcessorImpl@4edc25cd]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5735de2d]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.SessionInitializer] (value [org.jboss.dashboard.ui.controller.requestChain.SessionInitializer@118d8916]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@63230c5a]) and a value of type [org.jboss.dashboard.ui.panel.navigation.treeMenu.TreeMenuDriver] (value [org.jboss.dashboard.ui.panel.navigation.treeMenu.TreeMenuDriver@12001b8f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@45115284]) and a value of type [org.jboss.dashboard.ui.components.LogoutComponent] (value [org.jboss.dashboard.ui.components.LogoutComponent@50701820]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@74407b88]) and a value of type [org.jboss.dashboard.ui.components.SessionAwareLocaleManager] (value [org.jboss.dashboard.ui.components.SessionAwareLocaleManager@356e5958]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5fabbbcf]) and a value of type [org.jboss.weld.context.beanstore.http.RequestBeanStore] (value [org.jboss.weld.context.beanstore.http.RequestBeanStore@3b7441b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@74d84a84]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor@24045c0a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1a36a6ff]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider] (value [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider@7a0dbcca]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1be5b060]) and a value of type [org.jboss.dashboard.ui.components.BeanDispatcher] (value [org.jboss.dashboard.ui.components.BeanDispatcher@49e7cef]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@411c3147]) and a value of type [org.jboss.weld.context.beanstore.http.LazySessionBeanStore] (value [org.jboss.weld.context.beanstore.http.LazySessionBeanStore@21e74db6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@589ef91d]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.KPIProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.KPIProcessor@2cf50c5f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bff4808]) and a value of type [org.jboss.dashboard.security.UIPolicy] (value [org.jboss.dashboard.security.UIPolicy@24d20b5f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@59e89cdb]) and a value of type [org.jboss.dashboard.ui.formatters.ModalDialogFormatter] (value [org.jboss.dashboard.ui.formatters.ModalDialogFormatter@3846d3c1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@36921bfa]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor@326ad613]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@40c9341]) and a value of type [org.jboss.dashboard.ui.controller.RequestContext] (value [org.jboss.dashboard.ui.controller.RequestContext@5597927a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5211b37c]) and a value of type [org.jboss.dashboard.ui.UIBeanLocator] (value [org.jboss.dashboard.ui.UIBeanLocator@81ebbfc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@19c7a18e]) and a value of type [org.jboss.dashboard.ui.HTTPSettings] (value [org.jboss.dashboard.ui.HTTPSettings@13f7edb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6fa15c80]) and a value of type [org.jboss.dashboard.ui.NavigationManager] (value [org.jboss.dashboard.ui.NavigationManager@29ef2a05]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7a2deefb]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator@7a00aec5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7b6ca0b3]) and a value of type [java.util.LinkedList] (value [[org.jboss.weld.context.cache.RequestScopedBeanCache$1@4ac010c1, org.jboss.weld.context.cache.RequestScopedBeanCache$1@78c153e, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7dc69d50, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7a822fb2, org.jboss.weld.context.cache.RequestScopedBeanCache$1@79098df3, org.jboss.weld.context.cache.RequestScopedBeanCache$1@62468a99, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5357537, org.jboss.weld.context.cache.RequestScopedBeanCache$1@78a2708c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@708b3533, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4351e0fe, org.jboss.weld.context.cache.RequestScopedBeanCache$1@348a6639, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6a3d4321, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5c026204, org.jboss.weld.context.cache.RequestScopedBeanCache$1@207123cd, org.jboss.weld.context.cache.RequestScopedBeanCache$1@63e5785e, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6e41968e]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5da4df67]) and a value of type [org.jboss.dashboard.ui.components.ModalDialogComponent] (value [org.jboss.dashboard.ui.components.ModalDialogComponent@114decc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@57bd42d1]) and a value of type [org.jboss.dashboard.ui.components.DashboardHandler] (value [org.jboss.dashboard.ui.components.DashboardHandler@5b6f4dc9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4a6dd457]) and a value of type [org.jboss.dashboard.ui.controller.RequestProcessor] (value [org.jboss.dashboard.ui.controller.RequestProcessor@708fc1ed]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5fabbbcf]) and a value of type [org.jboss.weld.context.beanstore.http.RequestBeanStore] (value [org.jboss.weld.context.beanstore.http.RequestBeanStore@14037d2f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@74d84a84]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor@24045c0a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@307a9fcb]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor@4290e14a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1a36a6ff]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider] (value [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider@7a0dbcca]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@411c3147]) and a value of type [org.jboss.weld.context.beanstore.http.LazySessionBeanStore] (value [org.jboss.weld.context.beanstore.http.LazySessionBeanStore@710fa2ec]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@14981411]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver] (value [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver@5e6911d8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@493f2028]) and a value of type [org.jboss.dashboard.users.UserStatus] (value [org.jboss.dashboard.users.UserStatus@3b00b3fa]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1ce29cf7]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor@61af2af1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4f5847a9]) and a value of type [org.jboss.weld.servlet.WeldListener.Counter] (value [org.jboss.weld.servlet.WeldListener$Counter@39916df1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@332c6651]) and a value of type [org.jboss.dashboard.profiler.ThreadProfile] (value [org.jboss.dashboard.profiler.ThreadProfile@23d9a145]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@40b8e892]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@4361df93]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@36921bfa]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor@326ad613]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@40c9341]) and a value of type [org.jboss.dashboard.ui.controller.RequestContext] (value [org.jboss.dashboard.ui.controller.RequestContext@24eacb66]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@11cc2209]) and a value of type [org.jboss.dashboard.CoreServices] (value [org.jboss.dashboard.CoreServices@70ce85ff]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4a44c9f2]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor@6a2654f5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@19c7a18e]) and a value of type [org.jboss.dashboard.ui.HTTPSettings] (value [org.jboss.dashboard.ui.HTTPSettings@13f7edb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6fa15c80]) and a value of type [org.jboss.dashboard.ui.NavigationManager] (value [org.jboss.dashboard.ui.NavigationManager@29ef2a05]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@34d8c38a]) and a value of type [org.jboss.dashboard.profiler.Profiler] (value [org.jboss.dashboard.profiler.Profiler@30db421]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@48521e1a]) and a value of type [org.jboss.dashboard.SecurityServices] (value [org.jboss.dashboard.SecurityServices@736620e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@32cfa879]) and a value of type [org.jboss.dashboard.dataset.DataSetManagerImpl] (value [org.jboss.dashboard.dataset.DataSetManagerImpl@382af9dc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2b6c7973]) and a value of type [org.jboss.dashboard.ui.panel.AjaxRefreshManager] (value [org.jboss.dashboard.ui.panel.AjaxRefreshManager@5f3db9fe]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@307a9fcb]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor@4290e14a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@493f2028]) and a value of type [org.jboss.dashboard.users.UserStatus] (value [org.jboss.dashboard.users.UserStatus@3b00b3fa]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4f5847a9]) and a value of type [org.jboss.weld.servlet.WeldListener.Counter] (value [org.jboss.weld.servlet.WeldListener$Counter@4d7e038b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@40b8e892]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@2444f28a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@c1ac26c]) and a value of type [org.jboss.dashboard.dataset.DataSetSettingsImpl] (value [org.jboss.dashboard.dataset.DataSetSettingsImpl@30d246a9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4a44c9f2]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor@6a2654f5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7a93d744]) and a value of type [org.jboss.dashboard.ui.UIServices] (value [org.jboss.dashboard.ui.UIServices@19f03b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7a2deefb]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator@7a00aec5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5da4df67]) and a value of type [org.jboss.dashboard.ui.components.ModalDialogComponent] (value [org.jboss.dashboard.ui.components.ModalDialogComponent@114decc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3d1d1a49]) and a value of type [org.jboss.dashboard.profiler.memory.SizeEstimations] (value [org.jboss.dashboard.profiler.memory.SizeEstimations@41a8cdf7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@403d9a08]) and a value of type [org.jboss.dashboard.profiler.memory.MemoryProfiler] (value [org.jboss.dashboard.profiler.memory.MemoryProfiler@c4ba42b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@316a34ce]) and a value of type [org.jboss.dashboard.ui.panel.kpi.KPIDriver] (value [org.jboss.dashboard.ui.panel.kpi.KPIDriver@33b0d9ba]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2f8c10a2]) and a value of type [org.jboss.dashboard.ui.components.SessionContext] (value [org.jboss.dashboard.ui.components.SessionContext@1875e604]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@14981411]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver] (value [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver@5e6911d8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@11cc2209]) and a value of type [org.jboss.dashboard.CoreServices] (value [org.jboss.dashboard.CoreServices@70ce85ff]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@59de1564]) and a value of type [org.jboss.dashboard.workspace.WorkspacesManager] (value [org.jboss.dashboard.workspace.WorkspacesManager@34e8654]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@185bf0ae]) and a value of type [org.jboss.dashboard.Application] (value [org.jboss.dashboard.Application@3c163c00]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@57bd42d1]) and a value of type [org.jboss.dashboard.ui.components.DashboardHandler] (value [org.jboss.dashboard.ui.components.DashboardHandler@5b6f4dc9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4a6dd457]) and a value of type [org.jboss.dashboard.ui.controller.RequestProcessor] (value [org.jboss.dashboard.ui.controller.RequestProcessor@708fc1ed]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@559ef4de]) and a value of type [org.jboss.dashboard.workspace.LayoutsManagerImpl] (value [org.jboss.dashboard.workspace.LayoutsManagerImpl@36de46bc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@13c9b64a]) and a value of type [org.jboss.dashboard.ui.panel.dashboard.DashboardFilterDriver] (value [org.jboss.dashboard.ui.panel.dashboard.DashboardFilterDriver@1fdebe6c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1fa65cd9]) and a value of type [org.jboss.dashboard.DataDisplayerServices] (value [org.jboss.dashboard.DataDisplayerServices@6319baca]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6308c3da]) and a value of type [org.jboss.dashboard.DataProviderServices] (value [org.jboss.dashboard.DataProviderServices@54725001]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1ce29cf7]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor@61af2af1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@332c6651]) and a value of type [org.jboss.dashboard.profiler.ThreadProfile] (value [org.jboss.dashboard.profiler.ThreadProfile@716fb029]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6e7452d9]) and a value of type [org.jboss.dashboard.security.SecurityCache] (value [org.jboss.dashboard.security.SecurityCache@68d8d705]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@34d8c38a]) and a value of type [org.jboss.dashboard.profiler.Profiler] (value [org.jboss.dashboard.profiler.Profiler@30db421]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@78ace417]) and a value of type [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (value [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl@1eb2dfe6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7b6ca0b3]) and a value of type [java.util.LinkedList] (value [[org.jboss.weld.context.cache.RequestScopedBeanCache$1@5b968ded, org.jboss.weld.context.cache.RequestScopedBeanCache$1@793ff194, org.jboss.weld.context.cache.RequestScopedBeanCache$1@550d69bc, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6398e143, org.jboss.weld.context.cache.RequestScopedBeanCache$1@49ed28ca, org.jboss.weld.context.cache.RequestScopedBeanCache$1@71110bb0, org.jboss.weld.context.cache.RequestScopedBeanCache$1@161689ce, org.jboss.weld.context.cache.RequestScopedBeanCache$1@21b13eb6, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7b8c3001, org.jboss.weld.context.cache.RequestScopedBeanCache$1@30a3d105, org.jboss.weld.context.cache.RequestScopedBeanCache$1@52efb835, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7826ca1c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3a9f31e4, org.jboss.weld.context.cache.RequestScopedBeanCache$1@29848dcd, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3d79a306, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7cbdfe71, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1d8becb2, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4d60a945, org.jboss.weld.context.cache.RequestScopedBeanCache$1@50918b3, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1834925a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@23745f20, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2d11400f, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4784afe6, org.jboss.weld.context.cache.RequestScopedBeanCache$1@583849b8, org.jboss.weld.context.cache.RequestScopedBeanCache$1@576ffc47, org.jboss.weld.context.cache.RequestScopedBeanCache$1@791bc629, org.jboss.weld.context.cache.RequestScopedBeanCache$1@e6eebdd, org.jboss.weld.context.cache.RequestScopedBeanCache$1@143f0192, org.jboss.weld.context.cache.RequestScopedBeanCache$1@348022a0, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4861514d, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6d20bb5a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7fec49ae, org.jboss.weld.context.cache.RequestScopedBeanCache$1@71d9801e, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7e6a6bf6, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7cd62450, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4eea4037, org.jboss.weld.context.cache.RequestScopedBeanCache$1@751e035a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@56e45c8]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@aa75041]) and a value of type [org.jboss.dashboard.workspace.SectionsManagerImpl] (value [org.jboss.dashboard.workspace.SectionsManagerImpl@6e85e0dd]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@74407b88]) and a value of type [org.jboss.dashboard.ui.components.SessionAwareLocaleManager] (value [org.jboss.dashboard.ui.components.SessionAwareLocaleManager@356e5958]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5fabbbcf]) and a value of type [org.jboss.weld.context.beanstore.http.RequestBeanStore] (value [org.jboss.weld.context.beanstore.http.RequestBeanStore@176e05db]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@74d84a84]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor@24045c0a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1a36a6ff]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider] (value [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider@7a0dbcca]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@411c3147]) and a value of type [org.jboss.weld.context.beanstore.http.LazySessionBeanStore] (value [org.jboss.weld.context.beanstore.http.LazySessionBeanStore@384278e1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@140e18a2]) and a value of type [org.jboss.dashboard.kpi.KPIManagerImpl] (value [org.jboss.dashboard.kpi.KPIManagerImpl@29733df7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bff4808]) and a value of type [org.jboss.dashboard.security.UIPolicy] (value [org.jboss.dashboard.security.UIPolicy@24d20b5f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4ce93863]) and a value of type [org.jboss.dashboard.provider.DataProviderManagerImpl] (value [org.jboss.dashboard.provider.DataProviderManagerImpl@63751307]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@36921bfa]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor@326ad613]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@40c9341]) and a value of type [org.jboss.dashboard.ui.controller.RequestContext] (value [org.jboss.dashboard.ui.controller.RequestContext@1b346394]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@19c7a18e]) and a value of type [org.jboss.dashboard.ui.HTTPSettings] (value [org.jboss.dashboard.ui.HTTPSettings@13f7edb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6fa15c80]) and a value of type [org.jboss.dashboard.ui.NavigationManager] (value [org.jboss.dashboard.ui.NavigationManager@29ef2a05]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 09, 2017 12:48:29 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:48:29 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:48:29 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:48:29 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 09, 2017 12:48:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 09, 2017 12:48:34 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:48:34 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1391 ms
+Out 09, 2017 12:48:34 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 09, 2017 12:48:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 09, 2017 12:48:34 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT.war
+Out 09, 2017 12:48:35 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 09, 2017 12:48:40 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 09, 2017 12:48:46 AM org.apache.catalina.session.StandardManager startInternal
+GRAVE: Exception loading sessions from persistent storage
+java.lang.ClassCastException: [Ljava.lang.StackTraceElement; cannot be cast to java.lang.String
+	at java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1610)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:718)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2241)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2165)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2023)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 12:48:47 AM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 09, 2017 12:48:47 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 09, 2017 12:48:47 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 09, 2017 12:48:47 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 09, 2017 12:48:47 AM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 09, 2017 12:48:47 AM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 09, 2017 12:48:49 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 09, 2017 12:48:49 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 09, 2017 12:48:49 AM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 09, 2017 12:48:49 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 09, 2017 12:48:49 AM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 09, 2017 12:48:54 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT.war has finished in 19,255 ms
+Out 09, 2017 12:48:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 09, 2017 12:48:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 94 ms
+Out 09, 2017 12:48:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 09, 2017 12:48:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 525 ms
+Out 09, 2017 12:48:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 09, 2017 12:48:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 135 ms
+Out 09, 2017 12:48:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 09, 2017 12:48:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 81 ms
+Out 09, 2017 12:48:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 09, 2017 12:48:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 115 ms
+Out 09, 2017 12:48:55 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 09, 2017 12:48:55 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 09, 2017 12:48:55 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 20436 ms
+Out 09, 2017 12:49:18 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 09, 2017 3:35:18 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 3:35:18 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 3:35:19 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 3:35:19 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 3:35:19 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 3:35:20 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 3:35:20 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 3:35:21 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 3:35:23 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 3:35:23 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 3:35:24 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 3:35:24 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 3:35:24 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 3:35:25 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 3:35:25 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 3:35:26 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 3:35:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Out 09, 2017 3:35:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Out 09, 2017 3:35:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Out 09, 2017 3:35:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Out 09, 2017 3:35:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Out 09, 2017 3:35:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Out 09, 2017 3:35:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Out 09, 2017 3:35:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "root"
+Out 09, 2017 3:35:33 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 3:35:33 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 3:35:34 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 3:35:34 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 3:35:35 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 3:35:35 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 3:35:35 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 3:35:36 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 7:48:46 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 7:48:46 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 7:48:46 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 7:48:46 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 7:48:46 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 7:48:46 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Out 09, 2017 7:48:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 7:48:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 7:48:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 7:48:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Out 09, 2017 7:48:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 7:48:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 7:48:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 7:48:48 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Out 09, 2017 8:00:11 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:11 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:12 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:13 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:14 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:15 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:15 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:16 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:17 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:18 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:19 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:19 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:20 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:21 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:22 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:22 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:23 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:24 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:25 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:26 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:26 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:27 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:28 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:29 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:30 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:31 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:31 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:32 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:36 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:37 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:38 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:38 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:39 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:40 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:41 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:41 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:42 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:43 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:44 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:45 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:45 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:46 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:47 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:48 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:49 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:50 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:50 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Out 09, 2017 8:00:51 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFORMAÇÕES: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1028)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

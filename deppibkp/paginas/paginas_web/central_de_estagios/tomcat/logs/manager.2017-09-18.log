@@ -1,0 +1,136 @@
+Set 18, 2017 10:14:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 10:14:51 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 10:14:51 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 30 minutes '/dashbuilder'
+Set 18, 2017 10:14:51 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 10:14:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 10:14:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 10:14:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 2:07:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 2:07:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 2:07:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 2:07:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 2:09:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 2:09:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 2:09:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 2:13:49 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 2:13:49 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 2:13:49 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 2:23:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 2:23:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 2:23:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 2:25:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 2:25:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 2:25:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 2:30:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 2:30:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 2:30:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 2:36:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 2:36:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 2:36:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 2:36:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 3:00:07 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 3:00:16 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dashbuilder'
+Set 18, 2017 3:00:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 3:00:22 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 3:00:22 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 3:00:22 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 3:56:31 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 3:56:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 3:56:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 3:56:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 3:57:01 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: stop: Stopping web application '/dashbuilder'
+Set 18, 2017 3:57:01 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 3:57:07 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dashbuilder'
+Set 18, 2017 3:57:20 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 4:04:15 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Set 18, 2017 4:04:15 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Set 18, 2017 4:04:15 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 4:04:15 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 4:04:15 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 4:06:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 4:06:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 4:06:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 4:09:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Set 18, 2017 4:09:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Set 18, 2017 4:09:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 4:09:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 4:09:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 4:10:24 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 4:10:24 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 4:10:24 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 4:11:06 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 4:11:06 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 4:11:06 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Set 18, 2017 4:15:42 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Set 18, 2017 4:15:42 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Set 18, 2017 4:15:42 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Set 18, 2017 4:15:42 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Set 18, 2017 4:15:42 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'

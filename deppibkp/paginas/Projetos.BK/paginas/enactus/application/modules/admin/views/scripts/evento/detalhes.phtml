@@ -1,0 +1,220 @@
+
+<a href="<?php echo $this->url(array('module' => 'admin',
+   'controller' => 'evento',
+   'action' => 'index'), 'default', true) ?>"
+   class="no-bottom"><i class="icon-reply"></i> Voltar</a>&nbsp;&nbsp;&nbsp;
+
+<?php echo $this->url_situacao ?>&nbsp;&nbsp;&nbsp;
+
+<a href="<?php
+echo
+$this->url(array('controller' => 'evento',
+    'action' => 'editar',
+    'id' => $this->evento['id_evento']), 'default', true)
+?>"
+   class="no-bottom"><i class="icon-edit"></i> Editar</a>&nbsp;&nbsp;&nbsp;
+   <?php echo $this->url_apresentado ?>
+
+<br><br>
+
+<div class="container">
+    <div class="span-2">
+        Título:
+    </div>
+    <div class="span-10">
+        <?php echo $this->evento['nome_evento'] ?>
+    </div>
+</div>
+
+<hr/>
+
+<div class="container">
+    <div class="span-6">
+        Autor:
+        <?php echo $this->evento['nome'] ?>
+    </div>
+    <div class="span-4">
+        Tipo:
+        <?php echo $this->evento['nome_tipo_evento'] ?>
+    </div>
+    <div class="span-8">
+        Enviar e-mail:&nbsp;
+        <a href="mailto:<?php echo $this->evento['email'] ?>"
+           target="_blank" class="no-bottom">
+            <i class="icon-envelope"></i> <?php echo $this->evento['email'] ?>
+        </a>
+    </div>
+</div>
+
+<br/>
+
+<div class="container">
+    <div class="span-2">
+        Submissão:
+    </div>
+    <div class="span-6">
+        <?php echo $this->evento['data_submissao'] ?>
+    </div>
+    <div class="span-1">
+        Nível:
+    </div>
+    <div class="span-4">
+        <?php echo $this->evento['descricao_dificuldade_evento'] ?>
+    </div>
+    <div class="span-2">
+        Validada?:
+    </div>
+    <div class="span-2">
+        <?php echo ($this->evento['validada'] ? "Sim" : "Não") ?>
+    </div>
+</div>
+
+<br/>
+
+
+<?php if ($this->evento["id_tipo_evento"] == 4) { ?>
+
+    <div class="container">
+        <div class="span-20 prepend-2" id="tabs">
+            <ul>
+                <li><a href="#tab-1">Resumo</a></li>
+                <li><a href="#tab-2">Arquivo</a></li>
+            </ul>
+            <div id="tab-1">
+                <?php echo $this->evento['resumo'] ?>
+            </div>
+            <div id="tab-2">
+                <a class="no-bottom tooltip" href="<?php
+                echo $this->url(array(
+                    "controller" => "evento",
+                    "action" => "download-artigo",
+                    "artigo" => $this->evento["id_artigo"],
+                        ), 'default', true);
+                ?>"><i class="icon-download-alt"
+                     title="Baixar o documento"></i> Baixar
+                </a>
+            </div>
+        </div>
+    </div>
+
+<?php } else { ?>
+
+    <div class="container">
+        <div class="span-20 prepend-2" id="tabs">
+            <ul>
+                <li><a href="#tab-1">Resumo</a></li>
+                <li><a href="#tab-2">Preferência de horário</a></li>
+                <li><a href="#tab-3">Tecnologias Envolvidas</a></li>
+            </ul>
+            <div id="tab-1">
+                <?php echo $this->evento['resumo'] ?>
+            </div>
+            <div id="tab-2">
+                <?php echo $this->evento['preferencia_horario'] ?>
+            </div>
+            <div id="tab-3">
+                <?php echo $this->evento['tecnologias_envolvidas'] ?>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <fieldset>
+        <i class="icon-time"></i> Horários:
+        <a href="<?php
+        echo $this->url(array(
+            'controller' => 'horario',
+            'action' => 'criar',
+            'id' => $this->evento['id_evento']));
+        ?>" class="no-bottom" style="float: right"><i class="icon-plus"></i>  Novo Horário</a><br>
+        <table id="horarios" class="display" cellpadding="0" cellspacing="0" border="0">
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th style="width: 50px;">Data</th>
+                    <th style="width: 60px;">Horário</th>
+                    <th>Sala</th>
+                    <th style="width: 130px;">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($this->horarios as $item): ?>
+                <tr>
+                    <td><?php echo $item["descricao"]; ?></td>
+                    <td><?php echo $item["data"]; ?></td>
+                    <td><?php echo $item["inicio"]; ?> - <?php echo $item["fim"]; ?></td>
+                    <td><?php echo $item["nome_sala"]; ?></td>
+                    <td>
+                        <a href="<?php echo
+                            $this->url(array('module' => 'admin',
+                                'controller' => 'horario',
+                                'action' => 'editar',
+                                'id' => $item['evento'],
+                                'evento' => $this->evento['id_evento']), 'default', true)
+                            ?>"
+                            class="btn no-bottom" title="Editar">
+                            <i class="icon-edit"></i>
+                        </a>
+
+                        <a href="<?php echo $this->url(array('module' => 'admin',
+                                'controller' => 'horario',
+                                'action' => 'deletar',
+                                'id' => $item['evento'],
+                                'evento' => $this->evento['id_evento']), 'default', true)
+                            ?>"
+                            class="btn no-bottom" title="Deletar">
+                            <i class="icon-remove"></i>
+                        </a>
+                        <a href="<?php echo $this->url(array(
+                               'module' => 'admin',
+                               'controller' => 'presenca',
+                               'action' => 'index',
+                               'id' => $this->evento['id_evento'],
+                               'id_evento_realizacao' => $item['evento']
+                           ), 'default', true); ?>" class="btn no-bottom" title="Lista de Presença">
+                           <i class="icon-tasks"></i>
+                        </a>
+                    </td>
+                </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+
+    </fieldset>
+    <br/>
+
+    <fieldset>
+        <i class="icon-group"></i> Outros Palestrantes:<br>
+        <table class="display" cellpadding="0" cellspacing="0" border="0" >
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Confirmado</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($this->outrosPalestrantes as $p): ?>
+                <tr>
+                    <td><?php echo $p['nome'] ?></td>
+                    <td><?php echo ($p['confirmado'] ? "Sim" : "Não") ?></td>
+                    <?
+                    if ($p['confirmado']) {
+                    $url = "<a href='/admin/evento/outros-palestrantes/desfazer/{$p['id_pessoa']}/{$this->evento['id_evento']}'
+                    class='no-bottom'><i class='icon-reply'></i> Desfazer</a>";
+                    } else {
+                    $url = "<a href='/admin/evento/outros-palestrantes/confirmar/{$p['id_pessoa']}/{$this->evento['id_evento']}'
+                    class='no-bottom'><i class='icon-ok'></i> Confirmar</a>";
+                    }
+                    ?>
+                    <td>
+                        <?php echo $url ?>
+                    </td>
+                </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </fieldset>
+    <?php
+}

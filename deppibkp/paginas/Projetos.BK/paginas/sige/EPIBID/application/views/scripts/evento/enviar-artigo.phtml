@@ -1,0 +1,28 @@
+<?php
+$this->headScript()
+        ->prependFile($this->baseUrl('js/evento/submeter.js'), 'text/javascript')
+        ->prependFile($this->baseUrl('js/jquery.qtip.min.js'), 'text/javascript')
+        ->prependFile($this->baseUrl('js/ckeditor.js'), 'text/javascript')
+        ->prependFile($this->baseUrl('js/parsley.min.js'), 'text/javascript')
+        ->prependFile($this->baseUrl('js/parsley.i18n/messages.pt_br.js'), 'text/javascript');
+
+$this->headLink()
+        ->appendStylesheet($this->baseUrl('css/jquery.qtip.min.css'))
+        ->appendStylesheet($this->baseUrl('css/evento/submeter.css'));
+?>
+<br>
+<br>
+
+<h4>Submeter um Artigo Cientifico</h4><hr/>
+
+<p>
+    Sugerimos este  
+    <a 
+        href="<?php echo $this->baseUrl("static/modelosparapublicaodeartigos.rar"); ?>"
+        >modelo para artigo</a>
+    da <a href="http://www.sbc.org.br" target="_blank">SBC</a> contendo entre 8 e 15 páginas. 
+
+</p>
+
+<?php
+echo $this->form;

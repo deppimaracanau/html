@@ -1,0 +1,214 @@
+/* ----------- Layout ----------- */
+html,body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+/* ----------- Barra de Navegação ----------- */
+.barra {
+	padding: 23px 0px 24px 0px;
+	display: block;
+}
+.logo {
+	background: url('../imagens/logo.png') no-repeat;
+	height: 60px;
+	width: 200px;
+	display: block;
+	background-size: contain;
+	color: transparent;
+	margin-top: -5px;
+}
+.navbar-default{
+	border-bottom: 1px solid #a6a6a6;
+}
+.navbar-brand {
+	padding: 0px 15px;
+	margin-top: 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar-default .navbar-nav> li > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #0B610B;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+	color: white;
+	background: #0B610B;
+}
+.navbar-default .navbar-nav > li > a:active {
+	color: pink;
+	background-color: #0B610B;
+}
+
+/* ----------- Pagina Inicial ----------- */
+.quadroSite {
+	overflow-y: hidden;
+	overflow-x: hidden;
+	height: 100%;
+}
+.containerFrame {
+	height: 100%;
+	width: 100%;
+	margin-top: 100px;
+}
+.containerNavbar {
+	height: 100%;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.divLogo {
+	background: #f8f8f8;
+	width: 113%;
+	margin-left: -10px;
+	padding: 0px;
+	border-bottom: 1px solid #a6a6a6;
+	
+}
+.logo2 {
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+.tituloMenuLat {
+	border: 1px solid transparent;
+	color: white;
+	background-color: #0B610B;
+	border-color: #ccc;
+	padding: 10px;
+	width: 420px;
+	border-radius: 15px 0px 0px 15px;
+}
+.menuLat {
+	border-radius: 0px;
+	padding: 10px;
+	padding-left: 20px;
+	text-align: left;
+	width: 400px;
+	margin-left: 20px;
+}
+.menuLat:hover {
+	color: white;
+	background: #0B610B;
+}
+.barralateral {
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	
+}
+.btn-default.focus, .btn-default:focus {
+    color: white;
+    background-color: #0B610B;
+    border-color: #0B610B;
+}
+
+/* ----------- Página Inicio ----------- */
+.bodyInicio {
+	background: url('../imagens/fundo.png'), 
+				url('../imagens/background.jpg') fixed center no-repeat;
+}
+.titulo {
+	text-align: center;
+	margin-top: 230px;
+	font-size: 70px;
+	font-weight: 700;
+}
+.subtitulo {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+}
+.video {
+	width:80%;
+	height:500px;
+}
+.tituloVideo {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: white;
+}
+.secaoInicio {
+	height: 110%;
+	color: white;
+}
+.secaoVideo {
+	height: 95%;
+	width: 100%;
+	padding-top: 5%;
+	background: linear-gradient(50deg,#F7BE81,#F5D0A9);
+}
+.secaoAjuda {
+	height: 95%;
+	width: 100%;
+	padding-top: 5%;
+	background: linear-gradient(50deg,#A9A9F5,#0101DF);
+}
+.secaoLogo {
+	width: 100%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	background: white;
+}
+.rodape {
+	background: #0B610B;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+/* ----------- Media Queries ----------- */
+@media screen and (max-width: 1180px) { /* Celular */
+	.barralateral {
+		display: none;
+	}
+	.containerFrame {
+		padding: 0px;
+	}
+	.containerNavbar {
+		padding: 1px 13px 1px 10px;
+	}
+	.col-xs-10 {
+	    width: 100%;
+	}
+	.titulo {
+		margin-top: 80px;
+		font-size: 50px;
+	}
+	.video {
+		height:300px;
+	}
+}
+@media screen and (min-width: 1180px) { /* Desktop */
+	.barra, .espacoFrame {
+		display: none;
+	}
+	.containerFrame {
+		padding: 0px;
+		padding-left: 10px;
+		margin-top: 0px;
+	}
+	.telaFrame {
+		margin-left: -30px;
+	}
+	.containerFrame {
+		width: 102.6%;
+	}
+}
+
+
+@media screen and (max-height: 750px) { /* Ajuste do vídeo */
+	.video {
+		height: 300px;
+	}
+}
+
+@media screen and (max-height: 550px) { /* Ajuste de Telas */
+	.secaoVideo {
+		height: 600px;
+	}
+	.secaoInicio {
+		height: 600px;
+	}
+}

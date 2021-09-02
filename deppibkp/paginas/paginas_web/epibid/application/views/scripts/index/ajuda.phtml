@@ -1,0 +1,53 @@
+<h2>Ajuda</h2>
+
+<h3>FAQ (Perguntas Mais Frequentes)</h3>
+<hr/>
+<div class="container">
+    <div class="span-12">
+        <h3>Por que não consigo recuperar minha senha?</h3>
+        <p>
+            Algumas considerações devem ser observadas:
+        </p>
+        <ul>
+            <li>
+                o usuário deve atentar para digitar o endereço de e-mail
+                corretamente para que a mensagem de confirmação possa ser
+                devidamente recebida.
+            </li>
+            <li>
+                a mensagem pode está caindo na caixa de spam ou lixo eletrônico
+                da conta do usuário.
+            </li>
+            <li>
+                ao receber a mensagem da recuperação de senha, o usuário deve
+                atentar para quando copiar, não copiar espaços em branco e quando
+                digitar, inserir letras minúsculas ou maiúsculas conforme disposto
+                na mensagem.
+            </li>
+            <li>
+                algumas contas de e-mail, principalmente Hotmail, Outlook, Live, demoram
+                bastante para receber a mensagem.
+            </li>
+            <li>
+                caso a mensagem de recuperação de senha esteja demorando muito e
+                você solicitou diversas vezes, tenha certeza de que esteja
+                utilizando sempre o código de recuperação mais recente.
+            </li>
+        </ul>
+        <p>
+            <?php
+            $recuperar_senha_url = $this->serverUrl() . $this->url(array(), 'recuperar-senha', true);
+            ?>
+            <a href="<?php echo $recuperar_senha_url; ?>"><i class="icon-lock"></i> Clique aqui para recuperar a senha agora.</a>
+        </p>
+        <br/>
+
+        <h3>Outras dúvidas</h3>
+        <p>
+            Envie um e-mail para
+            <a href="mailto:sic.maracanau@ifce.edu.br">sic.maracanau@ifce.edu.br</a>
+            informando o máximo de detalhes possíveis, como captura de tela,
+            mensagem de erro, procedimento realizado etc.
+        </p>
+    </div>
+</div>

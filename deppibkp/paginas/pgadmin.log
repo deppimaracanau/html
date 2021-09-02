@@ -1,0 +1,60 @@
+2018-08-30 16:43:39 ERROR  : ERROR:  function md5(integer) does not exist
+LINE 1: select md5(1234);
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2018-09-10 08:46:56 ERROR  : ERROR:  CREATE DATABASE cannot be executed from a function or multi-command string
+2018-09-10 08:48:24 ERROR  : ERROR:  cannot drop table eixo because other objects depend on it
+DETAIL:  constraint laboratorio_id_eixo_fkey on table laboratorio depends on table eixo
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2018-09-10 08:49:04 ERROR  : ERROR:  cannot drop table professor because other objects depend on it
+DETAIL:  constraint alteracao_id_professor_fkey on table alteracao depends on table professor
+constraint professor_lab_id_professor_fkey on table professor_lab depends on table professor
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2018-09-10 08:49:44 ERROR  : ERROR:  cannot drop table laboratorio because other objects depend on it
+DETAIL:  constraint alteracao_id_laboratorio_fkey on table alteracao depends on table laboratorio
+constraint professor_lab_id_laboratorio_fkey on table professor_lab depends on table laboratorio
+constraint produtos_servicos_id_laboratorio_fkey on table produtos_servicos depends on table laboratorio
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2018-09-10 08:52:09 ERROR  : ERROR:  cannot drop table laboratorio because other objects depend on it
+DETAIL:  constraint produtos_servicos_id_laboratorio_fkey on table produtos_servicos depends on table laboratorio
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2018-09-10 10:21:14 ERROR  : ERROR:  relation "usuario" does not exist
+LINE 1: INSERT INTO usuario (id_usuario, nome, email, senha, lattes,...
+                    ^
+2018-09-10 10:23:06 ERROR  : ERROR:  relation "professor" does not exist
+2018-10-23 12:48:43 ERROR  : ERROR:  type "double" does not exist
+LINE 17:  nota double,
+               ^
+2018-10-24 12:56:36 ERROR  : ERROR:  insert or update on table "trabalho_avaliador" violates foreign key constraint "trabalho_avaliador_id_trabalho_fkey"
+DETAIL:  Key (id_trabalho)=(6) is not present in table "trabalho".
+2018-10-24 12:56:49 ERROR  : ERROR:  insert or update on table "trabalho_avaliador" violates foreign key constraint "trabalho_avaliador_id_trabalho_fkey"
+DETAIL:  Key (id_trabalho)=(6) is not present in table "trabalho".
+2018-10-24 12:57:13 ERROR  : ERROR:  insert or update on table "trabalho_avaliador" violates foreign key constraint "trabalho_avaliador_id_trabalho_fkey"
+DETAIL:  Key (id_trabalho)=(6) is not present in table "trabalho".
+2018-10-24 12:58:40 ERROR  : ERROR:  INSERT has more target columns than expressions
+LINE 1: ...liador,id_avaliador,id_trabalho,nota1,nota2,nota3,nota4) VAL...
+                                                             ^
+2018-10-24 12:58:57 ERROR  : ERROR:  duplicate key value violates unique constraint "trabalho_avaliador_pkey"
+DETAIL:  Key (id_trabalho_avaliador)=(1) already exists.
+2018-10-24 12:59:06 ERROR  : ERROR:  insert or update on table "trabalho_avaliador" violates foreign key constraint "trabalho_avaliador_id_trabalho_fkey"
+DETAIL:  Key (id_trabalho)=(2) is not present in table "trabalho".
+2018-10-25 13:16:15 ERROR  : ERROR:  insert or update on table "trabalho_avaliador" violates foreign key constraint "trabalho_avaliador_id_trabalho_fkey"
+DETAIL:  Key (id_trabalho)=(8) is not present in table "trabalho".
+2019-01-25 16:13:38 ERROR  : ERROR:  syntax error at or near "solicitacao"
+LINE 1: CREATE solicitacao (
+               ^
+2019-01-25 16:14:10 ERROR  : ERROR:  syntax error at or near "solicitacao"
+LINE 1: CREATE solicitacao (
+               ^
+2019-01-25 16:25:47 ERROR  : ERROR:  value too long for type character varying(5)
+2019-03-12 10:45:53 ERROR  : No default application configured for HTML files.
+2019-03-12 10:45:57 ERROR  : Failed to open URL "http://www.postgresql.org/docs/current/static/index.html" in default browser. (error 11: Recurso temporariamente indisponível)
+2019-03-12 12:24:45 ERROR  : ERROR:  column "Joseé" does not exist
+LINE 1: select * from pessoa where nome = "Joseé";
+                                          ^
+2019-03-12 12:26:45 ERROR  : ERROR:  column "Joseé" does not exist
+LINE 1: select * from pessoa where nome="Joseé";
+                                        ^
+2019-03-12 12:30:47 ERROR  : ERROR:  zero-length delimited identifier at or near """"
+LINE 1: select * from pessoa where nome = "";
+                                          ^

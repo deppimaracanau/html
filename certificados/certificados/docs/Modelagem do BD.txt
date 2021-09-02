@@ -1,0 +1,18 @@
+CREATE TABLE solicitacao (
+	id_solicitacao serial,
+	nome_evento varchar(120),
+	nome_proj_conf varchar(120),
+	carga_horaria varchar(20),
+	tipo_certificado varchar(20),
+	periodo varchar(50),
+	local varchar(120),
+	texto_proprio varchar(600),
+	lista_nomes varchar(1800),
+	ano_evento varchar(10),
+	qtd_certificados int,
+	certificados_emitidos boolean DEFAULT false,
+	solicitacao_negada boolean DEFAULT false,
+	data_solicitacao date DEFAULT now(),
+	data_emissao date,
+	PRIMARY KEY(id_solicitacao)
+);

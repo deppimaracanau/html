@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PROAPA</title>
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"><!-- link para bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!-- link para font awesome para icons instalar depois do bootstrap-->
+	<link rel="stylesheet" href="css/style.css"><!-- link para meu css personalizado -->
+
+<style type="text/css">
+		
+		#container {
+				/*position: absolute;*/
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			width: 930px;
+			height: auto;
+			margin: auto;
+			box-shadow: 0px 0px 10px black;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+
+		#container0 {
+				/*position: absolute;*/
+			top: 50px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			width: 930px;
+			height: 760px;
+			margin: auto;
+			border: black 1px solid;
+			padding: 40px;
+			box-sizing: border-box;
+			text-justify: inter-word;
+			text-align: justify;
+			
+		}
+
+		#container01 {
+				/*position: absolute;*/
+			top: 50px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			width: 930px;
+			height: auto;
+			margin: auto;
+			box-shadow: 0px 0px 10px black;
+			padding: 40px;
+			box-sizing: border-box;
+			background-color: #00420c;
+		}
+
+		p {
+   		  color: white;
+		}
+	</style>
+
+
+</head>
+<body>
+
+	<header>
+
+		<div class="container"> 
+				<!-- logo -->
+				<img id="logotipo" src="img/proapa_img.jpg" alt="logotipo">
+		</div>
+
+		<center><!-- tentar mudar esse tag para css depois -->
+		<div class="container">
+			<div class="row" >
+				<nav id="menu" class="text-center">
+					<ul>
+						<li><a href="./index.html">Edital</a></li>
+						<li><a href="./index.html">Submissão</a></li>
+						<li><a href="./index.html">Cronograma</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div></center>
+	</header>
+<br><br><br><br><br><br>
+<section id="container0">
+	<a href="./index.html">Voltar</a> <br><br>
+		<form method="post" enctype="multipart/form-data" action="./enviar_informacoes.php">
+		  <div class="form-group col-xs-7">
+		    <label for="nome">Nome</label>
+		    <input type="text" class="form-control" name="nome" placeholder="Nome" autofocus required>
+		    <small id="emailHelp" class="form-text text-muted">Preencha com seu nome completo</small>
+		  </div>
+
+		  <div class="form-group col-xs-7">
+		    <label for="siape">SIAPE</label>
+		    <input type="text" class="form-control" name="siape"  placeholder="SIAPE" required>
+		    <small id="emailHelp" class="form-text text-muted">Digite o número de seu SIAPE</small>
+		  </div>
+
+		   <div class="form-group col-xs-7">
+		    <label for="exampleInputEmail1">E-mail</label>
+		    <input type="text" class="form-control" name="email" placeholder="E-mail" required>
+		    <small id="emailHelp" class="form-text text-muted">E-mail para contato</small>
+		  </div>
+
+		    <div class="form-group col-xs-7">
+   			 <label for="exampleFormControlFile1">Selecione Área Temática</label><br>
+  		  	 <select class="selectpicker" name="area">
+			  <option value="Área Temática 1">Área Temática 1</option>
+			  <option value="Área Temática 2">Área Temática 2</option>
+			  <option value="Área Temática 3">Área Temática 3</option>
+			</select>
+			<br><small id="emailHelp" class="form-text text-muted">De acordo com o Edital</small>
+			</div>
+  		
+
+		  <div class="form-group col-xs-7">
+   			 <label for="pesquisa01">Projeto de pesquisa</label><br>
+   			 <div class="btn btn-default btn-file">
+    		<input type="file"  class="form-control-file" name="pesquisa"  required="required"></div><br><small id="emailHelp" class="form-text text-muted">*Atenção: enviar em formato PDF</small>
+  		  </div>
+
+  		   <div class="form-group col-xs-7">
+   			 <label for="curriculo01">Currículo Lattes</label><br>
+   			  <div class="btn btn-default btn-file">
+    		<input type="file" class="form-control-file" name="curriculo" required="required">
+    		</div><br><small id="emailHelp" class="form-text text-muted">*Atenção: enviar em formato PDF</small>
+  		  </div>
+
+  		
+  		   <div class="form-group col-xs-7"> <br>
+		  <button type="submit" class="btn btn-primary ">Enviar informações</button>
+		  </div>
+		</form>
+
+	</section>
+
+<br><br>
+	<footer>
+		<div class="container">
+			<dir class="row">
+				<div class="col-md-4 col-logo text-center">
+					<ul class="list-unstyled">
+						<li><h1>IFCE</h1></li>
+						<li><hr></li>
+						<li><h4>Campus Maracanaú</h4></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-deppi text-center">
+					<ul class="list-unstyled">
+						<li><h1>DEPPI</h1></li>
+						<li><hr></li>
+						<li><h4>Departamento de Extensão, Pesquisa, Pós-graduação e Inovação</h4></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-contatos text-center">
+						<ul class="list-unstyled">
+						<li><h1>Contatos</h1></li>
+						<li><hr></li>
+						<li><h4>E-mail: deppi.maracanau@ifce.edu.br<br>Telefone: (085) 3878-6333</h4></li>
+						
+					</ul>
+				</div>
+			</dir>
+		</div>
+	</footer>
+</body>
+</html>

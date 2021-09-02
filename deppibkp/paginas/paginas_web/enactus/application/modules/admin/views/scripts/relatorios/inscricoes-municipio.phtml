@@ -1,0 +1,44 @@
+<?php
+	$this->headLink()->appendStylesheet($this->baseUrl('css/screen.css'));
+	$this->headLink()->appendStylesheet($this->baseUrl('css/tabela_sort.css'));
+	
+	$this->headScript()->appendFile($this->baseUrl('js/jquery.dataTables.js'));
+	$this->headScript()->appendFile($this->baseUrl('js/admin/relatorio/inscricoes-municipio.js'));
+?>
+
+<?php echo $this->partial('menu.phtml'); ?>
+
+<h3>Inscrições Por Município</h3>
+
+<hr/>
+
+<table class="display" cellpadding="0" cellspacing="0" border="0;" >
+   <thead>
+      <tr>
+         <th>Município</th>
+         <th>Inscritos</th>
+         <th>Confirmados</th>
+      </tr>
+   </thead>
+   <tbody>
+      <?php
+			$total_inscritos = $total_confirmados = 0;
+			foreach ($this->list as $item):
+				$total_inscritos += $item['num'];
+				$total_confirmados += $item['confirmados'];
+      ?>
+         <tr>
+            <td><?php echo $item["municipio"] ?></td>
+            <td class="col-right"><?php echo $item["num"] ?></td>
+            <td class="col-right"><?php echo $item["confirmados"] ?></td>
+         </tr>
+      <?php endforeach; ?>
+   </tbody>
+   <tfoot>
+		<tr>
+			<th>Total</th>
+			<th class="col-right"><?php echo $total_inscritos ?></th>
+			<th class="col-right"><?php echo $total_confirmados ?></th>
+		</tr>
+   </tfoot>
+</table>

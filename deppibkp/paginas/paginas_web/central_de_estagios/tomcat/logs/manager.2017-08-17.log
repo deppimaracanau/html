@@ -1,0 +1,204 @@
+Ago 17, 2017 8:05:15 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:05:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Ago 17, 2017 8:05:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Ago 17, 2017 8:05:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:11:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Ago 17, 2017 8:11:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Ago 17, 2017 8:11:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:11:51 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Ago 17, 2017 8:11:51 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Ago 17, 2017 8:11:51 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:17:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Ago 17, 2017 8:17:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Ago 17, 2017 8:17:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:17:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 8:17:35 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'sessionDetail' for web application '/dashbuilder'
+Ago 17, 2017 8:18:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 8:18:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Ago 17, 2017 8:18:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Ago 17, 2017 8:18:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:27:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Ago 17, 2017 8:27:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Ago 17, 2017 8:27:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:27:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 8:28:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:28:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:28:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 62537F7303577037EE92BC75FDE09DE4
+Ago 17, 2017 8:28:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 5F654723BA4EF78BC565929E15EBDCC1
+Ago 17, 2017 8:28:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 0A7D986D0C6F00FA53446F8494BC4E4D
+Ago 17, 2017 8:29:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:32:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Ago 17, 2017 8:32:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Ago 17, 2017 8:32:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session information for web application '/dashbuilder'
+Ago 17, 2017 8:32:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session expiration for 0 minutes '/dashbuilder'
+Ago 17, 2017 8:32:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:33:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Ago 17, 2017 8:35:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 8:35:35 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:35:35 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 8BE15CFF8B21217C133AC8B64C58EFBD
+Ago 17, 2017 8:38:07 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 8:38:39 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 8:41:54 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 8:42:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:42:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id B393983A7CADCA70358012C43DCCC8CD
+Ago 17, 2017 8:42:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 6AD03425DF2A9B2539495D03F4170F4D
+Ago 17, 2017 8:42:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 58E0B61749A1B4EAEC778B6C6C857CCA
+Ago 17, 2017 8:45:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:45:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:45:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 9592B2C2B0C951ECCB517065D263F276
+Ago 17, 2017 8:45:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id D2F6CFDB8D4908CF8B5CAC3A2675E7A5
+Ago 17, 2017 8:45:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id F671A4625AF200BC3AA7EBB2B96B2EA4
+Ago 17, 2017 8:49:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 8:52:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:52:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 91F311E190B4E57DBC237F8A33A7B920
+Ago 17, 2017 8:52:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 7F4395DA7C0A297E10F8794B760266DD
+Ago 17, 2017 8:52:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id FA6768341481E1A9EA93D60DDF375185
+Ago 17, 2017 8:52:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id CFAA141608026A5B4F817EAEB173F000
+Ago 17, 2017 8:52:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 9F53582591481646EBE8B1756507B8E6
+Ago 17, 2017 8:53:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:56:21 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 8:57:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:58:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/dashbuilder'
+Ago 17, 2017 8:58:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 55024E59479B592E27CA70EEF1834607
+Ago 17, 2017 8:58:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id B81915733A031E262DD869DA7DC0D6DB
+Ago 17, 2017 8:58:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 040F90992F2F6FF8BDE7E302065AA683
+Ago 17, 2017 8:58:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id B445C075E5638044CEF003213D4E065F
+Ago 17, 2017 8:58:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 9B408996FF65B27666DF40393035F7F4
+Ago 17, 2017 8:58:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 7FCDFC82FAE1CC0D1A20B81EDDD754B9
+Ago 17, 2017 9:04:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 9:09:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id B98B96C7A81C6667A7D9DFFE81760EA9
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id B210DB9E306F1A9A55A3461E243DD7C3
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 9612C01B99E0BBBD49F60FD6D21CAA5E
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 7DB3C22F36BC6544ED0878D50D2ACC3F
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 34FC2E198B7FBC8537EF314375201B7E
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id C8029000F5D7C16B72B3A1A9902CA7D3
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 540189BBA4BBC15CC3629F87F7A24690
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 8031B8513C6A09D7AB0C765FEE5FCBB9
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 4E33F9EFCB3F2C24FB4DFFBBD527BB5B
+Ago 17, 2017 9:10:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: Invalidating session id 827EE8F151432981BF0B6DDAC72E0070
+Ago 17, 2017 9:26:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:26:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'sessionDetail' for web application '/dashbuilder'
+Ago 17, 2017 9:26:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 9:32:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 9:37:15 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:37:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:39:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 9:52:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:52:20 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:52:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:52:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:53:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:53:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:53:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 9:54:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 10:14:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 10:14:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 10:16:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 10:27:34 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 10:43:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'
+Ago 17, 2017 11:03:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dashbuilder'
+Ago 17, 2017 11:30:54 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dashbuilder'

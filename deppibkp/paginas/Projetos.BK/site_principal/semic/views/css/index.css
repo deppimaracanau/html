@@ -1,0 +1,71 @@
+/* ----------- Layout ----------- */
+html,body {
+	height: 97.55%;
+}
+
+body {
+	background: url('../imagens/fundo.jpg');
+}
+
+/* ----------- Campo ----------- */
+.codigo {
+	text-align: center;
+	font-size: 25px;
+	width: 150px;
+	height: 50px;
+}
+.botao {
+	font-size: 21px;
+	width: 130px;
+	height: 40px;
+}
+
+/* ----------- Barra de Navegação ----------- */
+.barra {
+	padding: 20px 0px 20px 0px;
+	display: block;
+}
+.logo {
+	background: url('../imagens/logo.png') no-repeat;
+	height: 60px;
+	width: 200px;
+	display: block;
+	background-size: contain;
+	color: transparent;
+}
+
+.navbar-brand {
+	padding: 0px 15px;
+	margin-top: 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    margin-top: 12px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #2E2E2E;
+	font-weight: 700;
+	margin: -5px 15px 0px 20px;
+	letter-spacing: 3px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: white;
+	background: #0B610B;
+}
+
+/* ----------- Rodapé ----------- */
+footer {
+	background: #122A0A;
+	color: white;
+	padding: 5px 0px 5px 5px;
+	position: relative;
+	text-align: center;
+}
+.rodape {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	padding-bottom: 45px;
+}

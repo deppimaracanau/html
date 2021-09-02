@@ -1,0 +1,219 @@
+Nov 01, 2017 8:05:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextDestroyed()
+Nov 01, 2017 8:05:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextDestroyed()
+Nov 01, 2017 8:05:17 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session 46DAAFDFF3AB4F196CFABB203F029738
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$4
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1183)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 01, 2017 8:05:17 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ErrorReportHandler for session 46DAAFDFF3AB4F196CFABB203F029738
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$3
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1183)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 01, 2017 8:05:17 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session EC2F8541045A3343603D7DE89199F703
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$4
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1183)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 01, 2017 8:05:17 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ErrorReportHandler for session EC2F8541045A3343603D7DE89199F703
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$3
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1183)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 01, 2017 8:05:17 AM org.apache.catalina.core.StandardHostValve invoke
+GRAVE: Exception Processing /estagios/workspace/pt/central
+java.lang.NullPointerException
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:265)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 01, 2017 8:05:17 AM org.apache.catalina.core.StandardHostValve invoke
+GRAVE: Exception Processing /estagios/workspace/pt/central/images/logo_if.png
+java.lang.NullPointerException
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:265)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 01, 2017 8:05:17 AM org.apache.catalina.core.StandardHostValve invoke
+GRAVE: Exception Processing /estagios/workspace/pt/central/
+java.lang.NullPointerException
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:265)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 01, 2017 8:05:17 AM org.apache.catalina.core.StandardHostValve invoke
+GRAVE: Exception Processing /estagios/workspace/pt/central
+java.lang.NullPointerException
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:265)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 01, 2017 8:05:17 AM org.apache.catalina.core.StandardHostValve invoke
+GRAVE: Exception Processing /estagios/workspace/pt/central/inicio
+java.lang.NullPointerException
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:265)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 01, 2017 8:06:15 AM org.apache.catalina.session.StandardSession readObject
+ADVERTÊNCIA: Cannot deserialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session 46DAAFDFF3AB4F196CFABB203F029738
+Nov 01, 2017 8:06:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextInitialized()
+Nov 01, 2017 8:06:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextInitialized()
+Nov 01, 2017 8:06:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1c71d75a')

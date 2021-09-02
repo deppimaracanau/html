@@ -1,0 +1,26 @@
+CREATE DATABASE semic;
+
+CREATE TABLE trabalho (
+	id_trabalho serial,
+	nome varchar(200),
+	PRIMARY KEY(id_trabalho)
+);
+
+CREATE TABLE avaliador (
+	id_avaliador serial,
+	nome varchar(200),
+	PRIMARY KEY(id_avaliador)
+);
+
+CREATE TABLE trabalho_avaliador (
+	id_trabalho_avaliador serial,
+	id_avaliador integer,
+	id_trabalho integer,
+	nota1 double precision,
+	nota2 double precision,
+	nota3 double precision,
+	nota4 double precision,
+	PRIMARY KEY(id_trabalho_avaliador),
+	FOREIGN KEY (id_trabalho) REFERENCES trabalho(id_trabalho),
+	FOREIGN KEY (id_avaliador) REFERENCES avaliador(id_avaliador)
+);

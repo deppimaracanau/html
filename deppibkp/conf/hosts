@@ -1,0 +1,10 @@
+127.0.0.1	localhost
+127.0.1.1	deppi
+127.0.1.1	sic.local
+200.17.32.214	deppi.maracanau.ifce.edu.br
+200.17.32.214   deppi.maracanau.hackaton
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters

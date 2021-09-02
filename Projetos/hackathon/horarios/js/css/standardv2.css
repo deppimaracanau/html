@@ -1,0 +1,130 @@
+/*.btn-pass{
+border: 1px solid #ced4da !important;
+border-radius: 0 0.25rem 0.25rem 0 !important;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+#menup{
+	background-image: linear-gradient(to bottom right, #41ae42, #2dcc77) !important;
+}
+#menup a.nav-link{
+	color: rgba(255,255,255,1) !important;
+}
+#menup a.nav-link:hover{
+	color: rgba(255,255,255,0.5) !important;
+}
+#footerp{
+	padding: 1.5rem 0 1.5rem 0 !important;
+	background-color: #36be5f !important;
+	margin-top: 5em
+}
+.hcontainer{
+	margin: 1.5em 0 1.5em 0;
+}
+.card{
+	margin:1rem 0 1rem 0;
+	height: 18em;
+	max-height: 18em
+}
+.card-body .card-text a{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 2em;
+	color: #343b48;
+}
+.card2em a{
+	font-size: 2em !important
+}
+.card1_8em a{
+	font-size: 1.8em !important
+}
+.card1_6em a{
+	font-size: 1.6em !important
+}
+.card1_4em a{
+	font-size: 1.4em !important
+}
+.card-footer{
+	font-size: .9em !important
+}
+#mCad{margin:1em 0 1em 0 !important}
+#users .showUser{margin-bottom: 1em}
+#users .showUser button{margin-top: -.5em}
+#hcUsers{margin:3em 0 2em 0;}
+@media screen and (max-width: 768px){
+	#apresentacao .carousel-item{height: auto !important;min-height: auto !important}
+}
+@media screen and (min-width: 1136px){
+	#apresentacao,#apresentacao .carousel-inner{
+		width: 1136px !important;
+		height: 439.971px !important;
+		margin: 0 auto !important;
+		margin-top: 1em !important;
+		margin-bottom: 1em !important
+	}
+}
+@media screen and (min-width: 1800px){
+	#apresentacao,#apresentacao .carousel-inner{
+		width: 1800px !important;
+		height: 697.137px !important;
+		margin: 0 auto !important;
+		margin-top: 1em !important;
+		margin-bottom: 1em !important
+	}
+}
+#moveitIndex{
+	margin-top: 1em
+}
+#descricaoMVT{
+	font-size: 1.8em;
+	text-align: center;
+	margin-bottom: 2em;
+	padding-top:5em
+}
+.questMVT{
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 1em
+}
+.answeMVT{
+	font-size: 1.2em;
+	margin-left: 1em
+}
+.strong{
+	font-weight: bold;
+}
+#programacao{
+	margin-top: 1em;
+	margin-bottom:2em;
+}
+#programacao .container{border: 2px solid black;border-radius: 25px 25px 0 0;}
+#programacao .col-2, #headerProg{
+	font-weight: bold;
+}
+#headerProg{
+	font-size: 1.2em;
+	background-color: black;
+	color:white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 25px 25px 0 0;
+}
+.titleProg{
+	font-size: 2em;
+	padding-top: 3em
+}
+#programacao .bodyProg div{
+	padding-top:1.5em;
+	padding-bottom: 1.5em;
+}
+#programacao .almocoProg,#programacao .encerramentoProg{
+	background-color: rgba(224, 228, 60, 0.5);
+}
+#programacao .bodyProg .col-4 a{
+	color: black
+}
+#programacao .zebra1{
+	padding-top:1.5em;
+}
+#palestra{
+	margin-top: 5em;
+	margin-bottom: 3em
+}

@@ -1,0 +1,1019 @@
+Set 21, 2017 12:13:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 12:13:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Set 21, 2017 8:31:00 AM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+ADVERTÊNCIA: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 193 in the jsp file: /login.jsp
+Duplicate local variable localeManager
+190: 	--%>
+191:     <div id="login-content">
+192:         <%
+193:             LocaleManager localeManager = LocaleManager.lookup();
+194:             Locale currentLocale =  localeManager.getCurrentLocale();
+195:             SessionInitializer.PreferredLocale preferredLocale =  SessionInitializer.getPreferredLocale(request);
+196:             if (preferredLocale != null) currentLocale = preferredLocale.asLocale();
+
+
+An error occurred at line: 194 in the jsp file: /login.jsp
+Duplicate local variable currentLocale
+191:     <div id="login-content">
+192:         <%
+193:             LocaleManager localeManager = LocaleManager.lookup();
+194:             Locale currentLocale =  localeManager.getCurrentLocale();
+195:             SessionInitializer.PreferredLocale preferredLocale =  SessionInitializer.getPreferredLocale(request);
+196:             if (preferredLocale != null) currentLocale = preferredLocale.asLocale();
+197:             ResourceBundle i18nBundle = LocaleManager.lookup().getBundle("org.jboss.dashboard.login.messages", currentLocale);
+
+
+An error occurred at line: 195 in the jsp file: /login.jsp
+Duplicate local variable preferredLocale
+192:         <%
+193:             LocaleManager localeManager = LocaleManager.lookup();
+194:             Locale currentLocale =  localeManager.getCurrentLocale();
+195:             SessionInitializer.PreferredLocale preferredLocale =  SessionInitializer.getPreferredLocale(request);
+196:             if (preferredLocale != null) currentLocale = preferredLocale.asLocale();
+197:             ResourceBundle i18nBundle = LocaleManager.lookup().getBundle("org.jboss.dashboard.login.messages", currentLocale);
+198: 
+
+
+An error occurred at line: 197 in the jsp file: /login.jsp
+Duplicate local variable i18nBundle
+194:             Locale currentLocale =  localeManager.getCurrentLocale();
+195:             SessionInitializer.PreferredLocale preferredLocale =  SessionInitializer.getPreferredLocale(request);
+196:             if (preferredLocale != null) currentLocale = preferredLocale.asLocale();
+197:             ResourceBundle i18nBundle = LocaleManager.lookup().getBundle("org.jboss.dashboard.login.messages", currentLocale);
+198: 
+199:             String messageKey = (String) request.getSession().getAttribute("login.message");
+200:             if (messageKey == null) messageKey = "login.hint";
+
+
+An error occurred at line: 199 in the jsp file: /login.jsp
+Duplicate local variable messageKey
+196:             if (preferredLocale != null) currentLocale = preferredLocale.asLocale();
+197:             ResourceBundle i18nBundle = LocaleManager.lookup().getBundle("org.jboss.dashboard.login.messages", currentLocale);
+198: 
+199:             String messageKey = (String) request.getSession().getAttribute("login.message");
+200:             if (messageKey == null) messageKey = "login.hint";
+201:         %>
+202: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:663)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:743)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:410)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:265)
+	at org.apache.catalina.authenticator.AuthenticatorBase.authenticate(AuthenticatorBase.java:686)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:476)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Set 21, 2017 9:34:44 AM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+ADVERTÊNCIA: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: /login.jsp (line: 24, column: 1) Page directive: illegal to have multiple occurrences of 'contentType' with different values (old: text/html; charset=ISO-8859-1, new: text/html)
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:443)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:237)
+	at org.apache.jasper.compiler.Validator$DirectiveVisitor.visit(Validator.java:135)
+	at org.apache.jasper.compiler.Node$PageDirective.accept(Node.java:589)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2392)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2444)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2450)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:474)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2392)
+	at org.apache.jasper.compiler.Validator.validateDirectives(Validator.java:1805)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:196)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:663)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:743)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:410)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:265)
+	at org.apache.catalina.authenticator.AuthenticatorBase.authenticate(AuthenticatorBase.java:686)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:476)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Set 21, 2017 9:34:50 AM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+ADVERTÊNCIA: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: /login.jsp (line: 24, column: 1) Page directive: illegal to have multiple occurrences of 'contentType' with different values (old: text/html; charset=ISO-8859-1, new: text/html)
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:443)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:237)
+	at org.apache.jasper.compiler.Validator$DirectiveVisitor.visit(Validator.java:135)
+	at org.apache.jasper.compiler.Node$PageDirective.accept(Node.java:589)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2392)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2444)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2450)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:474)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2392)
+	at org.apache.jasper.compiler.Validator.validateDirectives(Validator.java:1805)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:196)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:663)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:743)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:410)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:265)
+	at org.apache.catalina.authenticator.AuthenticatorBase.authenticate(AuthenticatorBase.java:686)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:476)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Set 21, 2017 9:56:25 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user ""
+Set 21, 2017 9:56:26 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 9:56:26 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 9:56:26 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 9:56:26 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 9:56:26 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Set 21, 2017 9:56:27 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "manager"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc/totvsDS"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc/totvsDS"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc/totvsDS"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc/totvsDS"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc/totvsDS"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc/totvsDS"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "jdbc"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvsDS"
+Set 21, 2017 9:56:28 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvsDS"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvsDS"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvsDS"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvsDS"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvsDS"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tcc8"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tcc8"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tcc8"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tcc8"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tcc8"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tcc8"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvs"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvs"
+Set 21, 2017 9:56:29 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvs"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvs"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvs"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "totvs"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "sysprogress"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "sysprogress"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "sysprogress"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "sysprogress"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "sysprogress"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "sysprogress"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "client"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "client"
+Set 21, 2017 9:56:30 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "client"
+Set 21, 2017 9:56:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "client"
+Set 21, 2017 9:56:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "client"
+Set 21, 2017 9:56:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "client"
+Set 21, 2017 9:56:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "super"
+Set 21, 2017 9:56:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "super"
+Set 21, 2017 9:56:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "super"
+Set 21, 2017 9:56:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "super"
+Set 21, 2017 9:56:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "super"
+Set 21, 2017 9:56:31 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "super"
+Set 21, 2017 11:35:26 AM org.apache.catalina.startup.HostConfig reload
+INFORMAÇÕES: Reloading context [/dashbuilder]
+Set 21, 2017 11:35:26 AM org.apache.catalina.core.StandardContext reload
+INFORMAÇÕES: Reloading Context with name [/dashbuilder] has started
+Set 21, 2017 11:35:26 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 4 instance(s) to be deallocated for Servlet [Controller]
+Set 21, 2017 11:35:27 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 4 instance(s) to be deallocated for Servlet [Controller]
+Set 21, 2017 11:35:28 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 4 instance(s) to be deallocated for Servlet [Controller]
+Set 21, 2017 11:35:28 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 7 instance(s) to be deallocated for Servlet [jsp]
+Set 21, 2017 11:35:29 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 7 instance(s) to be deallocated for Servlet [jsp]
+Set 21, 2017 11:35:30 AM org.apache.catalina.core.StandardWrapper unload
+INFORMAÇÕES: Waiting for 7 instance(s) to be deallocated for Servlet [jsp]
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/dashbuilder] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dashbuilder] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dashbuilder] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dashbuilder] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dashbuilder] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dashbuilder] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dashbuilder] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3db74017]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor@49d0c5a8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2960be74]) and a value of type [org.jboss.dashboard.ui.NavigationManager] (value [org.jboss.dashboard.ui.NavigationManager@e77c6e5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@59a2ebce]) and a value of type [org.jboss.dashboard.ui.components.DashboardHandler] (value [org.jboss.dashboard.ui.components.DashboardHandler@57274f5b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@55cb0c10]) and a value of type [org.jboss.weld.servlet.WeldListener.Counter] (value [org.jboss.weld.servlet.WeldListener$Counter@5851a71]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@658af38b]) and a value of type [org.jboss.dashboard.ui.controller.RequestProcessor] (value [org.jboss.dashboard.ui.controller.RequestProcessor@57b5ec2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@668a155d]) and a value of type [org.jboss.dashboard.profiler.ThreadProfile] (value [org.jboss.dashboard.profiler.ThreadProfile@7380c142]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@a100f4c]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@4b4c26f9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@245c4bbd]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor@277077f1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@48d28371]) and a value of type [org.jboss.dashboard.profiler.Profiler] (value [org.jboss.dashboard.profiler.Profiler@74b39510]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@39ff894b]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator@378eb8ac]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7afe40b2]) and a value of type [java.util.LinkedList] (value [[org.jboss.weld.context.cache.RequestScopedBeanCache$1@4a49a533, org.jboss.weld.context.cache.RequestScopedBeanCache$1@28fcdd5f, org.jboss.weld.context.cache.RequestScopedBeanCache$1@71299cfe, org.jboss.weld.context.cache.RequestScopedBeanCache$1@630221bc, org.jboss.weld.context.cache.RequestScopedBeanCache$1@20f4f06c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@30d4535b, org.jboss.weld.context.cache.RequestScopedBeanCache$1@43ac9468, org.jboss.weld.context.cache.RequestScopedBeanCache$1@77435a8d, org.jboss.weld.context.cache.RequestScopedBeanCache$1@66ee1c26, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1a7a3795, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4dd724c7, org.jboss.weld.context.cache.RequestScopedBeanCache$1@67afacbd, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3e75e179, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2d25eef8, org.jboss.weld.context.cache.RequestScopedBeanCache$1@156bf2f0, org.jboss.weld.context.cache.RequestScopedBeanCache$1@621a758c]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@371b6ca5]) and a value of type [org.jboss.dashboard.users.UserStatus] (value [org.jboss.dashboard.users.UserStatus@6979e0e6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@409c5223]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor@56d498f8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1f86ee51]) and a value of type [org.jboss.weld.context.beanstore.http.RequestBeanStore] (value [org.jboss.weld.context.beanstore.http.RequestBeanStore@53881802]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@be05626]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor@3537dee1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6709a112]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider] (value [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider@292dd997]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1285da0]) and a value of type [org.jboss.weld.context.beanstore.http.LazySessionBeanStore] (value [org.jboss.weld.context.beanstore.http.LazySessionBeanStore@11ab3f8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1d5f59]) and a value of type [org.jboss.dashboard.ui.components.ModalDialogComponent] (value [org.jboss.dashboard.ui.components.ModalDialogComponent@85ecc1e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7aac9dd]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor@5daad019]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@79444959]) and a value of type [org.jboss.dashboard.ui.controller.RequestContext] (value [org.jboss.dashboard.ui.controller.RequestContext@722bb041]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1240b5f6]) and a value of type [org.jboss.dashboard.CoreServices] (value [org.jboss.dashboard.CoreServices@566a32d6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@562fabec]) and a value of type [org.jboss.dashboard.ui.HTTPSettings] (value [org.jboss.dashboard.ui.HTTPSettings@53c03f28]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7272860c]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver] (value [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver@3cbeb887]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@59a2ebce]) and a value of type [org.jboss.dashboard.ui.components.DashboardHandler] (value [org.jboss.dashboard.ui.components.DashboardHandler@57274f5b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@55cb0c10]) and a value of type [org.jboss.weld.servlet.WeldListener.Counter] (value [org.jboss.weld.servlet.WeldListener$Counter@d44c639]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@658af38b]) and a value of type [org.jboss.dashboard.ui.controller.RequestProcessor] (value [org.jboss.dashboard.ui.controller.RequestProcessor@57b5ec2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@a100f4c]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@2dd05ff6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@39ff894b]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator@378eb8ac]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@409c5223]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor@56d498f8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7aac9dd]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor@5daad019]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1240b5f6]) and a value of type [org.jboss.dashboard.CoreServices] (value [org.jboss.dashboard.CoreServices@566a32d6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3db74017]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor@49d0c5a8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2960be74]) and a value of type [org.jboss.dashboard.ui.NavigationManager] (value [org.jboss.dashboard.ui.NavigationManager@e77c6e5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@668a155d]) and a value of type [org.jboss.dashboard.profiler.ThreadProfile] (value [org.jboss.dashboard.profiler.ThreadProfile@1e31cefd]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@245c4bbd]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor@277077f1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@48d28371]) and a value of type [org.jboss.dashboard.profiler.Profiler] (value [org.jboss.dashboard.profiler.Profiler@74b39510]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7afe40b2]) and a value of type [java.util.LinkedList] (value [[org.jboss.weld.context.cache.RequestScopedBeanCache$1@580c5387, org.jboss.weld.context.cache.RequestScopedBeanCache$1@113ff13a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7cf61fae, org.jboss.weld.context.cache.RequestScopedBeanCache$1@29a189a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@52c527cb, org.jboss.weld.context.cache.RequestScopedBeanCache$1@db7aae1, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1533a0d0, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7082c28f, org.jboss.weld.context.cache.RequestScopedBeanCache$1@18b373fe, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2d84355d, org.jboss.weld.context.cache.RequestScopedBeanCache$1@42cb8403, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3f480337, org.jboss.weld.context.cache.RequestScopedBeanCache$1@10cb3056, org.jboss.weld.context.cache.RequestScopedBeanCache$1@bd266b7, org.jboss.weld.context.cache.RequestScopedBeanCache$1@22557e71, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1ae03e53]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@371b6ca5]) and a value of type [org.jboss.dashboard.users.UserStatus] (value [org.jboss.dashboard.users.UserStatus@6979e0e6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1f86ee51]) and a value of type [org.jboss.weld.context.beanstore.http.RequestBeanStore] (value [org.jboss.weld.context.beanstore.http.RequestBeanStore@781bc8ed]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@be05626]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor@3537dee1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6709a112]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider] (value [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider@292dd997]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1285da0]) and a value of type [org.jboss.weld.context.beanstore.http.LazySessionBeanStore] (value [org.jboss.weld.context.beanstore.http.LazySessionBeanStore@68247d35]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1d5f59]) and a value of type [org.jboss.dashboard.ui.components.ModalDialogComponent] (value [org.jboss.dashboard.ui.components.ModalDialogComponent@85ecc1e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@79444959]) and a value of type [org.jboss.dashboard.ui.controller.RequestContext] (value [org.jboss.dashboard.ui.controller.RequestContext@339857fd]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@562fabec]) and a value of type [org.jboss.dashboard.ui.HTTPSettings] (value [org.jboss.dashboard.ui.HTTPSettings@53c03f28]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7272860c]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver] (value [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver@3cbeb887]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@56b8bd81]) and a value of type [org.jboss.dashboard.SecurityServices] (value [org.jboss.dashboard.SecurityServices@7aa18ca1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@417dced]) and a value of type [org.jboss.dashboard.ui.components.SectionsHandler] (value [org.jboss.dashboard.ui.components.SectionsHandler@3aa94db4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@412c8282]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ModalDialogRenderer] (value [org.jboss.dashboard.ui.controller.requestChain.ModalDialogRenderer@512c463b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@31b6f51f]) and a value of type [org.jboss.dashboard.ui.panel.dashboard.DashboardHTMLDriver] (value [org.jboss.dashboard.ui.panel.dashboard.DashboardHTMLDriver@6296dfb8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1f39db99]) and a value of type [org.jboss.dashboard.workspace.PanelsManagerImpl] (value [org.jboss.dashboard.workspace.PanelsManagerImpl@f8029d3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2739e398]) and a value of type [org.jboss.dashboard.ui.components.WorkspaceHandler] (value [org.jboss.dashboard.ui.components.WorkspaceHandler@498d2446]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@51489563]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.FreeMemoryProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.FreeMemoryProcessor@7447c045]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@12a02da7]) and a value of type [org.jboss.dashboard.ui.components.PanelsHandler] (value [org.jboss.dashboard.ui.components.PanelsHandler@5215387e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@59a2ebce]) and a value of type [org.jboss.dashboard.ui.components.DashboardHandler] (value [org.jboss.dashboard.ui.components.DashboardHandler@57274f5b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@55cb0c10]) and a value of type [org.jboss.weld.servlet.WeldListener.Counter] (value [org.jboss.weld.servlet.WeldListener$Counter@6f30024b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@658af38b]) and a value of type [org.jboss.dashboard.ui.controller.RequestProcessor] (value [org.jboss.dashboard.ui.controller.RequestProcessor@57b5ec2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@38e6c2f4]) and a value of type [org.jboss.dashboard.ui.components.URLMarkupGenerator] (value [org.jboss.dashboard.ui.components.URLMarkupGenerator@36093e5b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@a100f4c]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@3f23e5a7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@18dce414]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.RequestDispatcher] (value [org.jboss.dashboard.ui.controller.requestChain.RequestDispatcher@4e01e9cc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5f9c7816]) and a value of type [org.jboss.dashboard.ui.UIServices] (value [org.jboss.dashboard.ui.UIServices@19901d64]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@39ff894b]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator@378eb8ac]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@44799d58]) and a value of type [org.jboss.dashboard.DataProviderServices] (value [org.jboss.dashboard.DataProviderServices@c491f87]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@409c5223]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor@56d498f8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@14b4de5e]) and a value of type [org.jboss.dashboard.workspace.EnvelopesManagerImpl] (value [org.jboss.dashboard.workspace.EnvelopesManagerImpl@6e72f7f0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3df3e636]) and a value of type [org.jboss.dashboard.ui.formatters.FactoryUniqueIdEncoder] (value [org.jboss.dashboard.ui.formatters.FactoryUniqueIdEncoder@578f0300]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6e0e21e8]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.RequestRenderer] (value [org.jboss.dashboard.ui.controller.requestChain.RequestRenderer@61d43eca]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@356671f3]) and a value of type [org.jboss.dashboard.ui.components.js.JSIncluder] (value [org.jboss.dashboard.ui.components.js.JSIncluder@58c323e8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@736a81de]) and a value of type [org.jboss.dashboard.ui.config.TreeShortcutHandler] (value [org.jboss.dashboard.ui.config.TreeShortcutHandler@55745104]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@47730970]) and a value of type [org.jboss.dashboard.command.TemplateProcessorImpl] (value [org.jboss.dashboard.command.TemplateProcessorImpl@5170bcb5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@407538d8]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.SessionInitializer] (value [org.jboss.dashboard.ui.controller.requestChain.SessionInitializer@4fe70df7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4a45fc1c]) and a value of type [org.jboss.dashboard.ui.components.LogoutComponent] (value [org.jboss.dashboard.ui.components.LogoutComponent@38aab85c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7aac9dd]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor@5daad019]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1240b5f6]) and a value of type [org.jboss.dashboard.CoreServices] (value [org.jboss.dashboard.CoreServices@566a32d6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@502dbd14]) and a value of type [org.jboss.dashboard.ui.resources.ResourceManagerImpl] (value [org.jboss.dashboard.ui.resources.ResourceManagerImpl@6ad8952b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@312970da]) and a value of type [org.jboss.dashboard.ui.components.BeanDispatcher] (value [org.jboss.dashboard.ui.components.BeanDispatcher@17b0116d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@28481741]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.KPIProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.KPIProcessor@14eec110]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@46c50c2c]) and a value of type [org.jboss.dashboard.workspace.WorkspacesManager] (value [org.jboss.dashboard.workspace.WorkspacesManager@32a24100]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a5980f8]) and a value of type [org.jboss.dashboard.Application] (value [org.jboss.dashboard.Application@4a2237b5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@c777219]) and a value of type [org.jboss.dashboard.ui.formatters.ModalDialogFormatter] (value [org.jboss.dashboard.ui.formatters.ModalDialogFormatter@75e3cdb3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3db74017]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor@49d0c5a8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3ed5df3c]) and a value of type [org.jboss.dashboard.security.DefaultAccessController] (value [org.jboss.dashboard.security.DefaultAccessController@4b32fc5e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@56a5e4]) and a value of type [org.jboss.dashboard.ui.UIBeanLocator] (value [org.jboss.dashboard.ui.UIBeanLocator@38a51be8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5fcb3965]) and a value of type [org.jboss.dashboard.workspace.LayoutsManagerImpl] (value [org.jboss.dashboard.workspace.LayoutsManagerImpl@17254705]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2960be74]) and a value of type [org.jboss.dashboard.ui.NavigationManager] (value [org.jboss.dashboard.ui.NavigationManager@e77c6e5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1059a522]) and a value of type [org.jboss.dashboard.ui.panel.dashboard.DashboardFilterDriver] (value [org.jboss.dashboard.ui.panel.dashboard.DashboardFilterDriver@6d686390]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6060bb0d]) and a value of type [org.jboss.dashboard.workspace.SkinsManagerImpl] (value [org.jboss.dashboard.workspace.SkinsManagerImpl@6e9883e9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5efc6eb8]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.FriendlyUrlProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.FriendlyUrlProcessor@ec922c0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@668a155d]) and a value of type [org.jboss.dashboard.profiler.ThreadProfile] (value [org.jboss.dashboard.profiler.ThreadProfile@370872d5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bab1a2d]) and a value of type [org.jboss.dashboard.ui.UISettings] (value [org.jboss.dashboard.ui.UISettings@e438657]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7328c111]) and a value of type [org.jboss.dashboard.security.SecurityCache] (value [org.jboss.dashboard.security.SecurityCache@789b7e27]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2877704d]) and a value of type [org.jboss.dashboard.ui.panel.AjaxRefreshManager] (value [org.jboss.dashboard.ui.panel.AjaxRefreshManager@396de3fc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@245c4bbd]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor@277077f1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@48d28371]) and a value of type [org.jboss.dashboard.profiler.Profiler] (value [org.jboss.dashboard.profiler.Profiler@74b39510]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5d92d2d8]) and a value of type [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (value [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl@525092e6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@27dc6442]) and a value of type [org.jboss.dashboard.ui.taglib.resource.DefaultStaticImageResolver] (value [org.jboss.dashboard.ui.taglib.resource.DefaultStaticImageResolver@763a3d7f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7afe40b2]) and a value of type [java.util.LinkedList] (value [[org.jboss.weld.context.cache.RequestScopedBeanCache$1@699b997c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6679d20e, org.jboss.weld.context.cache.RequestScopedBeanCache$1@47cdc9b1, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1774a84b, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6bd4dff4, org.jboss.weld.context.cache.RequestScopedBeanCache$1@64bb437a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@424b3240, org.jboss.weld.context.cache.RequestScopedBeanCache$1@56d029c0, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7c6528c6, org.jboss.weld.context.cache.RequestScopedBeanCache$1@55581ef7, org.jboss.weld.context.cache.RequestScopedBeanCache$1@c5915e7, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2cacf706, org.jboss.weld.context.cache.RequestScopedBeanCache$1@f8dc1d4, org.jboss.weld.context.cache.RequestScopedBeanCache$1@23b04d46, org.jboss.weld.context.cache.RequestScopedBeanCache$1@ba140f8, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7b05fbf, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4c5df88a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2d685331, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1c2dcd41, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2fe74db, org.jboss.weld.context.cache.RequestScopedBeanCache$1@fa9d766, org.jboss.weld.context.cache.RequestScopedBeanCache$1@577c7192, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2b04551d, org.jboss.weld.context.cache.RequestScopedBeanCache$1@296ff8fb, org.jboss.weld.context.cache.RequestScopedBeanCache$1@76433bfd, org.jboss.weld.context.cache.RequestScopedBeanCache$1@38179bb3, org.jboss.weld.context.cache.RequestScopedBeanCache$1@15ef218a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@682f646, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7ff67100, org.jboss.weld.context.cache.RequestScopedBeanCache$1@c74f8a2, org.jboss.weld.context.cache.RequestScopedBeanCache$1@536f5a11, org.jboss.weld.context.cache.RequestScopedBeanCache$1@33823ce2, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2b6b33d9, org.jboss.weld.context.cache.RequestScopedBeanCache$1@b1901d4, org.jboss.weld.context.cache.RequestScopedBeanCache$1@16c70afd, org.jboss.weld.context.cache.RequestScopedBeanCache$1@65a273b9, org.jboss.weld.context.cache.RequestScopedBeanCache$1@c5baad0, org.jboss.weld.context.cache.RequestScopedBeanCache$1@562b4406, org.jboss.weld.context.cache.RequestScopedBeanCache$1@327f121c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@347e062a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3dc6ca52, org.jboss.weld.context.cache.RequestScopedBeanCache$1@460ced2d, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7aa74948, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7cbc54e0, org.jboss.weld.context.cache.RequestScopedBeanCache$1@30687e1a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1c2ef5ca, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4f0aaf3a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@46763160, org.jboss.weld.context.cache.RequestScopedBeanCache$1@79a3b9c3, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6bf8ef98, org.jboss.weld.context.cache.RequestScopedBeanCache$1@243a1b89, org.jboss.weld.context.cache.RequestScopedBeanCache$1@62e5d1f3, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5e3adb3e, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6a0ff3c6, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3d4d8290, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2bb6db61, org.jboss.weld.context.cache.RequestScopedBeanCache$1@71fcd3b2, org.jboss.weld.context.cache.RequestScopedBeanCache$1@dae8595, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3cc40037, org.jboss.weld.context.cache.RequestScopedBeanCache$1@67ea3a0b, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4288dd79, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2784550f]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@60ec600d]) and a value of type [org.jboss.dashboard.ui.ResponseProcessor] (value [org.jboss.dashboard.ui.ResponseProcessor@3e962731]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@371b6ca5]) and a value of type [org.jboss.dashboard.users.UserStatus] (value [org.jboss.dashboard.users.UserStatus@6979e0e6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@73e72210]) and a value of type [org.jboss.dashboard.ui.panel.navigation.treeMenu.TreeMenuDriver] (value [org.jboss.dashboard.ui.panel.navigation.treeMenu.TreeMenuDriver@4b6d83e2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2ed911e]) and a value of type [org.jboss.dashboard.ui.components.SessionAwareLocaleManager] (value [org.jboss.dashboard.ui.components.SessionAwareLocaleManager@3ad24a12]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@43fd01e9]) and a value of type [org.jboss.dashboard.ui.components.HandlerMarkupGenerator] (value [org.jboss.dashboard.ui.components.HandlerMarkupGenerator@17888ade]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1f86ee51]) and a value of type [org.jboss.weld.context.beanstore.http.RequestBeanStore] (value [org.jboss.weld.context.beanstore.http.RequestBeanStore@55500e4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@be05626]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor@3537dee1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6709a112]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider] (value [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider@292dd997]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@fad7b78]) and a value of type [org.jboss.dashboard.ui.panel.PopupPanelsHandler] (value [org.jboss.dashboard.ui.panel.PopupPanelsHandler@46850b52]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1285da0]) and a value of type [org.jboss.weld.context.beanstore.http.LazySessionBeanStore] (value [org.jboss.weld.context.beanstore.http.LazySessionBeanStore@48aa58a9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1d5f59]) and a value of type [org.jboss.dashboard.ui.components.ModalDialogComponent] (value [org.jboss.dashboard.ui.components.ModalDialogComponent@85ecc1e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@27a2e484]) and a value of type [org.jboss.dashboard.security.UIPolicy] (value [org.jboss.dashboard.security.UIPolicy@3748aa70]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3adbb6b]) and a value of type [org.jboss.dashboard.profiler.memory.MemoryProfiler] (value [org.jboss.dashboard.profiler.memory.MemoryProfiler@2eb6fb0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2ef18d4f]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.NavigationCookieProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.NavigationCookieProcessor@7474559c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@79444959]) and a value of type [org.jboss.dashboard.ui.controller.RequestContext] (value [org.jboss.dashboard.ui.controller.RequestContext@1a0b07f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@562fabec]) and a value of type [org.jboss.dashboard.ui.HTTPSettings] (value [org.jboss.dashboard.ui.HTTPSettings@53c03f28]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5ca362ae]) and a value of type [org.jboss.dashboard.ui.components.SessionContext] (value [org.jboss.dashboard.ui.components.SessionContext@6aa3bd05]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7272860c]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver] (value [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver@3cbeb887]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@56b8bd81]) and a value of type [org.jboss.dashboard.SecurityServices] (value [org.jboss.dashboard.SecurityServices@7aa18ca1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@46c50c2c]) and a value of type [org.jboss.dashboard.workspace.WorkspacesManager] (value [org.jboss.dashboard.workspace.WorkspacesManager@32a24100]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@23cec9f5]) and a value of type [org.jboss.dashboard.kpi.KPIManagerImpl] (value [org.jboss.dashboard.kpi.KPIManagerImpl@5d2d0630]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a5980f8]) and a value of type [org.jboss.dashboard.Application] (value [org.jboss.dashboard.Application@4a2237b5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@36f1691a]) and a value of type [org.jboss.dashboard.provider.DataProviderManagerImpl] (value [org.jboss.dashboard.provider.DataProviderManagerImpl@232b4624]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3db74017]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.MultipartProcessor@49d0c5a8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@31b6f51f]) and a value of type [org.jboss.dashboard.ui.panel.dashboard.DashboardHTMLDriver] (value [org.jboss.dashboard.ui.panel.dashboard.DashboardHTMLDriver@6296dfb8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1f39db99]) and a value of type [org.jboss.dashboard.workspace.PanelsManagerImpl] (value [org.jboss.dashboard.workspace.PanelsManagerImpl@f8029d3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5fcb3965]) and a value of type [org.jboss.dashboard.workspace.LayoutsManagerImpl] (value [org.jboss.dashboard.workspace.LayoutsManagerImpl@17254705]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2960be74]) and a value of type [org.jboss.dashboard.ui.NavigationManager] (value [org.jboss.dashboard.ui.NavigationManager@e77c6e5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1059a522]) and a value of type [org.jboss.dashboard.ui.panel.dashboard.DashboardFilterDriver] (value [org.jboss.dashboard.ui.panel.dashboard.DashboardFilterDriver@6d686390]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6e09f785]) and a value of type [org.jboss.dashboard.dataset.DataSetManagerImpl] (value [org.jboss.dashboard.dataset.DataSetManagerImpl@50597533]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@59a2ebce]) and a value of type [org.jboss.dashboard.ui.components.DashboardHandler] (value [org.jboss.dashboard.ui.components.DashboardHandler@57274f5b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@55cb0c10]) and a value of type [org.jboss.weld.servlet.WeldListener.Counter] (value [org.jboss.weld.servlet.WeldListener$Counter@211d907b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@658af38b]) and a value of type [org.jboss.dashboard.ui.controller.RequestProcessor] (value [org.jboss.dashboard.ui.controller.RequestProcessor@57b5ec2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@668a155d]) and a value of type [org.jboss.dashboard.profiler.ThreadProfile] (value [org.jboss.dashboard.profiler.ThreadProfile@1bf88c39]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@a100f4c]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@486aee33]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7328c111]) and a value of type [org.jboss.dashboard.security.SecurityCache] (value [org.jboss.dashboard.security.SecurityCache@789b7e27]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2877704d]) and a value of type [org.jboss.dashboard.ui.panel.AjaxRefreshManager] (value [org.jboss.dashboard.ui.panel.AjaxRefreshManager@5abe0087]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@245c4bbd]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.HttpSSOProcessor@277077f1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5f9c7816]) and a value of type [org.jboss.dashboard.ui.UIServices] (value [org.jboss.dashboard.ui.UIServices@19901d64]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@48d28371]) and a value of type [org.jboss.dashboard.profiler.Profiler] (value [org.jboss.dashboard.profiler.Profiler@74b39510]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7014cd9b]) and a value of type [org.jboss.dashboard.DataDisplayerServices] (value [org.jboss.dashboard.DataDisplayerServices@65c6b499]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5d92d2d8]) and a value of type [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (value [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl@525092e6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@39ff894b]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenGenerator@378eb8ac]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7afe40b2]) and a value of type [java.util.LinkedList] (value [[org.jboss.weld.context.cache.RequestScopedBeanCache$1@587add02, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6a43dbaf, org.jboss.weld.context.cache.RequestScopedBeanCache$1@d0bf4aa, org.jboss.weld.context.cache.RequestScopedBeanCache$1@bebcb97, org.jboss.weld.context.cache.RequestScopedBeanCache$1@25832c9e, org.jboss.weld.context.cache.RequestScopedBeanCache$1@46e64c4f, org.jboss.weld.context.cache.RequestScopedBeanCache$1@399bfae6, org.jboss.weld.context.cache.RequestScopedBeanCache$1@2f752f96, org.jboss.weld.context.cache.RequestScopedBeanCache$1@36873931, org.jboss.weld.context.cache.RequestScopedBeanCache$1@67bbdbee, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5e641b76, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7e471063, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6b851459, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6dfb1634, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7f6ee854, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4a572428, org.jboss.weld.context.cache.RequestScopedBeanCache$1@1f06e439, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7d716a18, org.jboss.weld.context.cache.RequestScopedBeanCache$1@20ec8dff, org.jboss.weld.context.cache.RequestScopedBeanCache$1@a5e713c, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3e5c1f75, org.jboss.weld.context.cache.RequestScopedBeanCache$1@12155a4f, org.jboss.weld.context.cache.RequestScopedBeanCache$1@37dc01cf, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4cfad9af, org.jboss.weld.context.cache.RequestScopedBeanCache$1@68e997a4, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3fe2c5cb, org.jboss.weld.context.cache.RequestScopedBeanCache$1@4127b331, org.jboss.weld.context.cache.RequestScopedBeanCache$1@15657762, org.jboss.weld.context.cache.RequestScopedBeanCache$1@3880cde7, org.jboss.weld.context.cache.RequestScopedBeanCache$1@104e15ac, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7670d790, org.jboss.weld.context.cache.RequestScopedBeanCache$1@6a586baf, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5305e4b4, org.jboss.weld.context.cache.RequestScopedBeanCache$1@27ea1001, org.jboss.weld.context.cache.RequestScopedBeanCache$1@77c0c61f, org.jboss.weld.context.cache.RequestScopedBeanCache$1@110f5aa5, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7080f63, org.jboss.weld.context.cache.RequestScopedBeanCache$1@222a3030, org.jboss.weld.context.cache.RequestScopedBeanCache$1@7fc1b0d5, org.jboss.weld.context.cache.RequestScopedBeanCache$1@540b17a, org.jboss.weld.context.cache.RequestScopedBeanCache$1@5a43c347]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@371b6ca5]) and a value of type [org.jboss.dashboard.users.UserStatus] (value [org.jboss.dashboard.users.UserStatus@6979e0e6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@409c5223]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.ResponseHeadersProcessor@56d498f8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@44799d58]) and a value of type [org.jboss.dashboard.DataProviderServices] (value [org.jboss.dashboard.DataProviderServices@c491f87]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@16c9989d]) and a value of type [org.jboss.dashboard.workspace.SectionsManagerImpl] (value [org.jboss.dashboard.workspace.SectionsManagerImpl@d42771b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2ed911e]) and a value of type [org.jboss.dashboard.ui.components.SessionAwareLocaleManager] (value [org.jboss.dashboard.ui.components.SessionAwareLocaleManager@3ad24a12]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1f86ee51]) and a value of type [org.jboss.weld.context.beanstore.http.RequestBeanStore] (value [org.jboss.weld.context.beanstore.http.RequestBeanStore@699946a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@be05626]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.DashboardProcessor@3537dee1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4cdebe88]) and a value of type [org.jboss.dashboard.dataset.DataSetSettingsImpl] (value [org.jboss.dashboard.dataset.DataSetSettingsImpl@33aefa25]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24a8ada5]) and a value of type [org.jboss.dashboard.ui.panel.kpi.KPIDriver] (value [org.jboss.dashboard.ui.panel.kpi.KPIDriver@3e203e70]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6709a112]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider] (value [org.jboss.dashboard.database.hibernate.HibernateSessionFactoryProvider@292dd997]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@47730970]) and a value of type [org.jboss.dashboard.command.TemplateProcessorImpl] (value [org.jboss.dashboard.command.TemplateProcessorImpl@5170bcb5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1285da0]) and a value of type [org.jboss.weld.context.beanstore.http.LazySessionBeanStore] (value [org.jboss.weld.context.beanstore.http.LazySessionBeanStore@36e34aed]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1d5f59]) and a value of type [org.jboss.dashboard.ui.components.ModalDialogComponent] (value [org.jboss.dashboard.ui.components.ModalDialogComponent@85ecc1e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@44c29c2]) and a value of type [org.jboss.dashboard.profiler.memory.SizeEstimations] (value [org.jboss.dashboard.profiler.memory.SizeEstimations@244981c2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@27a2e484]) and a value of type [org.jboss.dashboard.security.UIPolicy] (value [org.jboss.dashboard.security.UIPolicy@3748aa70]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3adbb6b]) and a value of type [org.jboss.dashboard.profiler.memory.MemoryProfiler] (value [org.jboss.dashboard.profiler.memory.MemoryProfiler@2eb6fb0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7aac9dd]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor] (value [org.jboss.dashboard.ui.controller.requestChain.CSRFTokenProcessor@5daad019]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@79444959]) and a value of type [org.jboss.dashboard.ui.controller.RequestContext] (value [org.jboss.dashboard.ui.controller.RequestContext@55e5fa2a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1240b5f6]) and a value of type [org.jboss.dashboard.CoreServices] (value [org.jboss.dashboard.CoreServices@566a32d6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@562fabec]) and a value of type [org.jboss.dashboard.ui.HTTPSettings] (value [org.jboss.dashboard.ui.HTTPSettings@53c03f28]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5ca362ae]) and a value of type [org.jboss.dashboard.ui.components.SessionContext] (value [org.jboss.dashboard.ui.components.SessionContext@6aa3bd05]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dashbuilder] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7272860c]) and a value of type [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver] (value [org.jboss.dashboard.ui.controller.requestChain.ModalDialogStatusSaver@3cbeb887]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 21, 2017 11:35:31 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/dashbuilder/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Set 21, 2017 11:35:35 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Set 21, 2017 11:35:41 AM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Set 21, 2017 11:35:41 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Set 21, 2017 11:35:41 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Set 21, 2017 11:35:41 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Set 21, 2017 11:35:41 AM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Set 21, 2017 11:35:41 AM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Set 21, 2017 11:35:45 AM org.apache.catalina.core.StandardContext reload
+INFORMAÇÕES: Reloading Context with name [/dashbuilder] is completed
+Set 21, 2017 11:36:33 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Set 21, 2017 11:36:33 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Set 21, 2017 11:36:33 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Set 21, 2017 11:36:33 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Set 21, 2017 11:36:33 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/dashbuilder] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 21, 2017 11:36:33 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Set 21, 2017 11:36:33 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Set 21, 2017 11:36:33 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Set 21, 2017 11:36:33 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Set 21, 2017 11:36:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Set 21, 2017 11:36:55 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Set 21, 2017 11:36:56 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Set 21, 2017 11:36:56 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Set 21, 2017 11:36:56 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 2918 ms
+Set 21, 2017 11:36:56 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Set 21, 2017 11:36:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Set 21, 2017 11:36:56 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dashbuilder.war
+Set 21, 2017 11:36:57 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/dashbuilder/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Set 21, 2017 11:37:03 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Set 21, 2017 11:37:11 AM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Set 21, 2017 11:37:11 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Set 21, 2017 11:37:11 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Set 21, 2017 11:37:11 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Set 21, 2017 11:37:11 AM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Set 21, 2017 11:37:11 AM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Set 21, 2017 11:37:13 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Set 21, 2017 11:37:13 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Set 21, 2017 11:37:14 AM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Set 21, 2017 11:37:14 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Set 21, 2017 11:37:14 AM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Set 21, 2017 11:37:18 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dashbuilder.war has finished in 21,625 ms
+Set 21, 2017 11:37:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Set 21, 2017 11:37:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 1,048 ms
+Set 21, 2017 11:37:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT
+Set 21, 2017 11:37:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT has finished in 74 ms
+Set 21, 2017 11:37:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Set 21, 2017 11:37:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 132 ms
+Set 21, 2017 11:37:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Set 21, 2017 11:37:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 126 ms
+Set 21, 2017 11:37:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Set 21, 2017 11:37:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 184 ms
+Set 21, 2017 11:37:20 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Set 21, 2017 11:37:20 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Set 21, 2017 11:37:20 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 23603 ms
+Set 21, 2017 11:39:08 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Set 21, 2017 6:01:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:56 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:57 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:57 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:57 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:57 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:57 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:58 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:58 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:58 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:59 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:59 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:59 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:59 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:01:59 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:00 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:01 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:01 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:01 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:01 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:01 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:02 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:02 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:02 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:02 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:02 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:02 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:03 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:04 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:04 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:04 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:04 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:04 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:05 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:05 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:05 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:05 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:05 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:05 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:06 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:06 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:06 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:06 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:06 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:06 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:07 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:08 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:08 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:08 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:08 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:08 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:08 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:09 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:09 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:09 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:09 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:09 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:10 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:10 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:10 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:10 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:10 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:10 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:11 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:11 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:11 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:11 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:11 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:11 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:12 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:13 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Set 21, 2017 6:02:13 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"

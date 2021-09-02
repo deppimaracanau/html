@@ -1,0 +1,84 @@
+[production]
+phpSettings.display_startup_errors = 0
+phpSettings.display_errors = 0
+encontro.codigo = 19
+includePaths.library = APPLICATION_PATH "/../library"
+bootstrap.path = APPLICATION_PATH "/Bootstrap.php"
+bootstrap.class = "Bootstrap"
+appnamespace = "Application"
+resources.frontController.controllerDirectory = APPLICATION_PATH "/controllers"
+resources.frontController.baseUrl = "/"
+resources.frontController.params.displayExceptions = 0
+resources.layout.layoutPath = APPLICATION_PATH "/layouts/scripts/"
+resources.modules[] = ""
+resources.frontController.moduleDirectory = APPLICATION_PATH "/modules"
+resources.view.helperPath.Zend_View_Helper = APPLICATION_PATH "/views/helpers" ;http://akrabat.com/zend-framework/view-helpers-in-modules/
+
+autoloaderNamespaces[] = "HTMLPurifier"
+autoloaderNamespaces[] = "Sige"
+
+resources.db.adapter = "PDO_PGSQL"
+resources.db.params.host     = "localhost"
+resources.db.params.port     = "5432"
+resources.db.params.dbname   = "sige"
+resources.db.params.username = "postgres"
+resources.db.params.password = "1"
+resources.db.params.charset = "utf8"
+resources.mail.transport.type = "smtp"
+resources.mail.transport.host = "smtp.gmail.com"
+;resources.mail.transport.port = "587";465
+resources.mail.transport.auth = "login"
+resources.mail.transport.username = "deppi.maracanau@gmail.com"
+resources.mail.transport.password = "deppi102030"
+resources.mail.transport.register = true ; True by default
+resources.mail.transport.ssl="tls"
+resources.mail.defaultFrom.email = "deppi.maracanau@gmail.com"
+resources.mail.defaultFrom.name = "SIC - Semana de Integracao Cientifica"
+resources.mail.defaultReplyTo.email = "deppi.maracanau@gmail.com"
+resources.mail.defaultReplyTo.name = "SIC - Semana de Integracao Cientifica"
+
+[emailmsg : production]
+email.confirmacao_inscricao = 1
+email.recuperacao_senha = 2
+email.confirmacao_submissao = 3
+email.in_charset = "UTF-8"
+email.out_charset = "ISO-8859-1"
+
+[staging : production]
+encontro.codigo = 19
+db.date.format = "MM/dd/YYYY"
+app.date.format = "dd/MM/YYYY"
+twitter.username = "comsolid"; sem "@"
+twitter.hashtags = "comsolid7"; sem "#" e separadas por ","
+slideshare.api_key = "FkEHhUS7"
+slideshare.shared_secret = "ZTtCWqpO"
+
+[testing : production]
+phpSettings.display_startup_errors = 1
+phpSettings.display_errors = 1
+
+[development : production]
+phpSettings.display_startup_errors = 1
+phpSettings.display_errors = 1
+encontro.codigo = 19
+resources.frontController.params.displayExceptions = 1
+resources.db.adapter = "PDO_PGSQL"
+resources.db.params.host     = "localhost"
+resources.db.params.port     = "5432"
+resources.db.params.dbname   = "sige"
+resources.db.params.username = "postgres"
+resources.db.params.password = "1"
+resources.db.params.charset = "utf8"
+resources.layout.layoutPath = APPLICATION_PATH "/layouts/scripts/"
+resources.mail.transport.type = "smtp"
+resources.mail.transport.host = "smtp.gmail.com"
+;resources.mail.transport.port = "587";465
+resources.mail.transport.auth = "login"
+resources.mail.transport.username = "deppi.maracanau@gmail.com"
+resources.mail.transport.password = "deppi102030"
+resources.mail.transport.register = true ; True by default
+resources.mail.transport.ssl="tls"
+resources.mail.defaultFrom.email = "deppi.maracanau@gmail.com"
+resources.mail.defaultFrom.name = "SIC - Semana de Integracao Cientifica"
+resources.mail.defaultReplyTo.email = "deppi.maracanau@gmail.com"
+resources.mail.defaultReplyTo.name = "SIC - Semana de Integração Cientifica"

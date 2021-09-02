@@ -1,0 +1,45 @@
+<?php
+$this->headLink()
+    ->appendStylesheet($this->baseUrl('css/TimeCircles.css'));
+
+$this->headScript()
+    // ->appendFile($this->baseUrl('js/jquery-1.11.3.min.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/moment-with-langs.min.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/TimeCircles.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/index/index.js'), 'text/javascript');
+?>
+
+<style>
+	#banner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+</style>
+
+<div>
+	Se você ja participou clique em
+	<a href="<?php echo $this->url(array(), 'login', true); ?>"
+      class="no-bottom"><i class="icon-signin"></i> <strong>Entrar</strong></a>. Se não clique em
+	<a href="<?php echo $this->url(array(), 'participar', true); ?>"
+      class="no-bottom"><i class="icon-hand-right"></i> <strong>Quero participar!</strong></a>
+</div>
+
+<div style="padding-top: 10px;">
+	Já se inscreveu? Então veja a <a href="<?php echo $this->url(array(), 'programacao', true); ?>"
+      class="no-bottom"><i class="icon-calendar"></i> <strong>Programação</strong></a>.
+</div>
+
+<h3 id="countdown-title">Inscrições abertas! Falta pouco para começar:</h3>
+<div id="countdown"></div>
+
+<div id="banner-now" style="display: none">
+	<h1>O evento está acontecendo!</h1>
+</div>
+<div id="banner-old" style="display: none">
+  <h1>Até a próxima edição.</h1>
+  <p>
+      <a href="<?php echo $this->url(array(), 'certificados', true); ?>">Clique aqui</a> e confira os certificados já estão disponíveis.
+  </p>
+</div>

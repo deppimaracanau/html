@@ -1,0 +1,401 @@
+ago 09, 2017 8:14:55 AM org.apache.catalina.session.StandardSession readObject
+ADVERTÊNCIA: Cannot deserialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.DashboardHandler for session 226CA83A0B0EB8C3D062E40000815D88
+ago 09, 2017 8:15:07 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextInitialized()
+ago 09, 2017 8:15:07 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextInitialized()
+ago 09, 2017 8:15:07 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1b04e33')
+ago 09, 2017 9:17:03 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session 5EE2F3F9259AC426A24DBE626FF4053C
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$4
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 9:17:03 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ErrorReportHandler for session 5EE2F3F9259AC426A24DBE626FF4053C
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$3
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 9:17:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextDestroyed()
+ago 09, 2017 9:17:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextDestroyed()
+ago 09, 2017 9:17:11 AM org.apache.catalina.session.StandardSession readObject
+ADVERTÊNCIA: Cannot deserialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session 5EE2F3F9259AC426A24DBE626FF4053C
+ago 09, 2017 9:17:19 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextInitialized()
+ago 09, 2017 9:17:19 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextInitialized()
+ago 09, 2017 9:17:19 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1a105b5')
+ago 09, 2017 11:45:42 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session F1D68EC02CD2387FF13DD27F76E3B46C
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$4
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 11:45:42 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ErrorReportHandler for session F1D68EC02CD2387FF13DD27F76E3B46C
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$3
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 11:45:42 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextDestroyed()
+ago 09, 2017 11:45:42 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextDestroyed()
+ago 09, 2017 11:45:59 AM org.apache.catalina.session.StandardSession readObject
+ADVERTÊNCIA: Cannot deserialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session F1D68EC02CD2387FF13DD27F76E3B46C
+ago 09, 2017 11:46:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextInitialized()
+ago 09, 2017 11:46:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextInitialized()
+ago 09, 2017 11:46:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@536cb2')
+ago 09, 2017 11:48:12 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.DashboardHandler for session EE3B6C98BE6C9B726274F5D24AAA2162
+java.io.NotSerializableException: org.jboss.dashboard.ui.Dashboard
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4131)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1575)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1548)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 11:48:14 AM org.apache.catalina.session.StandardSession readObject
+ADVERTÊNCIA: Cannot deserialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.DashboardHandler for session EE3B6C98BE6C9B726274F5D24AAA2162
+ago 09, 2017 11:48:27 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session 97ED4A8881A02E9284A78103EFD21B2D
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$4
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1019)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 11:48:27 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ErrorReportHandler for session 97ED4A8881A02E9284A78103EFD21B2D
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$3
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1019)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 11:48:27 AM org.apache.catalina.core.StandardContext listenerStop
+GRAVE: Exception sending context destroyed event to listener instance of class org.jboss.weld.environment.servlet.Listener
+java.lang.NoClassDefFoundError: org/jboss/weld/bootstrap/events/BeforeShutdownImpl
+	at org.jboss.weld.bootstrap.WeldBootstrap.shutdown(WeldBootstrap.java:461)
+	at org.jboss.weld.environment.servlet.Listener.contextDestroyed(Listener.java:83)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5165)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1019)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.jboss.weld.bootstrap.events.BeforeShutdownImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	... 17 more
+
+ago 09, 2017 11:49:20 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session 029F6989018E259AFBDB6047F966CF20
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$4
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 11:49:20 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ErrorReportHandler for session 029F6989018E259AFBDB6047F966CF20
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$3
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 11:49:20 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextDestroyed()
+ago 09, 2017 11:49:20 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextDestroyed()
+ago 09, 2017 11:49:33 AM org.apache.catalina.session.StandardSession readObject
+ADVERTÊNCIA: Cannot deserialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session 029F6989018E259AFBDB6047F966CF20
+ago 09, 2017 11:49:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextInitialized()
+ago 09, 2017 11:49:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextInitialized()
+ago 09, 2017 11:49:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@c8f083')
+ago 09, 2017 11:50:01 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ModalDialogComponent for session B42FACEB309BBD211125EE211923C8A4
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$4
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 11:50:01 AM org.apache.catalina.session.StandardSession writeObject
+ADVERTÊNCIA: Cannot serialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.ErrorReportHandler for session B42FACEB309BBD211125EE211923C8A4
+java.io.NotSerializableException: org.jboss.dashboard.ui.controller.ControllerServlet$3
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 09, 2017 11:50:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextDestroyed()
+ago 09, 2017 11:50:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextDestroyed()

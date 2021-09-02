@@ -1,0 +1,43 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background: #1E824C;
+	width: 100%;
+	height: 120px;
+	padding: 0px 0px 0px 25px;
+}
+
+section {
+	background: #bdc3c7;
+	width: 100%;
+	height: 470px;
+}
+
+footer {
+	background: #1E824C;
+	width: 100%;
+	height: 80px;
+}
+
+.font_tema {
+	color: white;
+	font-size: 35px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-right: 80px;
+	float: left;
+}
+
+.font_text_simples{
+	color: white;
+	font-size: 15px;
+}
+
+.imagem_section{
+	background-image: url("/img/sic.jpg");
+	background-size: 100% 470px;
+    background-repeat: no-repeat;
+}

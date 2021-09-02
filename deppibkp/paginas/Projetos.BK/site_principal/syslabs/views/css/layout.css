@@ -1,0 +1,67 @@
+/* #################### NavBar #################### */
+.barra {
+	padding: 12px 0px 12px 0px;
+	display: block;
+}
+.logo {
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+.navbar-default{
+	background: #0B610B;
+	color: white;
+}
+.navbar-brand {
+	padding: 0px 15px;
+	margin-top: 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #2EFE2E;
+}
+.dropStyle {
+	background: #0B610B;
+	color: white;
+}
+.dropStyle > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+}
+
+/* #################### Menu Lateral #################### */
+.nomeLaboratorio {
+	font-size: 30px;
+}
+.tituloLateral {
+	border-radius: 0px;
+	width: 100%;
+	text-align: left;
+	font-weight: 700;
+	font-size: 23px;
+	color: white;
+	margin-left: -21px;
+	margin-bottom: 7px;
+	background: green;
+}
+.tituloLateral:hover {
+	color: white;
+	background: green;
+}
+.botaoLateral {
+	border-radius: 0px;
+	width: 100%;
+	text-align: left;
+	margin-left: 16px;
+}
+.logoLateral {
+	height: 130px;
+}

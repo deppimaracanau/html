@@ -1,0 +1,7 @@
+.navbar .navbar-nav .nav-link:not(.btn) {
+	font-size: 1em;
+}
+
+.dropdown-menu .dropdown-item{
+	font-size: 1em;
+}

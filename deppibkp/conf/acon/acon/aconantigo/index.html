@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="icon" href="images/icone.ico" type="image/x-icon" />
+    <title>ACON - Entre Mundos!</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="css/elegant-fonts.css">
+
+    <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="top-header-bar">
+            <div class="container">
+                <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
+                    <div class="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                        <div class="header-bar-email">
+                            e-MAIL: <a href="#">acon.ifce@gmail.com</a>
+                        </div><!-- .header-bar-email -->
+
+                        <div class="header-bar-text">
+                            <p>Contato: <span>+55 (85) 98844-4394 </span></p>
+                        </div><!-- .header-bar-text -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                       <div class="donate-btn">
+                            <!-- Button trigger modal -->
+                                <!--Botão de login desativado
+                                 <button type="button" class="modeloAly" data-toggle="modal" data-target="#exampleModalCenter">
+                                  Login
+                                </button>
+                                -->
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <!--Formulario começa aqui-->
+                                        <form class="px-4 py-3" method="POST" action="htdoc/login.php"?">
+                                            <div class="form-group">
+                                              <h4 class="label1"> Endereço de Email</h4>
+                                              <input name="email" type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" required="" autofocus>
+                                            </div>
+                                            <div class="form-group">
+                                              <h4 class="label1">Senha</h4>
+                                              <input name="senha" type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" required="">
+                                            </div>
+                                            <div class="form-group">
+                                              <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                                <p class="label1">Lembre-se de mim</p>
+                                              </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-primar">Iniciar sessão</button>
+                                          </form>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="inscricao.html">Novo por aqui? Inscreva-se</a>
+                                          <a class="dropdown-item" href="#">Esqueceu a senha?</a>
+                                        <!--termina aqui-->
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                <!-- Button trigger modal -->
+                                    <!-- botão de inscrição desativado
+                                 <button type="button" class="modeloAly" data-toggle="modal" data-target="#exampleModalCenter2">
+                                  Inscrição
+                                </button>
+                                 -->
+                                 
+                                 <!-- Modal -->
+                                <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Inscreva-se</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <!--Formulario começa aqui-->
+                                        <form class="px-4 py-3" method="POST" action="htdoc/cadastro.php"?">
+                                            <div class="form-group">
+                                                <h4 class="label1">Nome</h4>
+                                                <input name="nome" class="form-control" placeholder="Nome Completo" type="text" required autofocus>
+                                            </div> <!-- form-group// -->
+                                            <div class="form-group">
+                                                <h4 class="label1">Nome Social</h4>
+                                                <input name="nome_social" class="form-control" placeholder="Nome Social" type="text" id="nome_social">
+                                            </div> <!-- form-group// -->
+                                            <div class="form-group">
+                                              <h4 class="label1"> Endereço de Email</h4>
+                                              <input name="email" type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" required="">
+                                            </div>
+                                            <div class="form-group">
+                                              <h4 class="label1">Senha</h4>
+                                              <input name="senha" type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <h4 class="label1">Escolaridade</h4>
+                                                <select name="escolaridade" id="escolaridade">
+                                                    <option value="Ensino Fundamental Incompleto">Ensino Fundamental Incompleto</option>
+                                                    <option value="Ensino Fundamental">Ensino Fundamental</option>
+                                                    <option value="Ensino Medio Incompleto">Ensino Medio Incompleto</option>
+                                                    <option value="Ensino Medio">Ensino Medio</option>
+                                                    <option value="Ensino Técnico Incompleto">Ensino Técnico Incompleto</option>
+                                                    <option value="Ensino Técnico">Ensino Técnico</option>
+                                                    <option value="Ensino Superior Incompleto">Ensino Superior Incompleto</option>
+                                                    <option value="Ensino Superior">Ensino Superior</option>
+                                                </select>
+                                            </div> <!-- form-group// -->
+                                            <div class="form-group">
+                                                <h4 class="label1">Data de Nacimento</h4>
+                                                <input name="data_nacimento" class="form-control" placeholder="Data de nacimento" type="date">
+                                            </div> <!-- form-group// -->
+                                            <div class="form-group">
+                                                <h4 class="label1">Endereço</h4>
+                                                <input name="endereco" class="form-control" placeholder="Endereço" type="text" required >
+                                            </div> <!-- form-group// -->
+                                            <div class="form-group">
+                                                <h4 class="label1">Telefone</h4>
+                                                <input name="Telefone" class="form-control" placeholder="85999999999" type="tel" minlength="11" maxlength="11" required >
+                                            </div> <!-- form-group// -->
+                                            <div class="form-group">
+                                              <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                                <p class="label1">Lembre-se de mim</p>
+                                              </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-primar">Inscreva-se</button>
+                                            <button type="reset" class="btn btn-primar">Limpar</button>
+                                          </form>
+                                          
+                                        <!--termina aqui-->
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                            
+                        </div><!-- .donate-btn -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .top-header-bar -->
+
+        <div class="nav-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="site-branding d-flex align-items-center">
+                           <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/acon.png"  width="180px" height="80px" alt="logo"></a>
+                        </div><!-- .site-branding -->
+
+                        <nav class="site-navigation d-flex justify-content-end align-items-center">
+                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                                <li class="current-menu-item"><a href="index.html">Início</a></li>
+                                <li><a href="about.html">Sobre</a></li>
+                                <li><a href="cronograma.html">Cronograma</a></li>
+                                <li><a href="atracoes.html">Atrações</a></li>
+                                <li><a href="competicoes.html">Competições</a></li>
+                                <li><a href="contact.html">Quem Somos?</a></li>
+                            </ul>
+                        </nav><!-- .site-navigation -->
+
+                        <div class="hamburger-menu d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- .hamburger-menu -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .nav-bar -->
+    </header><!-- .site-header -->
+
+    <div class="swiper-container hero-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide hero-content-wrap">
+                <img src="images/hero01.jpg" alt="">
+
+                <div class="hero-content-overlay position-absolute w-100 h-100">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
+                                <header class="entry-header">
+                                    <h1>ACON 2019</h1>
+                                    <h4>Entre Mundos!</h4>
+                                </header><!-- .entry-header -->
+
+                                <div class="entry-content mt-4">
+                                    <p>NOS DIAS 31/08 E 01/09 (Sábado e Domingo)</p>
+                                    <h5>Local:</h5>
+                                    <p>IFCE - Campus Maracanaú (Antigo CEFET - Maracanaú)</p>
+                                </div>
+
+                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
+                                    <!--Desativado
+                                    <a href="login.html" class="btn gradient-bg mr-2">Login</a>
+                                    <a href="cronograma.html" class="btn orange-border">Cronograma</a>
+                                    -->
+                                </footer>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .container -->
+                </div><!-- .hero-content-overlay -->
+            </div><!-- .hero-content-wrap -->
+
+            
+
+            
+
+            
+
+            
+
+            
+        </div><!-- .swiper-wrapper -->
+
+        <div class="pagination-wrap position-absolute w-100">
+            <div class="container">
+                <div class="swiper-container"></div>
+            </div><!-- .container -->
+        </div><!-- .pagination-wrap -->
+
+        <!-- Add Arrows -->
+        <div class="swiper-button-next flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+        </div>
+
+        <div class="swiper-button-prev flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
+        </div>
+    </div><!-- .hero-slider -->
+
+    <div class="home-page-icon-boxes">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                         <a href="competicoes.html" class="entry-title">
+                        <figure class="d-flex justify-content-center">
+                            <img src="images/TORNEIOpreto.png" alt="">
+                            <img src="images/TORNEIObranco.png" alt="">
+                        </figure>
+
+                        <header class="entry-header">
+                            <a href="competicoes.html" class="entry-title"><h3>Torneios</h3></a>
+                        </header>
+
+                        <div class="entry-content">
+                            <p>Vem participar e ficar por dentro</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                         <a href="atracoes.html" class="entry-title">
+                        <figure class="d-flex justify-content-center">
+                            <img src="images/ATRACOESpreto.png" alt="">
+                            <img src="images/ATRACOESbranco.png" alt="">
+                        </figure>
+
+                        <header class="entry-header">
+                            <a href="atracoes.html" class="entry-title"><h3>Atrações</h3></a>
+                        </header>
+    
+                        <div class="entry-content">
+                            <p>Várias atrações para adultos e crianças. Valores acessíveis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                         <a href="https://www.sympla.com.br/acon-2-edicao__559727" target="novaAba7" class="entry-title">
+                        <figure class="d-flex justify-content-center">
+                            <img src="images/INGRESSOSpreto.png" alt="">
+                            <img src="images/INGRESSOSbranco.png" alt="">
+                        </figure>
+
+                        <header class="entry-header">
+                            <a href="https://www.sympla.com.br/acon-2-edicao__559727" target="novaAba7" class="entry-title"><h3>Ingressos</h3></a>
+                        </header>
+    
+                        <div class="entry-content">
+                            <p>vem conhecer o Evento acon.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .home-page-icon-boxes -->
+
+    <div class="home-page-welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <div class="welcome-content">
+                        <header class="entry-header">
+                            <h2 class="entry-title">Seja Bem Vindo a ACON</h2>
+                        </header><!-- .entry-header -->
+
+                        <div class="entry-content mt-5">
+                            <p>A ACON – Amostra Cultural Otaku e Nerd é um evento de Cultura Pop e Geek, idealizado em 2017 por um aluno de Ciência da Computação do Instituto Federal – Campus Maracanaú, fã de animação, games, quadrinhos e tecnologia.
+
+                                Um evento realizado de Fãs para Fãs, com o objetivo de criar um espaço inovador que pretende divertir e socializar pessoas com os mesmos gostos e desejos.
+
+                                O evento promoverá shows culturais, palestras, minicursos e oficinas voltadas ao mundo geek, e visando uma nova experiência com uma abordagem técnica, educacional e inovadora dos participantes. Serão apresentados Workshops por profissionais que possibilitarão a interação com outros amantes dos temas em questão.
+
+                                ACON, um evento temático que aborda a cultura Pop oriental e ocidental, voltado para animes, desenhos animados, jogos, filmes, séries e mangás.</p>
+                        </div><!-- .entry-content -->
+
+                        <div class="entry-footer mt-5">
+                            <a href="about.html" class="btn gradient-bg mr-2" style="color:aliceblue;">Saiba mais sobre a ACON</a>
+                        </div><!-- .entry-footer -->
+                    </div><!-- .welcome-content -->
+                </div><!-- .col -->
+
+                <div class="ajustandoimagem">
+                    <img src="images/hero03.jpg" alt="INCIO">
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .home-page-icon-boxes -->
+
+    <div class="home-page-events">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="upcoming-events">
+                        <div class="section-heading">
+                            <h2 class="entry-title" style="color:black;">Novidades</h2>
+                        </div><!-- .section-heading -->
+
+                        <div class="event-wrap d-flex flex-wrap justify-content-between">
+                            <figure class="m-0">
+                               <a href="atracoes.html"><img src="images/datasacon.jpg" alt=""></a> 
+                            </figure>
+
+                            <div class="event-content-wrap">
+                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <h3 class="entry-title w-100 m-0"><a href="atracoes.html">Não esqueça da datas</a></h3>
+
+                                 
+
+                                    <div class="cats-links">
+                                        <a href="atracoes.html">Atrações</a>
+                                    </div><!-- .cats-links -->
+                                </header><!-- .entry-header -->
+
+                                <div class="entry-content">
+                                    <p class="m-0">Confira Nossas Atrações Incrivéis</p>
+                                </div><!-- .entry-content -->
+
+                             
+                            </div><!-- .event-content-wrap -->
+                        </div><!-- .event-wrap -->
+
+                        <div class="event-wrap d-flex flex-wrap justify-content-between">
+                            <figure class="m-0">
+                                <a href="cronograma.html" ><img src="images/hogwartstore.jpg" alt=""></a>
+                            </figure>
+
+                            <div class="event-content-wrap">
+                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <h3 class="entry-title w-100 m-0"><a href="cronograma.html">Conheça nossa Programação </a></h3>
+
+                                   
+
+                                    <div class="cats-links">
+                                        <a href="cronograma.html">Cronograma</a>
+                                    </div><!-- .cats-links -->
+                                </header><!-- .entry-header -->
+
+                                <div class="entry-content">
+                                    <p class="m-0">Não perca tempo e confira nosso Cronograma</p>
+                                </div><!-- .entry-content -->
+
+                             
+                            </div><!-- .event-content-wrap -->
+                        </div><!-- .event-wrap -->
+
+                        <div class="event-wrap d-flex flex-wrap justify-content-between">
+                            <figure class="m-0">
+                               <a href="contact.html"> <img src="images/contruindo.jpg" alt=""></a>
+                            </figure>
+
+                            <div class="event-content-wrap">
+                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <h3 class="entry-title w-100 m-0"><a href="contact.html">Estamos a todo vapor</a></h3>
+
+                                    
+
+                                    <div class="cats-links">
+                                        <a href="contact.html">Quem somos?</a>
+                                    </div><!-- .cats-links -->
+                                </header><!-- .entry-header -->
+                                <div class="entry-content">
+                                    <p class="m-0">Conheça nossa Toda Equipe de Produção</p>
+                                </div><!-- .entry-content -->
+                        
+                       
+                            </div><!-- .event-content-wrap -->
+                        </div><!-- .event-wrap -->
+                    </div><!-- .upcoming-events -->
+                </div><!-- .col -->
+
+                <div class="col-12 col-lg-6">
+                    <div class="featured-cause">
+                        <div  class="section-heading">
+                            <h2 class="entry-title" style="color:black;">Campanha ACON</h2>
+                        </div><!-- .section-heading -->
+
+                        <div  class="cause-wrap d-flex flex-wrap justify-content-between">
+                            <figure class="m-0">
+                                <img src="images/cartese.jpg" alt="">
+                            </figure>
+
+                            <div class="cause-content-wrap">
+                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <h3 class="entry-title w-100 m-0" style="color:black;">Campanha ACON</h3>
+
+                                    
+
+                                    
+                                </header><!-- .entry-header -->
+
+                                <div class="entry-content">
+                                    <p class="m-0" style="color:black;">Nos ajude a crescer e fazer muito mais nesta segunda edição da acon</p>
+                                </div><!-- .entry-content -->
+
+                                <div class="entry-footer mt-5">
+                                    <a href="https://www.catarse.me/acon_ifce" target="novaAba8" class="btn gradient-bg mr-2" style="color:black;">Contribuir</a>
+                                </div><!-- .entry-footer -->
+                            </div><!-- .cause-content-wrap -->
+
+                           <!-- <div class="fund-raised w-100">
+                                <div class="featured-fund-raised-bar barfiller">
+                                    <div class="tipWrap">
+                                        <span class="tip"></span>
+                                    </div> .tipWrap -->
+
+                                    <span class="fill" data-percentage="83"></span>
+                                </div><!-- .fund-raised-bar -->
+
+                               <!-- <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
+                                    <div class="fund-raised-total mt-4">
+                                        Raised: $56 880
+                                    </div> .fund-raised-total -->
+
+                                   <!-- <div class="fund-raised-goal mt-4">
+                                        Goal: $70 000
+                                    </div> .fund-raised-goal -->
+                                </div><!-- .fund-raised-details -->
+                            </div><!-- .fund-raised -->
+                        </div><!-- .cause-wrap -->
+                    </div><!-- .featured-cause -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .home-page-events -->
+
+    <div class="our-causes">
+        <div class="container">
+            <div class="row">
+                <div class="coL-12">
+                    <div class="section-heading">
+                        <h2 class="entry-title">Parceiros</h2>
+                    </div><!-- .section-heading -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper-container causes-slider">
+                        <div class="swiper-wrapper">
+                            <!-- =========================== -->
+                            <div class="swiper-slide">
+                                <div class="cause-wrap">
+                                    <figure class="m-0">
+                                        <img src="images/parceiro.jpg" alt="">
+
+                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                                            <a href="https://www.instagram.com/aladosdesign/" target="novaAba9" class="btn gradient-bg mr-2">Visite seu Instagram</a>
+                                        </div><!-- .figure-overlay -->
+                                    </figure>
+
+                                    <div class="cause-content-wrap">
+                                        <header class="entry-header d-flex flex-wrap align-items-center">
+                                            <h3 class="entry-title w-100 m-0"><a href="https://www.instagram.com/aladosdesign/">@aladosdesingn</a></h3>
+                                        </header><!-- .entry-header -->
+
+                                       <!-- <div class="entry-content">
+                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
+                                        </div> .entry-content -->
+
+                                        <div class="fund-raised w-100">
+                                            <!--<div class="fund-raised-bar-1 barfiller">
+                                                <div class="tipWrap">
+                                                    <span class="tip"></span>
+                                                </div> .tipWrap
+
+                                                <span class="fill" data-percentage="83"></span>
+                                            </div>.fund-raised-bar -->
+
+                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
+                                                <!--<div class="fund-raised-total mt-4">
+                                                    Raised: $56 880
+                                                </div> .fund-raised-total -->
+
+                                                <!--<div class="fund-raised-goal mt-4">
+                                                    Goal: $70 000
+                                                </div> .fund-raised-goal -->
+                                            </div><!-- .fund-raised-details -->
+                                        </div><!-- .fund-raised -->
+                                    </div><!-- .cause-content-wrap -->
+                                </div><!-- .cause-wrap -->
+                            </div><!-- .swiper-slide -->
+                            <!-- =========================== -->
+                            <!-- =========================== -->
+                            <div class="swiper-slide">
+                                <div class="cause-wrap">
+                                    <figure class="m-0">
+                                        <img style="height: 356px" src="images/parceiro2.jpg" alt="">
+
+                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                                            <a href="https://www.instagram.com/ifcemaracanauoficial/" target="novaAba6" class="btn gradient-bg mr-2">Visite a página</a>
+                                        </div><!-- .figure-overlay -->
+                                    </figure>
+
+                                    <div class="cause-content-wrap">
+                                        <header class="entry-header d-flex flex-wrap align-items-center">
+                                            <h3 class="entry-title w-100 m-0"><a href="https://www.instagram.com/ifcemaracanauoficial/">@ifcemaracanau</a></h3>
+                                        </header><!-- .entry-header -->
+
+                                       <!-- <div class="entry-content">
+                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
+                                        </div> .entry-content -->
+
+                                        <div class="fund-raised w-100">
+                                            <!--<div class="fund-raised-bar-1 barfiller">
+                                                <div class="tipWrap">
+                                                    <span class="tip"></span>
+                                                </div> .tipWrap
+
+                                                <span class="fill" data-percentage="83"></span>
+                                            </div>.fund-raised-bar -->
+
+                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
+                                                <!--<div class="fund-raised-total mt-4">
+                                                    Raised: $56 880
+                                                </div> .fund-raised-total -->
+
+                                                <!--<div class="fund-raised-goal mt-4">
+                                                    Goal: $70 000
+                                                </div> .fund-raised-goal -->
+                                            </div><!-- .fund-raised-details -->
+                                        </div><!-- .fund-raised -->
+                                    </div><!-- .cause-content-wrap -->
+                                </div><!-- .cause-wrap -->
+                            </div><!-- .swiper-slide -->
+                            <!-- =========================== -->
+                           
+                        </div><!-- .swiper-wrapper -->
+
+                    </div><!-- .swiper-container -->
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next flex justify-content-center align-items-center">
+                        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+                    </div>
+
+                    <div class="swiper-button-prev flex justify-content-center align-items-center">
+                        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
+                    </div>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .our-causes -->
+
+    <div class="home-page-limestone">
+        <div class="container">
+            <!--===============================JavaScript Countdown Timer ========================================-->
+            <style type="text/css">
+                @font-face {
+                  font-family: DS-DIGI;
+                  src: url(ds_digital/DS-DIGII.TTF);
+                }
+                .DS-DIGI{
+                    font-family: DS-DIGI;
+                }
+                #demo{
+                    font-size: 50px;
+                }
+            </style>
+            <center class="DS-DIGI">
+                <h1>Contagem Regressiva</h1>
+                <h2 id="demo"></h2>
+
+                <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("aug 31, 2019 06:00:00").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+
+                  // Get today's date and time
+                  var now = new Date().getTime();
+                    
+                  // Find the distance between now and the count down date
+                  var distance = countDownDate - now;
+                    
+                  // Time calculations for days, hours, minutes and seconds
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                  // Output the result in an element with id="demo"
+                  document.getElementById("demo").innerHTML = days + " dias " + hours + " horas "
+                  + minutes + " minutos " + seconds + " segundos ";
+                    
+                  // If the count down is over, write some text 
+                  if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "ACON 2019 31 de agosto e 1 de setembro.";
+                  }
+                }, 1000);
+                </script>
+            </center>    
+            <!--=============================== /JavaScript Countdown Timer========================================-->
+        </div><!-- .container -->
+    </div><!-- .our-causes -->
+
+    <footer class="site-footer">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="foot-about">
+                            <h2><a class="foot-logo" target="novaAba" href="index.html"><img src="images/LogoEntreMundos.png" height="150" alt=""></a></h2>
+                            <h2><a class="foot-logo" target="novaAba6" href="https://ifce.edu.br/maracanau"><img src="images/LOGOdoIF.png" height="130" alt=""></a></h2>
+
+
+                            <ul class="d-flex flex-wrap align-items-center">
+                                
+                                
+                                <!--
+                                   
+                                    <a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                -->
+
+                                <li><a target="_back1" href="https://www.facebook.com/ACON.IFCE/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a target="_back2" href="https://www.youtube.com/channel/UCIkmENGKFNKRz18T2_iNEtg"><i class="fa fa-youtube"></i></a></li>
+                                <li><a target="_back3" href="https://www.instagram.com/acon_ifce/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a target="_back4"  href="https://br.pinterest.com/aamostraculturalotakuenerd/"><i class="fa fa-pinterest-p"></i></a>
+                                    
+                            </ul>
+                        </div><!-- .foot-about -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                        <h2>Páginas</h2>
+
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="about.html">Sobre</a></li>
+                            <li><a href="cronograma.html">Cronograma</a></li>
+                            <li><a href="atracoes.html">Atrações</a></li>
+                            <li><a href="competicoes.html">Competições</a></li>
+                            <li><a href="contact.html">Quem Somos?</a></li>
+                            <!--<li><a href="login.html">Login</a></li>-->
+                        </ul>
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                        <div class="foot-latest-news">
+                           <!-- <h2>Latest News</h2>
+
+                            <ul>
+                                <li>
+                                    <h3><a href="#">A new cause to help</a></h3>
+                                    <div class="posted-date">MArch 12, 2018</div>
+                                </li>
+
+                                <li>
+                                    <h3><a href="#">We love to help people</a></h3>
+                                    <div class="posted-date">MArch 12, 2018</div>
+                                </li>
+
+                                <li>
+                                    <h3><a href="#">The new ideas for helping</a></h3>
+                                    <div class="posted-date">MArch 12, 2018</div>
+                                </li>
+                            </ul>-->
+                        </div><!-- .foot-latest-news -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                        <div class="foot-contact">
+                            <h2>Contato</h2>
+
+                            <ul>
+                                <li><i class="fa fa-phone"></i><span>(85) 98844-4394</span></li>
+                                <li><i class="fa fa-envelope"></i><span>acon.ifce@gmail.com</span></li>
+                                <li><i class="fa fa-map-marker"></i><span> IFCE Maracanaú - Av. Parque Central - Distrito Industrial, Maracanaú - CE, 61919-140</span></li>
+                            </ul>
+                        </div><!-- .foot-contact -->
+
+
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .footer-widgets -->
+
+        <div class="footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="m-0">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>
+                                document.write(new Date().getFullYear());
+                            </script> Equipe de Desenvolvimento ACON</p>
+                    </div><!-- .col-12 -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .footer-bar -->
+    </footer><!-- .site-footer -->
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/jquery.barfiller.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<?php
+   $this->headLink()->appendStylesheet($this->baseUrl('css/screen.css'));
+
+   echo $this->partial('menu.phtml');
+?>
+
+<h3>Programação parcial</h3><hr/>
+
+<?php
+$data_atual = null;
+if (! empty($this->lista)):
+   foreach ($this->lista as $item): ?>
+<div class="container">
+   <div class="span-2">
+      <?php $date = new Zend_Date($item['data']); ?>
+      <div>
+         <p><?php echo $date->toString('dd') ?>/<?php echo $date->toString('MMM') ?></p>
+      </div>
+   </div>
+   <div class="span-18">
+      <div class="acc-evento">
+         <div class="header3">
+            <?php echo $item['nome_tipo_evento'] ?>: <?php echo $item['nome_evento'] ?>
+            <?php if (! empty($item['descricao'])) : ?>
+            (<?php echo $item['descricao'] ?>)
+            <?php endif; ?>
+            <?php if ($item['validada']): ?>
+            <i class="icon-thumbs-up-alt right" title="Validada"></i>
+            <?php else: ?>
+            <i class="icon-thumbs-down-alt right" title="Não Validada"></i>
+            <?php endif; ?>
+         </div>
+         <div>
+            <div>
+               Sala
+               <?php if($item['nome_sala'] == null): ?>
+                  <span class="quiet">[Não informada]</span>
+               <?php else: ?>
+                  <?php echo $item['nome_sala']?>
+               <?php endif; ?>
+               
+               <?php if($item['hora_inicio'] == null): ?>
+                  <span class="quiet">[Horário não definido]</span>
+               <?php else: ?>
+                  de <?php echo $item['hora_inicio'] ?> - <?php echo $item['hora_fim'] ?>
+               <?php endif; ?>
+            </div>
+            <hr/>
+            <?php
+            if (! empty($item['twitter'])) {
+               $id = $item['twitter'];
+            } else {
+               $id = $item['id_pessoa'];
+            }
+            ?>
+            <div>
+               por <a href="<?php echo $this->url(array('id' => $id),
+                    'ver', true) ?>" target="blank"><?php echo $item['nome'] ?></a>
+               <?php if ($item['outros'] == 1): ?>
+                  e outro.
+               <?php elseif ($item['outros'] > 1): ?>
+                  e <?php echo $item['outros'] ?> outros.
+               <?php endif; ?>
+            </div>
+            <p><?php echo $item['resumo'] ?></p>
+         </div>
+      </div>
+   </div>
+</div>
+<hr style="border: 1px dotted #666;"/>
+<?php
+   endforeach;
+endif;
+?>

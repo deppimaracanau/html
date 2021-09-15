@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="874c78e2-bdea-4033-9cb8-e156b707f444" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Projetos/semic" beforeDir="false" afterPath="$PROJECT_DIR$/../Projetos/semic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deppibkp/paginas/Projetos.BK/paginas/seci" beforeDir="false" afterPath="$PROJECT_DIR$/../deppibkp/paginas/Projetos.BK/paginas/seci" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deppibkp/paginas/Projetos.BK/paginas/semanq" beforeDir="false" afterPath="$PROJECT_DIR$/../deppibkp/paginas/Projetos.BK/paginas/semanq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deppibkp/paginas/paginas_web/seci" beforeDir="false" afterPath="$PROJECT_DIR$/../deppibkp/paginas/paginas_web/seci" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deppibkp/paginas/paginas_web/semanq" beforeDir="false" afterPath="$PROJECT_DIR$/../deppibkp/paginas/paginas_web/semanq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123255.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123255.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123404.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123419.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123419.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123614.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123614.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123619.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123619.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123655.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123655.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123703.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123703.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123734.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123734.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123739.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726123739.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726130451.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726130451.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726130456.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726130456.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726130503.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726130503.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131020.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131020.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131048.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131048.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131102.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131102.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131103.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131103.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131129.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131129.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131131.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131131.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131132.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131132.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131221.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131221.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131307.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131307.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131319.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210726131319.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210727091348.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/bd.class_20210727091348.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727110434.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727110434.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727110833.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727110833.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727110907.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727110907.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727110914.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727110914.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111056.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111056.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111224.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111224.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111310.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111310.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111329.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111329.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111355.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111355.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111404.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111537.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111537.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111725.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727111725.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112154.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112154.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112204.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112204.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112236.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112236.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112249.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112249.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112350.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112350.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112414.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112414.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112427.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112427.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112439.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112439.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112440.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112440.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112445.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112445.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112458.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727112458.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727124534.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727124534.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727125404.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/cadastrarEvento_20210727125404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727112030.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727112030.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727112824.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727112824.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727114444.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727114444.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727114531.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727114531.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727114640.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727114640.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727114722.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727114722.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727115520.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727115520.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727120714.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/carregaSolicitacao_20210727120714.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113009.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113009.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113119.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113119.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113432.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113432.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113610.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113610.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113755.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727113755.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727114022.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727114022.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727114043.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727114043.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727114919.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727114919.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727115455.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727115455.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727115510.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/conteudoEven_20210727115510.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727114849.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727114849.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115009.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115009.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115057.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115057.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115122.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115122.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115252.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115252.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115613.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteEven_20210727115613.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210727115154.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210727115154.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210727115242.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210727115242.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210727115303.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210727115303.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210727115603.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/deleteSolicit_20210727115603.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727115447.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727115447.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727115912.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727115912.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727120015.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727120015.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727120021.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727120021.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727120125.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/gerador_20210727120125.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727093804.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727093804.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094614.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094614.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094717.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094717.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094816.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094816.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094823.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094823.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094907.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094907.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094944.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727094944.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727095556.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727095556.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727095621.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727095621.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727095843.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727095843.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727100602.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727100602.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727100609.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727100609.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727100617.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727100617.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101043.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101043.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101100.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101100.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101452.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101452.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101625.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101625.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101638.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101638.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101644.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101644.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101737.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727101737.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102310.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102310.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102415.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102415.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102439.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102439.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102517.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102517.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102701.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102701.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102841.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727102841.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727103532.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727103532.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727103555.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727103555.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727103559.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727103559.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727104107.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727104107.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727104307.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727104307.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727104313.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727104313.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727104546.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727104546.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727110033.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727110033.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727110156.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727110156.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124223.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124223.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124512.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124512.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124625.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124625.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124626.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124626.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124657.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124657.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124929.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727124929.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125123.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125123.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125124.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125124.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125346.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125346.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125457.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125457.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125503.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125503.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125516.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125516.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125627.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125627.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125646.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125646.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125712.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727125712.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130131.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130131.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130210.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130210.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130242.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130242.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130249.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130249.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130307.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130307.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130617.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130617.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130659.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130659.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130715.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130715.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130827.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130827.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130923.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130923.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130946.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130946.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130947.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130947.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130948.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/cadastro_20210727130948.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726123258.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726123258.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124111.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124111.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124218.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124218.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124219.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124219.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124318.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124318.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124345.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124345.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124656.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124656.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124702.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726124702.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125102.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125102.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125148.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125148.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125444.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125444.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125541.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125541.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125602.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125602.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125709.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125709.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125809.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726125809.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726130001.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726130001.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726131341.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726131341.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726131417.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726131417.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726131454.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726131454.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726131554.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210726131554.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092106.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092106.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092117.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092117.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092128.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092128.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092202.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092202.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092211.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092211.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092314.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092314.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092353.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092353.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092430.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092430.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092518.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092518.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092633.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092633.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092642.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727092642.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727093043.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/login_20210727093043.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/validador_email_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/validador_email_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/login/validador_email_20210727110317.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/login/validador_email_20210727110317.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120213.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120213.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120241.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120241.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120350.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120350.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120525.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120525.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120609.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120609.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120643.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120643.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120832.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120832.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120843.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120843.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120854.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120854.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120900.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120900.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120953.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727120953.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121004.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121004.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121057.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121057.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121058.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121058.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121207.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121207.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121212.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121212.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121237.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121237.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121247.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121247.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121526.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarCertificados_20210727121526.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121642.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121642.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121740.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121740.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121819.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121819.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121835.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121835.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121940.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727121940.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122007.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122007.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122029.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122029.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122111.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122111.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122144.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122144.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122506.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarConteudo_20210727122506.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122240.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122240.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122249.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122249.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122408.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122408.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122440.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122440.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122606.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122606.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122639.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122639.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122815.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarEvenCad_20210727122815.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122727.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122727.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122833.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122833.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122914.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122914.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122924.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122924.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122939.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727122939.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727123037.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727123037.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727123053.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/mostrarSolicitacoes_20210727123053.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/solicitarCertificado_20210726121615.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/solicitarCertificado_20210726121615.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/models/solicitarCertificado_20210727123106.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/models/solicitarCertificado_20210727123106.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/views/home/cadastrarUsuario_20210726121616.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/views/home/cadastrarUsuario_20210726121616.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/views/home/cadastrarUsuario_20210727123820.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/views/home/cadastrarUsuario_20210727123820.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/views/home/home_20210726121616.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/views/home/home_20210726121616.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/.history/views/home/home_20210727123502.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/.history/views/home/home_20210727123502.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/certificados/models/login/cadastro.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/certificados/models/login/cadastro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.babelrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.bundlewatch.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/SUPPORT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/release-drafter.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/workflows/browserstack.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/workflows/bundlewatch.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/workflows/codeql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/workflows/css.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/workflows/docs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/workflows/js.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/workflows/lint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/workflows/node-sass.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.github/workflows/release-notes.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.stylelintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/.stylelintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/banner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/build-plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/change-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/generate-sri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/svgo.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/vnu-jar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/build/zip-examples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/lc_lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/lightbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/css/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/alloy_finger.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/lc_lightbox.lite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/lightbox-plus-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/lightbox-plus-jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/lightbox-plus-jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/lightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/dist/js/lightbox.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/alert.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/base-component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/button.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/carousel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/collapse.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dom/data.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dom/event-handler.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dom/manipulator.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dom/selector-engine.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/dropdown.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/modal.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/offcanvas.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/popover.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/scrollspy.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/tab.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/toast.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/dist/tooltip.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/index.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/util/backdrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/util/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/src/util/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/browsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/helpers/fixture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/integration/bundle-modularity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/integration/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/integration/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/integration/rollup.bundle-modularity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/integration/rollup.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/alert.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/base-component.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/button.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/carousel.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/collapse.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/dom/data.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/dom/event-handler.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/dom/manipulator.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/dom/selector-engine.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/dropdown.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/jquery.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/modal.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/offcanvas.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/popover.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/scrollspy.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/tab.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/toast.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/tooltip.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/util/backdrop.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/util/index.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/util/sanitizer.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/unit/util/scrollbar.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/collapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/popover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/scrollspy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/tab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/toast.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/js/tests/visual/tooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_accordion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_containers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_offcanvas.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/bootstrap-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/forms/_floating-labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/forms/_form-check.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/forms/_form-control.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/forms/_form-range.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/forms/_form-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/forms/_form-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/forms/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/forms/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/forms/_validation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/helpers/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/helpers/_colored-links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/helpers/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/helpers/_ratio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/helpers/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/helpers/_text-truncation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/helpers/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_color-scheme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_table-variants.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/mixins/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/utilities/_api.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap5/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/lightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/lightbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesquisa/projeto_pesquisa" beforeDir="false" afterPath="$PROJECT_DIR$/../pesquisa/projeto_pesquisa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semic/semic_deppi2019" beforeDir="false" afterPath="$PROJECT_DIR$/../semic/semic_deppi2019" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1y8MT0xs51hlJAFvf4AAhHjRKbF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="874c78e2-bdea-4033-9cb8-e156b707f444" name="Changes" comment="" />
+      <created>1631628766215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631628766215</updated>
+      <workItem from="1631628767753" duration="702000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

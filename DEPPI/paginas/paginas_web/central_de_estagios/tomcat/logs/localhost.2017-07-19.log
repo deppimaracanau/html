@@ -1,0 +1,12 @@
+jul 19, 2017 7:51:35 AM org.apache.catalina.session.StandardSession readObject
+ADVERTÊNCIA: Cannot deserialize session attribute org.jboss.weld.context.http.HttpSessionContext#org.jboss.weld.bean-flat-ManagedBean-class org.jboss.dashboard.ui.components.DashboardHandler for session E649A4A0737F80108A9BF5A9699A12F5
+jul 19, 2017 7:51:47 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextInitialized()
+jul 19, 2017 7:51:47 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextInitialized()
+jul 19, 2017 7:51:47 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@649997')
+jul 19, 2017 11:29:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: SessionListener: contextDestroyed()
+jul 19, 2017 11:29:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: ContextListener: contextDestroyed()

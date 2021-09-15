@@ -1,0 +1,34 @@
+/*.btn-pass{
+border: 1px solid #ced4da !important;
+border-radius: 0 0.25rem 0.25rem 0 !important;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+#menup{
+	background-image: linear-gradient(to bottom right, #41ae42, #2dcc77) !important;
+}
+#menup a.nav-link{
+	color: rgba(255,255,255,1) !important;
+}
+#menup a.nav-link:hover{
+	color: rgba(255,255,255,0.5) !important;
+}
+#footerp{
+	padding: 1.5rem 0 1.5rem 0 !important;
+	background-color: #36be5f !important;
+	margin-top: 5%
+}
+.hcontainer{
+	margin: 1.5em 0 1.5em 0;
+}
+.card{
+	margin:1rem 0 1rem 0;
+}
+.card-body .card-text a{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 2em;
+	color: #343b48;
+}
+#mCad{margin:1em 0 1em 0 !important;}
+#users .showUser{margin-bottom: 1em}
+#users .showUser button{margin-top: -.5em}
+#hcUsers{margin:3em 0 2em 0;}

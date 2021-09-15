@@ -1,0 +1,63 @@
+<?php
+$cache = Zend_Registry::get('cache_common');
+$ps = $cache->load('prefsis');
+$apelido_encontro = $ps->encontro["apelido_encontro"];
+//$apelido_encontro = NULL;
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?php echo $apelido_encontro; ?> - SiGE</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <?php
+        $this->headLink()->appendStylesheet($this->baseUrl('css/jquery.mobile-1.4.0.min.css'))
+                ->appendStylesheet($this->baseUrl('css/font-awesome.min.css'))
+                ->appendStylesheet($this->baseUrl('css/font-awesome-ie7.min.css'))
+                ->appendStylesheet($this->baseUrl('css/mobile/mobile.css'))
+                ->appendStylesheet($this->baseUrl('css/flash-messages.css'));
+        ?>
+
+        <?php echo $this->headLink() ?>
+    </head>
+    <body>
+        <div data-role="page" class="sige-page">
+            <div data-role="panel" data-display="overlay" id="panel-menu" data-theme="a">
+                <div data-role="controlgroup">
+                    <?php
+                    if (isset($this->menu)) {
+                        echo $this->menu->getView();
+                    }
+                    ?>
+                </div>
+                <a href="#panel-menu" class="" data-rel="close" data-role="button">
+                    <i class="icon-remove"></i> Fechar
+                </a>
+            </div><!-- /panel -->
+
+            <!-- header -->
+            <div data-role="header" data-theme="b">
+                <a href="#panel-menu" data-role="button"><i class="icon-align-justify"></i> Menu</a>
+                <h1><?php echo $apelido_encontro; ?> - SiGE</h1>
+            </div>
+            <!-- content -->
+            <div data-role="content" style="min-width: 200px;">
+                <div><?php echo $this->flashMessages(); ?></div>
+                <?php echo $this->layout()->content ?>
+            </div>
+
+            <!-- footer -->
+            <div data-role="footer">
+                <h1><?php echo $apelido_encontro; ?> <?php echo date('Y'); ?></h1>
+            </div>
+
+        </div><!-- page -->
+        <?php
+        $this->headScript()->prependFile($this->baseUrl('js/mobile/geral.js'))
+                ->prependFile($this->baseUrl('js/jquery.mobile-1.4.0.min.js'))
+                ->prependFile($this->baseUrl('js/jquery-1.11.3.min.js'));
+        ?>
+        <?php echo $this->headScript() ?>
+    </body>
+</html>

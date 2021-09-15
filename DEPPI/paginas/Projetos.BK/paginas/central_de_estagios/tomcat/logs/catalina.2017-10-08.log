@@ -1,0 +1,1412 @@
+Out 08, 2017 8:34:05 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 08, 2017 8:34:05 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 8:34:06 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 8:34:06 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 08, 2017 8:34:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 8:34:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 8:34:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 8:34:07 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 8:34:07 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 8:34:07 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 8:34:07 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 8:40:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 08, 2017 8:40:41 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 08, 2017 8:40:42 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 8:40:42 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 8:40:42 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 3108 ms
+Out 08, 2017 8:40:42 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 08, 2017 8:40:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 08, 2017 8:40:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 08, 2017 8:40:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 1,933 ms
+Out 08, 2017 8:40:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 08, 2017 8:40:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 1,955 ms
+Out 08, 2017 8:40:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT
+Out 08, 2017 8:40:46 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 8:40:56 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 8:41:05 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 8:41:05 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 8:41:05 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 8:41:05 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 8:41:05 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 8:41:06 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 8:41:09 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 08, 2017 8:41:09 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 08, 2017 8:41:09 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 08, 2017 8:41:09 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 08, 2017 8:41:09 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 08, 2017 8:41:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT has finished in 30,439 ms
+Out 08, 2017 8:41:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 08, 2017 8:41:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 256 ms
+Out 08, 2017 8:41:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 08, 2017 8:41:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 135 ms
+Out 08, 2017 8:41:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 08, 2017 8:41:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 258 ms
+Out 08, 2017 8:41:17 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 8:41:17 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 8:41:18 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 35388 ms
+Out 08, 2017 8:44:11 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 8:44:58 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 08, 2017 8:44:58 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 8:44:58 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 8:44:58 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 08, 2017 8:44:58 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 8:44:58 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 8:44:58 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 8:44:58 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 8:44:58 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 8:44:58 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 8:44:58 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 08, 2017 9:02:46 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 08, 2017 9:02:46 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:02:46 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1343 ms
+Out 08, 2017 9:02:46 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 08, 2017 9:02:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 08, 2017 9:02:46 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war
+Out 08, 2017 9:02:47 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:02:51 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:02:57 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:02:57 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:02:57 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:02:57 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:02:57 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:02:57 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:02:59 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 08, 2017 9:02:59 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 08, 2017 9:03:00 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 08, 2017 9:03:00 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 08, 2017 9:03:00 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 08, 2017 9:03:09 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war has finished in 22,919 ms
+Out 08, 2017 9:03:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 08, 2017 9:03:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 126 ms
+Out 08, 2017 9:03:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 08, 2017 9:03:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 544 ms
+Out 08, 2017 9:03:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT
+Out 08, 2017 9:03:10 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:03:14 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:03:19 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:03:19 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:03:19 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:03:19 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:03:19 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:03:19 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:03:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT has finished in 12,282 ms
+Out 08, 2017 9:03:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 08, 2017 9:03:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 82 ms
+Out 08, 2017 9:03:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 08, 2017 9:03:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 47 ms
+Out 08, 2017 9:03:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 08, 2017 9:03:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 67 ms
+Out 08, 2017 9:03:22 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:03:22 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:03:22 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 36229 ms
+Out 08, 2017 9:03:39 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:23:58 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 08, 2017 9:23:58 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:23:58 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:23:58 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 08, 2017 9:23:58 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:23:58 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/dash] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:23:58 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:23:58 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:23:58 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:23:58 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:23:58 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:23:58 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 08, 2017 9:24:04 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 08, 2017 9:24:04 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:24:04 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:24:04 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1627 ms
+Out 08, 2017 9:24:05 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 08, 2017 9:24:05 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 08, 2017 9:24:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war
+Out 08, 2017 9:24:05 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:24:09 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:24:16 PM org.apache.catalina.session.StandardManager doLoad
+GRAVE: IOException while loading persisted sessions: java.io.InvalidClassException: org.jboss.weld.context.CreationalContextImpl; invalid descriptor for field parentDependentInstances
+java.io.InvalidClassException: org.jboss.weld.context.CreationalContextImpl; invalid descriptor for field parentDependentInstances
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2241)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2165)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2023)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 28 more
+
+Out 08, 2017 9:24:16 PM org.apache.catalina.session.StandardManager startInternal
+GRAVE: Exception loading sessions from persistent storage
+java.io.InvalidClassException: org.jboss.weld.context.CreationalContextImpl; invalid descriptor for field parentDependentInstances
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2241)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2165)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2023)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 28 more
+
+Out 08, 2017 9:24:17 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:24:17 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:24:17 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:24:17 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:24:17 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:24:17 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:24:20 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 08, 2017 9:24:20 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 08, 2017 9:24:20 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 08, 2017 9:24:20 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 08, 2017 9:24:20 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 08, 2017 9:24:24 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war has finished in 19,381 ms
+Out 08, 2017 9:24:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 08, 2017 9:24:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 100 ms
+Out 08, 2017 9:24:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 08, 2017 9:24:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 425 ms
+Out 08, 2017 9:24:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT
+Out 08, 2017 9:24:25 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:24:27 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:24:32 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:24:32 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:24:32 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:24:32 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:24:32 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:24:32 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:24:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT has finished in 10,784 ms
+Out 08, 2017 9:24:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 08, 2017 9:24:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 79 ms
+Out 08, 2017 9:24:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 08, 2017 9:24:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 77 ms
+Out 08, 2017 9:24:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 08, 2017 9:24:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 57 ms
+Out 08, 2017 9:24:36 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:24:36 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:24:36 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 31094 ms
+Out 08, 2017 9:30:11 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 08, 2017 9:30:11 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:30:11 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:30:11 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 08, 2017 9:30:11 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:30:11 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/dash] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:30:11 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:30:11 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:30:11 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:30:11 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:30:11 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:30:11 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:31:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 08, 2017 9:31:38 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 08, 2017 9:31:38 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:31:38 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:31:39 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 2177 ms
+Out 08, 2017 9:31:39 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 08, 2017 9:31:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 08, 2017 9:31:39 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war
+Out 08, 2017 9:31:39 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:31:43 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:31:50 PM org.apache.catalina.session.StandardManager doLoad
+GRAVE: IOException while loading persisted sessions: java.io.InvalidClassException: org.jboss.weld.context.CreationalContextImpl; invalid descriptor for field parentDependentInstances
+java.io.InvalidClassException: org.jboss.weld.context.CreationalContextImpl; invalid descriptor for field parentDependentInstances
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2241)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2165)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2023)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 28 more
+
+Out 08, 2017 9:31:50 PM org.apache.catalina.session.StandardManager startInternal
+GRAVE: Exception loading sessions from persistent storage
+java.io.InvalidClassException: org.jboss.weld.context.CreationalContextImpl; invalid descriptor for field parentDependentInstances
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2241)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2165)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2023)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 28 more
+
+Out 08, 2017 9:31:51 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:31:51 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:31:51 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:31:51 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:31:51 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:31:51 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:31:53 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 08, 2017 9:31:53 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 08, 2017 9:31:53 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 08, 2017 9:31:53 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 08, 2017 9:31:53 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 08, 2017 9:31:57 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war has finished in 18,111 ms
+Out 08, 2017 9:31:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 08, 2017 9:31:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 100 ms
+Out 08, 2017 9:31:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 08, 2017 9:31:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 917 ms
+Out 08, 2017 9:31:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT
+Out 08, 2017 9:31:58 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:32:00 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:32:05 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:32:05 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:32:05 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:32:05 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:32:05 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:32:05 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:32:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT has finished in 10,846 ms
+Out 08, 2017 9:32:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 08, 2017 9:32:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 40 ms
+Out 08, 2017 9:32:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 08, 2017 9:32:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 41 ms
+Out 08, 2017 9:32:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 08, 2017 9:32:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 50 ms
+Out 08, 2017 9:32:09 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:32:09 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:32:09 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 30345 ms
+Out 08, 2017 9:33:49 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 08, 2017 9:33:49 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:33:49 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:33:49 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 08, 2017 9:33:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:33:49 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@246369e9]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@7abe52a8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 08, 2017 9:33:49 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@246369e9]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@6524d28c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 08, 2017 9:33:49 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@246369e9]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@547b1934]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 08, 2017 9:33:49 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@246369e9]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@5db3d040]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 08, 2017 9:33:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/dash] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:33:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:33:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:33:49 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:33:49 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:33:49 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:33:49 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 08, 2017 9:33:53 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 08, 2017 9:33:53 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:33:53 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1395 ms
+Out 08, 2017 9:33:53 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 08, 2017 9:33:53 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 08, 2017 9:33:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war
+Out 08, 2017 9:33:54 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:33:58 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:34:06 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:34:06 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:34:06 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:34:06 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:34:06 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:34:06 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:34:09 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 08, 2017 9:34:09 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 08, 2017 9:34:09 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 08, 2017 9:34:09 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 08, 2017 9:34:09 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 08, 2017 9:34:13 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war has finished in 19,304 ms
+Out 08, 2017 9:34:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 08, 2017 9:34:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 110 ms
+Out 08, 2017 9:34:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 08, 2017 9:34:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 817 ms
+Out 08, 2017 9:34:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT
+Out 08, 2017 9:34:14 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:34:16 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:34:20 PM org.apache.catalina.session.StandardManager doLoad
+GRAVE: IOException while loading persisted sessions: java.io.InvalidClassException: org.jboss.weld.context.SerializableContextualInstanceImpl; invalid descriptor for field instance
+java.io.InvalidClassException: org.jboss.weld.context.SerializableContextualInstanceImpl; invalid descriptor for field instance
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1296)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2038)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 24 more
+
+Out 08, 2017 9:34:20 PM org.apache.catalina.session.StandardManager startInternal
+GRAVE: Exception loading sessions from persistent storage
+java.io.InvalidClassException: org.jboss.weld.context.SerializableContextualInstanceImpl; invalid descriptor for field instance
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1296)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2038)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 24 more
+
+Out 08, 2017 9:34:21 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:34:21 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:34:21 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:34:21 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:34:21 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:34:21 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:34:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT has finished in 10,945 ms
+Out 08, 2017 9:34:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 08, 2017 9:34:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 44 ms
+Out 08, 2017 9:34:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 08, 2017 9:34:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 47 ms
+Out 08, 2017 9:34:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 08, 2017 9:34:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 53 ms
+Out 08, 2017 9:34:25 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:34:25 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:34:25 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 31508 ms
+Out 08, 2017 9:36:07 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 08, 2017 9:36:07 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:36:07 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:36:07 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 08, 2017 9:36:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:36:07 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@be07aaa]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@3e9534fd]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 08, 2017 9:36:07 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@be07aaa]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@35c9ee24]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 08, 2017 9:36:07 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@be07aaa]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@5c319912]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 08, 2017 9:36:07 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@be07aaa]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@3c389c07]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 08, 2017 9:36:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/dash] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:36:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:36:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:36:07 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:36:07 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:36:07 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:36:07 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 08, 2017 9:36:11 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 08, 2017 9:36:11 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:36:11 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1630 ms
+Out 08, 2017 9:36:11 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 08, 2017 9:36:11 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 08, 2017 9:36:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war
+Out 08, 2017 9:36:11 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:36:16 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:36:24 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:36:24 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:36:24 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:36:24 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:36:24 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:36:24 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:36:26 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 08, 2017 9:36:26 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 08, 2017 9:36:26 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 08, 2017 9:36:26 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 08, 2017 9:36:26 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 08, 2017 9:36:30 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash.war has finished in 19,144 ms
+Out 08, 2017 9:36:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 08, 2017 9:36:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 103 ms
+Out 08, 2017 9:36:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 08, 2017 9:36:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 579 ms
+Out 08, 2017 9:36:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT
+Out 08, 2017 9:36:31 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 9:36:33 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 9:36:38 PM org.apache.catalina.session.StandardManager doLoad
+GRAVE: IOException while loading persisted sessions: java.io.InvalidClassException: org.jboss.weld.context.SerializableContextualInstanceImpl; invalid descriptor for field instance
+java.io.InvalidClassException: org.jboss.weld.context.SerializableContextualInstanceImpl; invalid descriptor for field instance
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1296)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2038)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 24 more
+
+Out 08, 2017 9:36:38 PM org.apache.catalina.session.StandardManager startInternal
+GRAVE: Exception loading sessions from persistent storage
+java.io.InvalidClassException: org.jboss.weld.context.SerializableContextualInstanceImpl; invalid descriptor for field instance
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1296)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2038)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 24 more
+
+Out 08, 2017 9:36:39 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 9:36:39 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 9:36:39 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 9:36:39 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 9:36:39 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 9:36:39 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 9:36:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT has finished in 11,661 ms
+Out 08, 2017 9:36:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 08, 2017 9:36:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 41 ms
+Out 08, 2017 9:36:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 08, 2017 9:36:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 48 ms
+Out 08, 2017 9:36:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 08, 2017 9:36:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 53 ms
+Out 08, 2017 9:36:43 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:36:43 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:36:43 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 31846 ms
+Out 08, 2017 9:47:54 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 08, 2017 9:47:54 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:47:54 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:47:54 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 08, 2017 9:47:54 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:47:54 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/dash] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 9:47:54 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:47:54 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/dash] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 9:47:54 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:47:54 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 9:47:54 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 9:47:54 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.79
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jun 26 2017 16:25:20 UTC
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.79.0
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.2.0-42-generic
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.7.0_151-b01
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/otavio/Projetos/central_de_estagios/tomcat/conf/logging.properties
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/otavio/Projetos/central_de_estagios/tomcat/endorsed
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/otavio/Projetos/central_de_estagios/tomcat
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/otavio/Projetos/central_de_estagios/tomcat/temp
+Out 08, 2017 10:05:11 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Out 08, 2017 10:05:11 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 10:05:11 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1496 ms
+Out 08, 2017 10:05:11 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Out 08, 2017 10:05:11 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.79
+Out 08, 2017 10:05:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT.war
+Out 08, 2017 10:05:11 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 10:05:16 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 10:05:24 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 10:05:24 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 10:05:24 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 10:05:24 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 10:05:24 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 10:05:24 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 10:05:26 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Out 08, 2017 10:05:26 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Out 08, 2017 10:05:26 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Out 08, 2017 10:05:26 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Out 08, 2017 10:05:26 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.2.Final
+Out 08, 2017 10:05:29 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/otavio/Projetos/central_de_estagios/tomcat/webapps/ROOT.war has finished in 17,932 ms
+Out 08, 2017 10:05:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config
+Out 08, 2017 10:05:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/config has finished in 79 ms
+Out 08, 2017 10:05:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples
+Out 08, 2017 10:05:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/examples has finished in 509 ms
+Out 08, 2017 10:05:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager
+Out 08, 2017 10:05:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/manager has finished in 128 ms
+Out 08, 2017 10:05:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs
+Out 08, 2017 10:05:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/docs has finished in 97 ms
+Out 08, 2017 10:05:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash
+Out 08, 2017 10:05:30 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMAÇÕES: validateJarFile(/home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Out 08, 2017 10:05:33 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Out 08, 2017 10:05:38 PM org.apache.catalina.session.StandardManager doLoad
+GRAVE: IOException while loading persisted sessions: java.io.InvalidClassException: org.jboss.weld.context.CreationalContextImpl; invalid descriptor for field parentDependentInstances
+java.io.InvalidClassException: org.jboss.weld.context.CreationalContextImpl; invalid descriptor for field parentDependentInstances
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2241)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2165)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2023)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1296)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2038)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 28 more
+
+Out 08, 2017 10:05:38 PM org.apache.catalina.session.StandardManager startInternal
+GRAVE: Exception loading sessions from persistent storage
+java.io.InvalidClassException: org.jboss.weld.context.CreationalContextImpl; invalid descriptor for field parentDependentInstances
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:723)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:880)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1813)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1711)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1996)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2241)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2165)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2023)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1533)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:420)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1609)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1296)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2038)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.io.ObjectStreamField.<init>(ObjectStreamField.java:122)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:721)
+	... 28 more
+
+Out 08, 2017 10:05:39 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Out 08, 2017 10:05:39 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.21.Final}
+Out 08, 2017 10:05:39 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Out 08, 2017 10:05:39 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Out 08, 2017 10:05:39 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000042: Configuring from file: hibernate.cfg.xml
+Out 08, 2017 10:05:39 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Out 08, 2017 10:05:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/dash has finished in 12,261 ms
+Out 08, 2017 10:05:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager
+Out 08, 2017 10:05:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/otavio/Projetos/central_de_estagios/tomcat/webapps/host-manager has finished in 51 ms
+Out 08, 2017 10:05:42 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 10:05:42 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 10:05:42 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 31242 ms
+Out 08, 2017 11:46:21 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 08, 2017 11:46:21 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 11:46:21 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 11:46:21 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Out 08, 2017 11:46:22 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 11:46:22 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 File Lock Watchdog /home/otavio/dashbuilder.lock.db] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 11:46:22 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [H2 Log Writer DASHBUILDER] but has failed to stop it. This is very likely to create a memory leak.
+Out 08, 2017 11:46:22 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/dash] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 08, 2017 11:46:22 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+GRAVE: The web application [/dash] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@56866110]) and a value of type [org.jboss.dashboard.database.hibernate.HibernateTransaction] (value [org.jboss.dashboard.database.hibernate.HibernateTransaction@104e8dd1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Out 08, 2017 11:46:22 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 11:46:22 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Out 08, 2017 11:46:22 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+Out 08, 2017 11:46:22 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]

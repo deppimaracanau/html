@@ -1,0 +1,135 @@
+<?php
+$this->headLink()->appendStylesheet($this->baseUrl('css/screen.css'));
+$this->headLink()->appendStylesheet($this->baseUrl('css/prettify.css'));
+$this->headLink()->appendStylesheet($this->baseUrl('css/jqueryui-bootstrap/jquery-ui-1.8.16.custom.css'));
+$this->headLink()->appendStylesheet($this->baseUrl('css/jqueryui-bootstrap/jquery.ui.1.8.16.ie.css'));
+$this->headLink()->appendStylesheet($this->baseUrl('css/evento/programacao.css'));
+
+$this->headScript()->appendFile($this->baseUrl('js/jquery-migrate-1.2.1.min.js'));
+$this->headScript()->appendFile($this->baseUrl('js/jquery-ui-1.8.16.custom.min.js'));
+$this->headScript()->appendFile($this->baseUrl('js/prettify.js'));
+$this->headScript()->appendFile($this->baseUrl('js/init.prettify.js'));
+$this->headScript()->appendFile($this->baseUrl('js/moment-with-langs.min.js'));
+$this->headScript()->appendFile($this->baseUrl('js/evento/programacao.js'));
+?>
+
+<div class="container">
+    <div class="span-10">
+        <h3>Programação confirmada</h3>
+    </div>
+    <div class="span-3">
+        <input type="checkbox" id="auto-scroll"/>
+        <label for="auto-scroll">Auto scroll?</label>
+    </div>
+    <div class="span-8">
+        <div style="float: right">
+            Modo:
+            <a href="#" id="modo-normal" onclick="return false;" class="no-bottom">Normal</a> |
+            <a href="#" id="modo-impressao" onclick="return false;" class="no-bottom">Impressão</a> |
+            <a href="#" id="modo-timeline" onclick="return false;" class="no-bottom">Linha do tempo</a>
+        </div>
+    </div>
+</div>
+
+<hr/>
+
+<?php
+$data_atual = null;
+if (!empty($this->lista)):
+    foreach ($this->lista as $item):
+        ?>
+        <div class="container">
+            <div class="span-2">
+                <?php
+                if ($item['data'] != $data_atual) {
+                    // TODO: formatar data de maneira genérica.
+                    // locale forçado em pt_BR
+                    $date = new Zend_Date($item['data'], 'dd/MM/y', new Zend_Locale('pt_BR'));
+                    // se quiser locale dinâmico:              
+                    // $date = new Zend_Date($item['data'], 'dd/MM/y');
+                    ?>
+                    <div class="prog-date">
+                        <p><?php echo $date->toString('dd') ?> <span><?php echo $date->toString('MMM') ?></span></p>
+                    </div>
+                    <?php
+                    $data_atual = $item['data'];
+                } else {
+                    echo "&nbsp;";
+                }
+                ?>
+            </div>
+            <div class="span-18 <?php echo $item['dia_mes'] ?>"
+                 data-data="<?php echo $item['data'] ?>"
+                 data-hora="<?php echo $item['hora_inicio'] ?>">
+                <div class="acc-evento">
+                    <div class="header3">
+                        <?php echo $item['nome_tipo_evento'] ?>: <?php echo $item['nome_evento'] ?>
+                        <?php if (!empty($item['descricao'])) : ?>
+                            (<?php echo $item['descricao'] ?>)
+                        <?php endif; ?>
+                    </div>
+                    <div>
+                        <div>Sala <?php echo $item['nome_sala'] ?> de
+                            <?php echo $item['hora_inicio'] ?> - <?php echo $item['hora_fim'] ?></div>
+                        <hr/>
+                        <?php
+                        if (!empty($item['twitter'])) {
+                            $id = $item['twitter'];
+                        } else {
+                            $id = $item['id_pessoa'];
+                        }
+                        ?>
+                        <div>
+                            por <a href="<?php echo $this->url(array('id' => $id), 'ver', true)
+                        ?>" target="blank"><?php echo $item['nome'] ?></a>
+                                   <?php if ($item['outros'] == 1): ?>
+                                e outro.
+                            <?php elseif ($item['outros'] > 1): ?>
+                                e <?php echo $item['outros'] ?> outros.
+                            <?php endif; ?>
+                        </div>
+                        <p><?php echo $item['resumo'] ?></p>
+                    </div>
+                </div>
+            </div>
+            <div class="span-1">
+                <a href="<?php echo $this->url(array('id' => $item['id_evento']), 'ver_evento', true)
+                            ?>#disqus_thread" class="no-bottom" title="Ver e publicar comentários">
+                    <i class="icon-comments-alt"></i>
+                </a>
+            </div>
+        </div>
+        <?php
+    endforeach;
+else:
+    ?>
+    <div class="notice" style="margin-top: 10px;">
+        <div class="msg-header">Atenção!</div>
+        <div>Ainda não há eventos confirmados na programação. Seja o primeiro e
+            <a href="<?php
+            echo $this->url(array('controller' => 'evento',
+                'action' => 'submeter',
+                't' => 'evento'), 'default');
+            ?>"
+               class="no-bottom"><i class="icon-file"></i> Submeta um trabalho</a></div>
+    </div>
+<?php endif; ?>
+
+<?php
+if ($this->isPeriodoSubmissao) {
+    ?>
+    <br/><br/>
+    <br/><br/>
+    <h3>Grade</h3>
+    <hr/>
+    <!-- PROGRAMACAO ESTATICA -->
+    <center>
+        <img class="" src="<?php echo $this->baseUrl('imagens/programacao.png') ?>" alt="Grade da programação" border="0" width="800" />
+        <br/>
+        <img class="" src="<?php echo $this->baseUrl('imagens/programacao2.png') ?>" alt="" border="0" width="800" />
+    </center>
+    <!-- FIM PROGRAMACAO ESTATICA -->
+    <?php
+}
+?>
+

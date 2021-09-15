@@ -1,0 +1,26 @@
+<h3>Editar <?php echo $this->titulo; ?> </h3><hr/>
+<div class="notice" style="margin-top: 10px;">
+    <strong>Atenção!</strong> Algumas características da mensagem:
+    <ul>
+        <li>
+            A mensagem abaixo <b>NÃO</b> pode ser escrita em HTML e nem importar 
+            folhas de estilo (css) ou arquivos javascript (js).
+        </li>
+        <li>
+            Use o código <code>%s</code> para indicar onde o sistema deve inserir 
+            o texto dinâmico.
+        </li>
+    </ul>
+</div>
+<?php
+$this->headScript()
+        ->prependFile($this->baseUrl('js/admin/encontro/salvar.js'), 'text/javascript')
+        ->prependFile($this->baseUrl('js/jquery-ui-1.8.16.custom.min.js'), 'text/javascript')
+        ->prependFile($this->baseUrl('js/jquery-1.11.3.min.js'));
+
+$this->headLink()
+        ->appendStylesheet($this->baseUrl('css/jqueryui-bootstrap/jquery.ui.1.8.16.ie.css'))
+        ->appendStylesheet($this->baseUrl('css/jqueryui-bootstrap/jquery-ui-1.8.16.custom.css'))
+        ->appendStylesheet($this->baseUrl('css/screen.css'))
+        ->appendStylesheet($this->baseUrl('css/form-evento.css'));
+echo $this->form;

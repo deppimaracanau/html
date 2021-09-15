@@ -1,0 +1,88 @@
+<fieldset>
+    <legend>Certificados de participação</legend>
+    <?php
+    if (empty($this->certsParticipanteEncontro) && empty($this->certsParticipanteEvento)) {
+        ?>
+        <p>Ainda não há certificados disponíveis.</p>
+        <?php
+    } else {
+        ?>
+        <ul>
+            <?php
+            foreach ($this->certsParticipanteEncontro as $certEncontro) {
+                ?>
+                <li>
+                    <a href="<?php
+                    echo $this->url(array(
+                        'controller' => 'participante',
+                        'action' => 'certificado-participante-encontro',
+                        'id_encontro' => $certEncontro['id_encontro'],
+                            ), 'default', true)
+                    ?>"
+                       ><?php echo $certEncontro['nome_encontro'] ?>
+                    </a>
+                    <ul>
+                        <?php
+                        foreach ($this->certsParticipanteEvento as $certEvento) {
+                            if ($certEvento['id_encontro'] !== $certEncontro['id_encontro']) {
+                                continue;
+                            }
+                            ?>
+                            <li>
+                                <a href="<?php
+                                echo $this->url(array(
+                                    'controller' => 'participante',
+                                    'action' => 'certificado-participante-evento',
+                                    'id_encontro' => $certEvento['id_encontro'],
+                                    'id_evento' => $certEvento['id_evento'],
+                                        ), 'default', true)
+                                ?>"
+                                   ><?php echo $certEvento['nome_evento'] ?>
+                                </a>
+                            </li>
+                            <?php
+                        }
+                        ?>
+                    </ul>
+                </li>
+                <?php
+            }
+            ?>
+        </ul>
+        <?php
+    }
+    ?>
+</fieldset>
+
+<fieldset>
+    <legend>Certificados de palestrante</legend>
+    <?php
+    if (empty($this->certsPalestrante)) {
+        ?>
+        <p>Ainda não há certificados disponíveis.</p>
+        <?php
+    } else {
+        ?>
+        <ul>
+            <?php foreach ($this->certsPalestrante as $certPalestrante) { ?>
+                <li>
+                    <a href="<?php
+                    echo $this->url(array(
+                        'controller' => 'participante',
+                        'action' => 'certificado-palestrante',
+                        'id' => $certPalestrante['id_evento'],
+                            ), 'default', true)
+                    ?>"
+                       ><?php echo $certPalestrante['nome_tipo_evento'] ?>:
+                        <?php echo $certPalestrante['nome_evento'] ?> -
+                        <?php echo $certPalestrante['nome_encontro'] ?>
+                    </a>
+                </li>
+                <?php
+            }
+            ?>
+        </ul>
+        <?php
+    }
+    ?>
+</fieldset>

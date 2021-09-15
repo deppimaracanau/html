@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PROAPA</title>
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"><!-- link para bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!-- link para font awesome para icons instalar depois do bootstrap-->
+	<link rel="stylesheet" href="css/style.css"><!-- link para meu css personalizado -->
+
+</head>
+<body>
+
+	<header>
+
+		<div class="container"> 
+				<!-- logo -->
+				<img id="logotipo" src="img/proapa_img.jpg" alt="logotipo">
+		</div>
+
+		<center><!-- tentar mudar esse tag para css depois -->
+		<div class="container">
+			<div class="row" >
+				<nav id="menu" class="text-center">
+					<ul>
+						<li><a href="#edital">Edital</a></li>
+						<li><a href="#submissao">Submissão</a></li>
+						<li><a href="#cronograma">Cronograma</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div></center>
+	</header>
+
+	<section>
+		
+		<div class="container">
+			<div id="apresentacao" class="row">
+				<h3 class="titulo">Apresentação</h3>
+				<p>O Programa de Apoio à Pesquisa Aplicada - PROAPA é destinado aos servidores do Campus Maracanaú do IFCE que se destaquem entre seus pares, valorizando e estimulando a aplicação da pesquisa acadêmica com vistas à geração de produtos e/ou instrumentos que contribuam para a solução de necessidades tecnológicas em áreas específicas do Campus Maracanaú do IFCE na forma de concessão de bolsas aos pesquisadores e discentes envolvidos.</p>
+			</div>
+		</div><br><br><br>
+
+
+		<div class="container">
+			<a name="edital"></a>
+			<div id="edital" class="row">
+				<h3 class="titulo">Edital</h3>
+				<p>A Direção Geral do Campus Maracanaú, no uso de suas atribuições, torna público o Programa de Apoio à Pesquisa Aplicada (PROAPA) do Campus Maracanaú do IFCE para os servidores, docentes e técnico-administrativos, do Campus Maracanaú do IFCE portadores do título de especialista, mestre ou de doutor, nos termos das resoluções 05 e 23 da CONSUP, bem como da Lei 8.958, de 1994 e pelo seu regulamento Decreto Nº 7.423 de 2010, e pela Lei Nº 10.973 de 2004 e pelo seu regulamento, o Decreto Nº 5563 de 2005. Para baixar o edital completo clique <a href="#">aqui.</a></p>
+			</div>
+		</div><br><br><br>
+
+		<div class="container">
+			<a name="submissao"></a>
+			<div id="submissao" class="row">
+				<h3 class="titulo">Submissão</h3>
+				<p>O Programa de Apoio à Pesquisa Aplicada – PROAPA do Campus Maracanaú do IFCE é destinado aos servidores do Campus Maracanaú do IFCE que se destaquem entre seus pares, valorizando e estimulando a aplicação da pesquisa acadêmica com vistas à geração de produtos e/ou instrumentos que contribuam para a solução de necessidades tecnológicas em áreas específicas do Campus Maracanaú do IFCE na forma de concessão de bolsas aos pesquisadores e discentes envolvidos. Para submeter sua pesquisa clique <a href="./submissao.html">aqui.</a></p>
+			</div>
+		</div><br><br><br>
+
+		<div class="container">
+			<a name="cronograma"></a>
+			<div id="cronograma" class="row">
+				<h3 class="titulo">Cronograma</h3>
+
+				<table>
+        	<thead>
+                <tr>
+                        <th><b>Data</b></th>
+                        <th><b>Atividade</b></th>
+                        
+                </tr>
+        </thead>
+        <tbody>
+                <tr>
+                		<td>(14/12/2017)</td>
+                        <td>Lançamento do Edital n° 013/2017-GDG-PROAPA</td> 
+                </tr>
+                <tr>
+                        <td>(18/12/2017 a 05/01/2018)</td>
+                        <td>Período de submissões</td>
+                        
+                </tr>
+                 <tr>
+                		<td>(08 e 09/01/2018)</td>
+                        <td>Período de análise das submissões</td>    
+                </tr>
+                 <tr>
+                		<td>(10/01/2018)</td>
+                        <td>Divulgação da lista de submissões deferidas</td>    
+                </tr>
+                
+
+                 <tr>
+                		<td>(11 e 12/01/2018) </td>
+                        <td>Interposição de recursos referente à lista de submissões deferidas </td>    
+                </tr>
+
+
+                 <tr>
+                		<td>(15 e 16/01/2018) </td>
+                        <td>Período de análise dos recursos referente à lista de submissões deferidas </td>    
+                </tr>
+
+                 <tr>
+                		<td>(17/01/2018)</td>
+                        <td>Divulgação dos resultados dos recursos referente à lista de submissões deferidas </td>    
+                </tr>
+
+                <tr>
+                		<td>(19/01/2018)   </td>
+                        <td>Divulgação da lista de submissões homologadas</td>    
+                </tr>
+
+                 <tr>
+                		<td>(22/01/2018 a 26/01/2018) </td>
+                        <td>Período de análise das submissões pela Comissão de Avaliação do PROAPA </td>    
+                </tr>
+
+
+                 <tr>
+                		<td>(29/01/2018)</td>
+                        <td>Divulgação do resultado parcial com os projetos eleitos</td>    
+                </tr>
+
+
+                 <tr>
+                		<td>(30 a 31/01/2018)  </td>
+                        <td>Interposição de recursos referente ao resultado parcial 
+				</td>    
+                </tr>
+
+                  <tr>
+                		<td>(01 a 02/02/2018)   </td>
+                        <td>Período de análise dos recursos referente ao resultado parcial 
+				</td>    
+                </tr>
+
+                 <tr>
+                		<td>(05/02/2018) </td>
+                        <td>Divulgação dos resultados dos recursos referente ao resultado parcial
+				</td>    
+                </tr>
+
+
+                 <tr>
+                		<td>(06/02/2018)    </td>
+                        <td>Divulgação do resultado final do Edital n° 005/2014-GDG-PROAPA
+				</td>    
+                </tr>
+
+                 <tr>
+                		<td>(07 e 08/02/2018)    </td>
+                        <td>Entrega da documentação dos pesquisadores e discentes dos projetos eleitos no DEPPI
+				</td>    
+                </tr>
+
+                <tr>
+                		<td>(09/02/2018) </td>
+                        <td>Análise da documentação dos pesquisadores e discentes 
+
+				</td>    
+                </tr>
+
+                 <tr>
+                		<td>(09/02/2018) </td>
+                        <td>Período de cadastramento da documentação dos pesquisadores e discentes no DEPPI 
+
+				</td>    
+                </tr>
+
+                <tr>
+                		<td>(19/02/2018) </td>
+                        <td>Início efetivo dos projetos eleitos no resultado final do Edital n° 013/2017-GDG-PROAPA 
+				</td>    
+                </tr>
+
+                <tr>
+                		<td>(31/01/2019)     </td>
+                        <td>Término efetivo dos projetos eleitos no resultado final do Edital n° 013/2017-GDG-PROAPA 
+
+				</td>    
+                </tr>
+
+              </tbody>
+		</table>
+	
+			</div>
+		</div><br><br><br>
+
+	</section>
+
+
+	<footer>
+		<div class="container">
+			<dir class="row">
+				<div class="col-md-4 col-logo text-center">
+					<ul class="list-unstyled">
+						<li><h1>IFCE</h1></li>
+						<li><hr></li>
+						<li><h4>Campus Maracanaú</h4></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-deppi text-center">
+					<ul class="list-unstyled">
+						<li><h1>DEPPI</h1></li>
+						<li><hr></li>
+						<li><h4>Departamento de Extensão, Pesquisa, Pós-graduação e Inovação</h4></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-contatos text-center">
+						<ul class="list-unstyled">
+						<li><h1>Contatos</h1></li>
+						<li><hr></li>
+						<li><h4>E-mail: deppi.maracanau@ifce.edu.br<br>Telefone: (085) 3878-6333</h4></li>
+						
+					</ul>
+				</div>
+			</dir>
+		</div>
+	</footer>
+</body>
+</html>

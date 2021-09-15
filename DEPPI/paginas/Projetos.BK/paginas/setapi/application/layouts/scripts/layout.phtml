@@ -1,0 +1,64 @@
+<?php
+$cache = Zend_Registry::get('cache_common');
+$ps = $cache->load('prefsis');
+$apelido_encontro = $ps->encontro["apelido_encontro"];
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <?php echo $this->headMeta(); ?>
+        <title><?php echo $apelido_encontro; ?> - SiGE</title>
+        <?php
+        $this->headLink()->appendStylesheet($this->baseUrl('css/sigecss.css'));
+        $this->headLink()->prependStylesheet($this->baseUrl('css/font-awesome.min.css'));
+        $this->headLink()->prependStylesheet($this->baseUrl('css/font-awesome-ie7.min.css'));
+        $this->headLink()->prependStylesheet($this->baseUrl('css/flash-messages.css'));
+        ?>
+
+        <?php $this->headScript()->prependFile($this->baseUrl('js/jquery-1.11.3.min.js')) ?>
+
+        <?php echo $this->headLink() ?>
+        <?php echo $this->headStyle() ?>
+        <?php echo $this->headScript() ?>
+        <link rel="shortcut icon" href="<?php echo $this->baseUrl('imagens/layout/favicon_sige.png'); ?>" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="principal">
+            <div id="info_usu">
+                <?php
+                $this->usuaLogado = Zend_Auth::getInstance()->getIdentity();
+                if (!empty($this->usuaLogado)):
+                    ?>
+                    <span>Bem-vindo(a) :</span>
+                    <a href="<?php
+                echo $this->url(array('controller' => 'participante',
+                    'action' => 'ver'), 'default', true);
+                    ?>" class="no-bottom">
+                        <span class="apelido"><i class="icon-user"></i> <?php echo $this->usuaLogado['apelido'] ?></span>
+                    </a>&nbsp;
+                    <a href="<?php echo $this->url(array(), 'logout', true); ?>" class="no-bottom">
+                        <i class="icon-signout"></i> Sair</a>
+                <?php endif; ?>
+            </div>
+
+            <div id="corpo">
+
+                <div id="conteudo">
+                    <?php echo (is_object($this->menu)) ? $this->menu->getView() : ""; ?>
+
+                    <?php if (!empty($this->deprecated)): ?>
+                        <p style="color: red;"><?php echo $this->deprecated ?></p>
+                    <?php endif; ?>
+                    <?php echo $this->flashMessages(); ?>
+                    <?php echo $this->layout()->content ?>
+                </div>
+            </div>
+
+            <div id="rodape">
+                <?php echo $this->render('rodape.phtml') ?>
+            </div>
+
+        </div>
+    </body>
+</html>

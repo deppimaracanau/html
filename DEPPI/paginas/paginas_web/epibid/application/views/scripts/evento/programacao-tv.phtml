@@ -1,0 +1,98 @@
+<?php
+    $this->headLink()->appendStylesheet($this->baseUrl('lib/css/full-pagejs/jquery.fullPage.css'));
+    //$this->headLink()->appendStylesheet($this->baseUrl('lib/css/time-circles/TimeCircles.css'));
+    //$this->headLink()->appendStylesheet($this->baseUrl('lib/css/leaflet/leaflet.css'));
+    //$this->headLink()->appendStylesheet($this->baseUrl('lib/css/bootstrap/social-buttons-3.css'));
+
+    $this->headScript()->appendFile($this->baseUrl('lib/js/full-pagejs/jquery.fullPage.min.js'));
+    //$this->headScript()->appendFile($this->baseUrl('lib/js/time-circles/TimeCircles.js'));
+    //$this->headScript()->appendFile($this->baseUrl('lib/js/leaflet/leaflet.js'));
+    $this->headScript()->appendFile($this->baseUrl('js/moment-with-langs.min.js'));
+    $this->headScript()->appendFile($this->baseUrl('lib/js/sprintfjs/sprintf.min.js'));
+    $this->headScript()->appendFile($this->baseUrl('lib/js/underscore/underscore-min.js'));
+    $this->headScript()->appendFile($this->baseUrl('js/evento/programacao-tv.js'));
+?>
+
+<style>
+    div.section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .section {
+        color: #111;
+    }
+
+    .section.center {
+        text-align: center;
+    }
+
+    .section h1 {
+        font-size: 6em;
+        font-weight: bold;
+    }
+
+    .section h2 {
+        font-size: 4em;
+        font-weight: bold;
+    }
+
+    .section h3 {
+        font-size: 2em;
+    }
+
+    .section p {
+        font-size: 1.2em;
+        color: #333;
+    }
+
+    #section-banner{
+        background-size: cover;
+        background-image: url(<?php echo $this->baseUrl('img/banner-tv.jpg'); ?>);
+        padding: 6% 0 0 0;
+    }
+</style>
+
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600' rel='stylesheet' type='text/css'>
+
+<div id="fullpage">
+    <!-- <div class="section center">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>Palestra: How to hack a Linux kernel</h1>
+                <h2>
+                    <span class="label label-success">15:00</span>
+                    às
+                    <span class="label label-success">16:00</span>
+                    na Sala Ruby</h2>
+                    <h2>Com Júlio Neves</h2>
+            </div>
+        </div>
+    </div>
+    <div class="section center">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>Palestra: O que é Software Livre?</h1>
+                <h2>
+                    <span class="label label-success">15:00</span>
+                    às
+                    <span class="label label-success">16:00</span>
+                    na Sala Ruby</h2>
+                    <h2>Com Júlio Neves</h2>
+            </div>
+        </div>
+    </div>
+    <div class="section center">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>Oficina: Shell Script na prática (Turma 1)</h1>
+                <h2>
+                    <span class="label label-success">15:00</span>
+                    às
+                    <span class="label label-success">16:00</span>
+                    na Sala Ruby</h2>
+                    <h2>Com Júlio Neves</h2>
+            </div>
+        </div>
+    </div> -->
+</div>

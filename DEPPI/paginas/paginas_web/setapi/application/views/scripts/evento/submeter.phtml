@@ -1,0 +1,52 @@
+<?php
+$this->headLink()
+    ->appendStylesheet($this->baseUrl('css/jquery.qtip.min.css'))
+    ->appendStylesheet($this->baseUrl('lib/select2/select2.css'))
+    ->appendStylesheet($this->baseUrl('css/evento/submeter.css'));
+
+$this->headScript()
+    ->appendFile($this->baseUrl('js/jquery-1.11.3.min.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('lib/select2/select2.min.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/jquery.qtip.min.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/ckeditor.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/parsley.min.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/parsley.i18n/messages.pt_br.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/evento/submeter.js'), 'text/javascript');
+?>
+<br>
+<br>
+
+<h4>Submeter um Trabalho</h4><hr/>
+
+<?php
+if ($this->tipo === null) {
+    ?>
+    <h4>Qual o tipo de trabalho?</h4>
+    <ul>
+        <li>
+            <a href="<?php
+            echo $this->url(array(
+                "controller" => "evento",
+                "action" => "enviar-artigo",
+            ));
+            ?>">Artigo científico</a>
+        </li>
+        <li>
+            <a href="<?php
+            echo $this->url(array(
+                "controller" => "evento",
+                "action" => "submeter",
+                "t" => "evento"
+            ));
+            ?>">Palestra / Minicurso / Oficina</a>
+        </li>
+    </ul>
+    <?php
+} else {
+    ?>
+    <p style="font-size: 10pt; color: grey">
+        Nota: campos com (*) são obrigatórios.
+    </p>
+    <?php
+    echo $this->form;
+}

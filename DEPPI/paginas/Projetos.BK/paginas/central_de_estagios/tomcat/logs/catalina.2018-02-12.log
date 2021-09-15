@@ -1,0 +1,12 @@
+Fev 12, 2018 6:12:09 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "administrator"
+Fev 12, 2018 6:12:10 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "admin"
+Fev 12, 2018 6:12:11 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+Fev 12, 2018 6:12:12 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "user"
+Fev 12, 2018 12:59:47 PM org.apache.coyote.ajp.AjpMessage processHeader
+GRAVE: Invalid message received with signature 18245
+Fev 12, 2018 12:59:47 PM org.apache.coyote.ajp.AjpMessage processHeader
+GRAVE: Invalid message received with signature 18245

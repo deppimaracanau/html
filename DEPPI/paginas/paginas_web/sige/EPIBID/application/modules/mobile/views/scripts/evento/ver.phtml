@@ -1,0 +1,157 @@
+<?php
+$config = new Zend_Config_Ini(APPLICATION_PATH . '/configs/application.ini', 'staging');
+
+$this->headLink()
+        ->appendStylesheet($this->baseUrl("css/prettify.css"));
+
+$this->headScript()
+        ->appendFile($this->baseUrl("js/init.prettify.js"))
+        ->appendFile($this->baseUrl("js/prettify.js"))
+        ->appendFile($this->baseUrl("js/mobile/evento/ver.js"));
+?>
+
+<style id="combined-heading-and-section">
+   .custom-corners {
+      box-shadow: 2px 2px 3px #ddd;
+      margin-bottom: 15px;
+      margin-top: 10px;
+   }
+   .custom-corners .ui-bar {
+      -webkit-border-top-left-radius: inherit;
+      border-top-left-radius: inherit;
+      -webkit-border-top-right-radius: inherit;
+      border-top-right-radius: inherit;
+   }
+   .custom-corners .ui-body {
+      border-top-width: 0;
+      -webkit-border-bottom-left-radius: inherit;
+      border-bottom-left-radius: inherit;
+      -webkit-border-bottom-right-radius: inherit;
+      border-bottom-right-radius: inherit;
+   }
+</style>
+
+<div data-role="collapsible-set">
+   <div data-role="collapsible">
+      <h3><?php echo $this->evento['nome_tipo_evento'] ?>: <?php echo $this->evento['nome_evento'] ?></h3>
+      <p>
+         por <?php echo $this->evento['nome'] ?>
+      </p>
+      <p>
+         Nível: <?php echo $this->evento['descricao_dificuldade_evento'] ?>
+      </p>
+   </div>
+</div>
+
+<div data-role="navbar">
+   <ul>
+      <li><a href="#" data-id="resumo"><i class="icon-file-alt"></i></a></li>
+      <li><a href="#" data-id="outros-palestrantes"><i class="icon-group"></i></a></li>
+      <li><a href="#" data-id="perfil"><i class="icon-info-sign"></i></a></li>
+      <li><a href="#" data-id="bio"><i class="icon-user"></i></a></li>
+      <li><a href="#" data-id="tags"><i class="icon-tags"></i></a></li>
+   </ul>
+</div><!-- /navbar -->
+
+<div id="resumo" class="tab" style="display: none">
+   <div class="ui-corner-all custom-corners">
+      <div class="ui-bar ui-bar-a">
+         <h3>Resumo</h3>
+      </div>
+      <div class="ui-body ui-body-a">
+         <p><?php echo $this->evento['resumo'] ?></p>
+      </div>
+   </div>
+</div>
+
+<div id="outros-palestrantes" class="tab" style="display: none">
+   <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider">Outros Palestrantes</li>
+      <?php if (!empty($this->outros)):
+         foreach ($this->outros as $outro):
+            $url = "/mobile/u/";
+            $url .= (empty($outro['twitter']) ? $outro['id_pessoa'] : $outro['twitter']);
+            ?>
+            <li><a href="<?php echo $url ?>" title="<?php echo $outro['apelido'] ?>"
+                   data-ajax="false"><?php echo $outro['nome'] ?></a></li>
+      <?php endforeach;
+         else: ?>
+      <li>Palestrante único.</li>
+      <?php endif; ?>
+   </ul>
+</div>
+
+<div id="perfil" class="tab" style="display: none">
+   <div class="ui-corner-all custom-corners">
+      <div class="ui-bar ui-bar-a">
+         <h3>Perfil</h3>
+      </div>
+      <div class="ui-body ui-body-a">
+         <p><?php echo $this->evento['perfil_minimo'] ?></p>
+      </div>
+   </div>
+</div>
+
+<div id="bio" class="tab" style="display: none">
+   <div class="ui-corner-all custom-corners">
+      <div class="ui-bar ui-bar-a">
+         <h3>Bio</h3>
+      </div>
+      <div class="ui-body ui-body-a">
+         <p><?php echo $this->evento['bio'] ?></p>
+      </div>
+   </div>
+</div>
+
+<div id="tags" class="tab" style="display: none">
+   <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider">Tags</li>
+      <?php if (! empty($this->tags)):
+         foreach ($this->tags as $tag): ?>
+            <li><?php echo $tag['descricao'] ?></li>
+      <?php endforeach;
+      else: ?>
+            <li>Nenhuma tag adicionada.</li> 
+      <?php endif; ?>
+   </ul>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'comsolid';
+    var disqus_title = '<?php echo $this->evento['nome_evento'] ?>';
+    var disqus_url = '<?php echo $this->serverUrl() . $this->url(array('id' => $this->evento['id_evento']), 'ver_evento', true) ?>';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Por favor, habilite o JavaScript para ver os <a href="http://disqus.com/?ref_noscript">comentários do Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<!-- panel compartilhar -->
+<div data-role="panel" data-display="overlay" id="panel-share" data-theme="a" data-position="right">
+   <?php
+   $shareUrl = $this->serverUrl() . $this->url(array('id' => $this->evento['id_evento']), 'ver_evento', true);
+   $texto = "{$this->evento['nome_evento']} por {$this->evento['nome']} via @{$config->twitter->username}";
+   ?>
+   <div data-role="controlgroup">
+      <a href="http://twitter.com/share?text=<?php echo $texto ?>&url=<?php echo $shareUrl ?>" data-role="button" rel="external" target="_blank">
+         <i class="icon-twitter-sign icon-large"></i><br/>Twitter
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=<?php echo $shareUrl ?>" data-role="button" rel="external" target="_blank">
+         <i class="icon-facebook-sign icon-large"></i><br/>Facebook
+      </a>
+      <a href="https://plus.google.com/share?url=<?php echo $shareUrl ?>" data-role="button" rel="external" target="_blank">
+         <i class="icon-google-plus-sign icon-large"></i><br/>Google+
+      </a>
+   </div>
+   
+   <a href="#panel-share" data-rel="close" data-role="button">
+      <i class="icon-remove"></i> Fechar
+   </a>
+</div>

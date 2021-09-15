@@ -1,0 +1,32 @@
+
+<?php
+$form = $this->form;
+?>
+
+<form method="<?php echo $form->getMethod() ?>" action="<?php echo $form->getAction() ?>"
+      data-ajax="false">
+   
+      <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+         <?php echo $form->email->renderLabel()
+              . $form->email->renderViewHelper(); ?>
+      </div>
+      <?php if ($form->email->hasErrors()): ?>
+         <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+            <?php echo $form->email->renderErrors() ?>
+         </div>
+      <?php endif; ?>
+      <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+         <?php echo $form->senha->renderLabel()
+              . $form->senha->renderViewHelper(); ?>
+      </div>
+      <?php if ($form->senha->hasErrors()): ?>
+         <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+            <?php echo $form->senha->renderErrors() ?>
+         </div>
+      <?php endif; ?>
+   
+   <fieldset class="ui-grid-a">
+      <div class="ui-block-a"><input type="reset" value="Limpar" data-theme="b"></div>
+      <div class="ui-block-b"><input type="submit" value="Entrar" data-theme="a"></div>
+   </fieldset>
+</form>

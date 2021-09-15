@@ -1,0 +1,42 @@
+<?php
+$this->headLink()
+    ->appendStylesheet($this->baseUrl('css/jquery.qtip.min.css'))
+    ->appendStylesheet($this->baseUrl('lib/select2/select2.css'))
+    ->appendStylesheet($this->baseUrl('css/evento/submeter.css'));
+
+$this->headScript()
+->appendFile($this->baseUrl('js/jquery-1.11.3.min.js'), 'text/javascript')
+->appendFile($this->baseUrl('lib/select2/select2.min.js'), 'text/javascript')
+->appendFile($this->baseUrl('js/jquery.qtip.min.js'), 'text/javascript')
+->appendFile($this->baseUrl('js/ckeditor.js'), 'text/javascript')
+->appendFile($this->baseUrl('js/parsley.min.js'), 'text/javascript')
+->appendFile($this->baseUrl('js/parsley.i18n/messages.pt_br.js'), 'text/javascript')
+->appendFile($this->baseUrl('js/evento/submeter.js'), 'text/javascript');
+?>
+
+<br>
+<br>
+
+<?php echo $this->form; ?>
+
+<?php if (count($this->realizacao) > 0): ?>
+   <table id="compra" class="display" cellpadding="0" cellspacing="0" border="0">
+      <thead>
+         <th>Data</th>
+         <th>Hora Início</th>
+         <th>Hora Fim</th>
+         <th>Sala</th>
+   </thead>
+   <tbody>
+      <?php foreach ($this->realizacao as $linha): ?>
+         <tr>
+            <td><?php echo $linha["data"] ?></td>
+            <td><?php echo $linha["hora_inicio"] ?></td>
+            <td><?php echo $linha["hora_fim"] ?></td>
+            <td><?php echo $linha["nome_sala"] ?></td>
+         </tr>
+      <?php endforeach; ?>
+   </tbody>
+</table>
+
+<?php endif; ?>

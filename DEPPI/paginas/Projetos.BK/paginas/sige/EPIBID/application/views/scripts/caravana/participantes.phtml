@@ -1,0 +1,47 @@
+<?php
+   $this->headScript()
+      ->prependFile($this->baseUrl('js/caravana/participantes.js'),'text/javascript')
+      ->prependFile($this->baseUrl('js/jquery.dataTables.js'),'text/javascript')
+      ->prependFile($this->baseUrl('lib/select2/select2.min.js'),'text/javascript');
+
+   $this->headLink()
+           ->prependStylesheet($this->baseUrl('css/tabela_sort.css'))
+           ->prependStylesheet($this->baseUrl('css/form.css'))
+           ->prependStylesheet($this->baseUrl('lib/select2/select2.css'));
+?>
+<fieldset>
+   <form action="<?php echo $this->url(array('action' => 'participantes')) ?>" method="post">
+      <span>Adicionar participantes a caravana:
+         <strong><?php echo $this->caravana['apelido_caravana'] ?></strong>.</span><br/><br/>
+      <input type="hidden" id="sel" name="array_id_pessoas" style="width: 500px;"/>
+      <dl class="zend_form">
+         <input type="submit" name="cancelar" id="cancelar" value="cancelar" class="submitCancelar">
+         <input type="submit" name="submit" id="submit" value="confimar"/>
+      </dl>
+   </form>
+</fieldset>
+
+<table class="display" cellpadding="0" cellspacing="0" border="0">
+   <thead>
+      <th>Participantes</th>
+      <th style="width: 70px;">Ação</th>
+   </thead>
+   <tbody>
+      <?php foreach ($this->participantes as $participante): ?>
+         <tr>
+            <td><?php echo $participante['nome'] ?></td>
+            <td><a title="Remover participante dessa caravana"
+                  href="<?php
+                     echo $this->url(array('controller' => 'caravana',
+                         'action' => 'deletar-participante',
+                         'pessoa' => $participante['id_pessoa'],
+                         'caravana' => $this->caravana['id_caravana']));
+                     ?>" class="no-bottom"
+                     onclick="return confirm('Tem certeza que deseja deletar o participante da caravana?')">
+                        <i class="icon-remove"></i> Deletar
+               </a>
+            </td>
+         </tr>
+   <?php endforeach; ?>
+   </tbody>
+</table>

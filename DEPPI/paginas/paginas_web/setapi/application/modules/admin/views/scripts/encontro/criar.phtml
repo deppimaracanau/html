@@ -1,0 +1,22 @@
+
+<?php echo $this->partial('menu.phtml'); ?>
+
+<h3>Criar Encontro</h3><hr/>
+<?php
+$this->headLink()
+    ->appendStylesheet($this->baseUrl('css/jqueryui-bootstrap/jquery.ui.1.8.16.ie.css'))
+    ->appendStylesheet($this->baseUrl('css/jqueryui-bootstrap/jquery-ui-1.8.16.custom.css'))
+    ->appendStylesheet($this->baseUrl('css/iphone-style-checkbox.css'))
+    ->appendStylesheet($this->baseUrl('lib/select2/select2.css'))
+    ->appendStylesheet($this->baseUrl('css/screen.css'))
+    ->appendStylesheet($this->baseUrl('css/form.css'));
+
+$this->headScript()
+    ->appendFile($this->baseUrl('js/jquery-1.11.3.min.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/jquery-ui-1.8.16.custom.min.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/iphone-style-checkboxes.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('lib/select2/select2.min.js'), 'text/javascript')
+    ->appendFile($this->baseUrl('js/admin/encontro/salvar.js'), 'text/javascript');
+
+echo $this->form;
+?>

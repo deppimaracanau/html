@@ -1,0 +1,152 @@
+<?php echo $this->partial('menu.phtml'); ?>
+
+<div class="container">
+    <div class="span-18">
+        <h3>Lista de encontros</h3>
+    </div>
+    <div class="span-3">
+        <a href="<?php echo 
+        $this->url(array(
+            'module' => 'admin',
+            'controller' => 'encontro',
+            'action' => 'criar'), 'default', true);
+        ?>" class="no-bottom"><i class="icon-plus"></i> Criar Encontro</a>
+    </div>
+</div>
+
+<hr/>
+<?php foreach($this->lista as $value): ?>
+<fieldset>
+    <div class="container">
+        <div class="span-2">
+            <a href="#">#<?php echo $value['id_encontro'] ?></a>
+        </div>
+        <div class="span-14">
+            <strong><?php echo $value['nome_encontro'] ?></strong>
+        </div>
+    </div><br/>
+    <div class="container">
+        <div class="span-7">
+            de <?php echo $value['data_inicio'] ?> até <?php echo $value['data_fim'] ?>
+        </div>
+        <div class="span-6">
+            Nome curto: <?php echo $value['apelido_encontro'] ?>
+        </div>
+        <div class="span-7">
+            Submissão:
+            <?php echo $value['periodo_submissao_inicio'] ?> a <?php echo $value['periodo_submissao_fim'] ?>
+        </div>
+    </div><br/>
+    <div class="container">
+        <div class="span-3">
+            <a href="<?php
+            echo $this->url(array(
+                'module' => 'admin',
+                'controller' => 'encontro',
+                'action' => 'editar',
+                'id' => $value['id_encontro']), 'default', true);
+            ?>"
+               class="no-bottom">
+                <i class="icon-edit"></i> Editar
+            </a>
+        </div>
+        <div class="span-10">
+            <ul>
+                <i>Mensagens de e-mail:</i>
+                <li>
+                    <a href="<?php
+                    echo $this->url(array(
+                        'module' => 'admin',
+                        'controller' => 'encontro',
+                        'action' => 'editar-mensagem-email-confirmacao',
+                        'id' => $value['id_encontro'],
+                        'id_tipo_mensagem' => $this->confirmacao_inscricao), 'default', true);
+                    ?>"
+                       class="no-bottom">
+                        <i class="icon-envelope-alt"></i> Mensagem e-mail confirmação
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php
+                    echo $this->url(array(
+                        'module' => 'admin',
+                        'controller' => 'encontro',
+                        'action' => 'editar-mensagem-email-confirmacao',
+                        'id' => $value['id_encontro'],
+                        'id_tipo_mensagem' => $this->recuperacao_senha), 'default', true);
+                    ?>"
+                       class="no-bottom">
+                        <i class="icon-envelope-alt"></i> Mensagem e-mail recuperar senha
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php
+                    echo $this->url(array(
+                        'module' => 'admin',
+                        'controller' => 'encontro',
+                        'action' => 'editar-mensagem-email-confirmacao',
+                        'id' => $value['id_encontro'],
+                        'id_tipo_mensagem' => $this->confirmacao_submissao), 'default', true);
+                    ?>"
+                       class="no-bottom">
+                        <i class="icon-envelope-alt"></i> Mensagem e-mail confirmação submissão
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="span-6">
+            <ul>
+                <i>Mensagens de certificado:</i>
+                <li>
+                    <a href="<?php
+                    echo $this->url(array(
+                        'module' => 'admin',
+                        'controller' => 'encontro',
+                        'action' => 'editar-mensagem-certificado',
+                        'id_encontro' => $value['id_encontro'],
+                        'tipo_mensagem_certificado' => 'certificados_template_participante_encontro'), 'default', true);
+                    ?>"
+                       class="no-bottom">
+                        <i class="icon-envelope-alt"></i> Participante de encontro
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php
+                    echo $this->url(array(
+                        'module' => 'admin',
+                        'controller' => 'encontro',
+                        'action' => 'editar-mensagem-certificado',
+                        'id_encontro' => $value['id_encontro'],
+                        'tipo_mensagem_certificado' => 'certificados_template_palestrante_evento'), 'default', true);
+                    ?>"
+                       class="no-bottom">
+                        <i class="icon-envelope-alt"></i> Palestrante de evento
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php
+                    echo $this->url(array(
+                        'module' => 'admin',
+                        'controller' => 'encontro',
+                        'action' => 'editar-mensagem-certificado',
+                        'id_encontro' => $value['id_encontro'],
+                        'tipo_mensagem_certificado' => 'certificados_template_participante_evento'), 'default', true);
+                    ?>"
+                       class="no-bottom">
+                        <i class="icon-envelope-alt"></i> Participante de evento
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</fieldset>
+<?php endforeach; ?>
+
+<hr/>
+
+<a href="<?php echo 
+$this->url(array(
+    'module' => 'admin',
+    'controller' => 'encontro',
+    'action' => 'criar'), 'default', true);
+?>" class="no-bottom"><i class="icon-plus"></i> Criar Encontro</a>

@@ -1,0 +1,63 @@
+<?php if (! is_null($this->participante)): ?>
+<fieldset>
+   <legend><i class="icon-plane"></i> Está cadastrado nesta caravana</legend>
+	<div class="acoes">
+		<a title="Sair desta caravana" 
+			href="<?php echo $this->url(array('controller' => 'caravana',
+	  'action' => 'sair'), 'default', true);
+	  ?>" onclick="return confirm('Tem certeza que deseja sair da caravana?')">
+			<img src="<?php echo $this->baseUrl('imagens/layout/bt_sairexcluir.png'); ?>"
+              alt="Sair" border="0"/>
+		</a>
+	</div>
+
+   <dl class="detalhes">
+      <dt><label>Caravana:</label></dt>
+      <dd><label><?php echo $this->participante['apelido_caravana'] ?></label></dd>
+
+      <dt><label>Município:</label></dt>
+      <dd><label><?php echo $this->participante['nome_municipio'] ?></label></dd>
+
+      <dt><label>Instituição:</label></dt>
+      <dd><label><?php echo $this->participante['apelido_instituicao'] ?></label></dd>
+
+      <dt><label>Responsável:</label></dt>
+      <dd><label><?php echo $this->participante['nome'] ?></label></dd>
+   </dl>
+</fieldset>
+<?php endif; ?>
+
+<fieldset>
+   <legend>É Responsável pela Caravana</legend>
+   <?php if (is_null($this->caravanaResponsavel) and is_null($this->participante)): ?>
+      <a title="Criar Caravana" href="<?php echo $this->baseUrl('caravana/criar'); ?>"
+         class="no-bottom" style="float: right">
+			<i class="icon-plus"></i> Criar caravana
+		</a>
+   <?php elseif (! is_null($this->caravanaResponsavel)): ?>
+      <dl class="detalhes">
+         <dt id="nome_caravana-label"><label class="required" for="nome_caravana">Caravana:</label></dt>
+         <dd id="nome_caravana-element">
+            <label class="required" for="nome_caravana"><?php echo $this->caravanaResponsavel["apelido_caravana"]; ?></label></dd>
+         <dt id="id_municipio-label"><label class="optional" for="id_municipio">Município:</label></dt>
+         <dd id="id_municipio-element">
+            <label class="required" for="nome_caravana"><?php echo $this->caravanaResponsavel["nome_municipio"]; ?></label></dd>
+         <dt id="id_instituicao-label"><label class="optional" for="id_instituicao">Instituição:</label></dt>
+         <dd id="id_instituicao-element">
+            <label class="required" for="nome_caravana"><?php echo $this->caravanaResponsavel["apelido_instituicao"]; ?></label></dd>
+         <dt id="id_instituicao-label"><label class="optional" for="id_instituicao">Responsável:</label></dt>
+         <dd id="id_instituicao-element"><label ><?php echo $this->caravanaResponsavel["nome"]; ?></label></dd>
+      </dl>
+    
+      <a title="Adicionar participantes" 
+         href="<?php echo $this->url(array(
+                  'controller' => 'caravana',
+                  'action' => 'participantes'), 'default', true)
+              ?>" class="no-bottom">
+           <i class="icon-plus"></i> Adicionar Participantes</a>&nbsp;&nbsp;&nbsp;
+      <a href="<?php echo $this->url(array('controller' => 'caravana',
+               'action' => 'editar'), 'default', true) ?>"
+               class="no-bottom"><i class="icon-edit"></i> Editar</a>
+	<?php endif; ?>
+</fieldset>
+

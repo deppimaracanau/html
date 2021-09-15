@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>IFCE - Semana de Integração Científica</title>
+		<link rel="icon" href="favicon.ico">
+
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/estilo.css" rel="stylesheet">
+
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<!-- ------------------- Barra de Navegação ------------------- -->
+	    <nav class="navbar navbar-default navbar-fixed-top barra">
+	        <div class="container containerNavbar">
+		        <div class="navbar-header">
+		        	<button type="button" class="navbar-toggle collapsed" 
+		                    data-toggle="collapse" data-target="#barra-navegacao">
+			            <span class="sr-only">Alternar Menu</span>
+			            <strong>Eventos</strong>
+		        	</button>
+		        	<a href="index.html" class="navbar-brand"><span class="logo">IFCE</span></a>
+		        </div>
+
+				<div class="collapse navbar-collapse" id="barra-navegacao">
+					<ul class="nav navbar-nav navbar-right">
+						<li> <a href="#1" class="menu" onclick="inicio()">INÍCIO</a> </li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							GRADUAÇÃO<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu  dropStyle">
+								<li> <a href="#" class="menu" onclick="inclusivo()">Encontros Inclusivos</a> </li>
+								<li> <a href="#" class="menu" onclick="enactus()">Enactus Day</a> </li>
+								<li> <a href="#" class="menu" onclick="comsolid()">COMSOLID</a> </li>
+								<li> <a href="#" class="menu" onclick="semanq()">SEMANQ</a> </li>
+								<li> <a href="#" class="menu" onclick="setamb()">SETAMB</a> </li>
+								<li> <a href="#" class="menu" onclick="setin()">SETIN</a> </li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							PÓS-GRADUAÇÃO<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu  dropStyle">
+								<li> <a href="#" class="menu" onclick="seres()">SERES</a> </li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							OUTROS<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu  dropStyle">
+								<li> <a href="#" class="menu" onclick="semic()">SEMIC</a> </li>
+								<li> <a href="#" class="menu" onclick="ifvest()">IFVest</a> </li>
+								<li> <a href="#" class="menu" onclick="recicla()">Recicla Maracanaú</a> </li>
+							</ul>
+						</li>
+					</ul>
+				</div>       
+	        </div>
+
+	        <!-- Esconder o menu quando clica em uma opção -->
+			<script> 
+				$('.menu').click(function() {
+					$('.navbar-collapse').collapse('hide');
+				});
+			</script>
+	    </nav>
+
+	    <!-- ------------------- Corpo do Site ------------------- -->
+		<div class="container containerFrame quadroSite">
+			<div class="row quadroSite">
+				<!-- ------------------- Menu Página ------------------- -->
+				<div class="col-xs-2 barralateral">
+					<div class="divLogo">
+						<br>
+						<a href="index.html"><span class="logo logo2"></span></a>
+						<br>
+					</div>
+
+					<h3 class="tituloMenuLat">Graduação</h3>
+					<button class="btn btn-default menuLat" onclick="inclusivo()">Encontros Inclusivos</button>
+					<button class="btn btn-default menuLat" onclick="enactus()">Enactus Day</button>
+					<button class="btn btn-default menuLat" onclick="comsolid()">COMSOLID</button>
+					<button class="btn btn-default menuLat" onclick="semanq()">SEMANQ</button>
+					<button class="btn btn-default menuLat" onclick="setamb()">SETAMB</button>
+					<button class="btn btn-default menuLat" onclick="setin()">SETIN</button>
+
+					<br>
+					<h3 class="tituloMenuLat">Pós-Graduação</h3>
+					<button class="btn btn-default menuLat" onclick="seres()">SERES</button>
+
+					<br>
+					<h3 class="tituloMenuLat">Outros</h3>
+					<button class="btn btn-default menuLat" onclick="semic()">SEMIC</button>
+					<button class="btn btn-default menuLat" onclick="ifvest()">IFVest</button>
+					<button class="btn btn-default menuLat" onclick="recicla()">Recicla Maracanaú</button>
+
+					<div style="height: 5%"></div>
+					<center><img src="imagens/logoIFCE.png" width="110px" /> </center>
+					<br>
+				</div>
+
+				<!-- ------------------- Quadro para Inserção ------------------- -->
+				<div class="col-xs-10 quadroSite telaFrame">
+					<iframe id="tela" style="border: none" src="http://sic-maracanau.com.br/inicio.html" width="100%" height="100%"></iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<!-- Altera o conteúdo do iFrame -->
+	<script type="text/javascript">
+		function inicio() {
+			document.getElementById('tela').setAttribute('src', 'http://sic-maracanau.com.br/inicio.html');
+		}
+		function comsolid() {
+			document.getElementById('tela').setAttribute('src', 'https://www.even3.com.br/siccomsolid');
+		}
+		function setin() {
+			document.getElementById('tela').setAttribute('src', 'https://www.even3.com.br/sicsetin');
+		}
+		function semanq() {
+			document.getElementById('tela').setAttribute('src', 'https://www.even3.com.br/sicsemanq');
+		}
+		function setamb() {
+			document.getElementById('tela').setAttribute('src', 'https://www.even3.com.br/sicsetamb');
+		}
+		function enactus() {
+			document.getElementById('tela').setAttribute('src', 'https://www.even3.com.br/sicenactus');
+		}
+		function seres() {
+			document.getElementById('tela').setAttribute('src', 'http://ppger.ifce.edu.br/seres-2018/');
+		}
+		function semic() {
+			document.getElementById('tela').setAttribute('src', 'http://prpi.ifce.edu.br/nl/e/?id=70');
+		}
+		function recicla() {
+			document.getElementById('tela').setAttribute('src', 'https://www.even3.com.br/sicrecicla');
+		}
+		function inclusivo() {
+			document.getElementById('tela').setAttribute('src', 'https://www.even3.com.br/sicencontrosinclusivos');
+		}
+		function ifvest() {
+			document.getElementById('tela').setAttribute('src', 'https://www.even3.com.br/sicifvest');
+		}
+	</script>
+</html>

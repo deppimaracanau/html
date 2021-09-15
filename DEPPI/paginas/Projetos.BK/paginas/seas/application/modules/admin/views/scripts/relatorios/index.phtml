@@ -1,0 +1,123 @@
+<?php echo $this->partial('menu.phtml'); ?>
+
+<div class="container">
+    <div class="span-8 prepend-1">
+        <h3>Encontro Atual</h3><hr/>
+        <ul class="unstyled">
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'inscricoes-lista-pdf',
+                    "id_encontro" => $this->id_encontro,
+                    "status" => "todas",
+                        ), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-file"></i> Todas as inscrições (PDF)</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'inscricoes-lista-xls',
+                    "id_encontro" => $this->id_encontro,
+                    "status" => "todas",
+                        ), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-file"></i> Todas as inscrições (XLS)</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'inscricoes-lista-pdf',
+                    "id_encontro" => $this->id_encontro,
+                    "status" => "nao-confirmadas"
+                        ), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-file"></i> Inscrições não confirmadas (PDF)</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'inscricoes-lista-pdf',
+                    "id_encontro" => $this->id_encontro,
+                    "status" => "confirmadas",
+                        ), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-file"></i> Inscrições confirmadas (PDF)</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'inscricoes-por-dia'), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-calendar"></i> Inscrições por Dia</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'inscricoes-horario'), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-time"></i> Horário das Inscrições</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'inscricoes-sexo'), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-user"></i> Inscrições por Sexo</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'inscricoes-municipio-15-mais'), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-flag"></i> Inscrições por Município (15+)</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'inscricoes-municipio'), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-flag"></i> Inscrições por Município (Todos)</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'artigos-lista-pdf',
+                    'ano' => date('Y'),
+                        ), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-file-alt"></i> Lista de artigos submetidos (PDF)</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'relatorios',
+                    'action' => 'artigos-lista-xls',
+                    'ano' => date('Y'),
+                        ), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-file-alt"></i> Lista de artigos submetidos (XLS)</a>
+            </li>
+            <li><a href="<?php
+                echo $this->url(array(
+                    'module' => 'admin',
+                    'controller' => 'evento',
+                    'action' => 'download-lote-artigos',
+                    'encontro' => $this->id_encontro,
+                        ), 'default', true);
+                ?>"
+                   class="no-bottom"><i class="icon-cloud-download"></i> Download artigos científicos submetidos</a>
+            </li>
+        </ul>
+    </div>
+</div>

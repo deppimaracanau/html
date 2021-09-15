@@ -1,0 +1,8 @@
+
+############## Sites ##############
+
+OBS1: A pasta site_principal guarda os arquivos do index.php que está na pasta principal.
+
+OBS2: A pasta SIC está com o domínio sic-maracanau.com.br
+
+OBS3: O site catalogo está com o material impresso com o dominio sic-maracanau.com.br, que redireciona para o site da sic, então tem uma cópia do site dentro do site da sic.
